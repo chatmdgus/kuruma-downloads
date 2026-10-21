@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kuruma tools</title>
+  <meta name="description" content="Kuruma Overlay와 Ecliptica Overlay 다운로드">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp-dynamic-subset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"><span class="glow g1"></span><span class="glow g2"></span></div>
+
+  <nav class="nav">
+    <a class="brand" href="#top" aria-label="kuruma tools"><span class="ring" aria-hidden="true"></span>kuruma<span class="dim">tools</span></a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ko" aria-pressed="true">한국어</button>
+      <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-copy">
+      <h1 class="reveal" data-i18n="hero_title">게임 화면 위에<br>디스코드를 가볍게</h1>
+      <p class="reveal d1" data-i18n="hero_lead">디스코드 앱을 켜지 않아도 채팅과 음성 채널이 화면 구석에 떠요. VRChat Ecliptica용 DPS 미터기도 여기서 받을 수 있어요.</p>
+      <div class="hero-cta reveal d2">
+        <a class="btn primary" href="#overlay" data-i18n="cta_overlay">Kuruma Overlay</a>
+        <a class="btn ghost" href="#ecliptica" data-i18n="cta_ecliptica">Ecliptica Overlay</a>
+      </div>
+    </div>
+
+    <!-- 실제 오버레이처럼 움직이는 미리보기 -->
+    <div class="demo reveal d1" aria-label="오버레이 미리보기" role="img">
+      <div class="scene">
+        <div class="voice-demo" id="demo-voice">
+          <div class="chan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5h3.5L11 5.5v13l-4.5-4H3z" fill="currentColor"/><path d="M14.5 9a4 4 0 0 1 0 6M17 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>게임방</span></div>
+          <div class="vlist"></div>
+        </div>
+        <div class="chat-demo" id="demo-chat"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Kuruma Overlay -->
+    <section class="product" id="overlay">
+      <div class="p-head reveal">
+        <span class="tag lav" data-i18n="tag_overlay">Discord 오버레이</span>
+        <h2>Kuruma Overlay</h2>
+        <p class="p-lead" data-i18n="ov_lead">채팅, 사진, 음성 참여자를 투명한 창으로 띄워요. 클릭은 그대로 게임으로 통과해요.</p>
+      </div>
+
+      <div class="p-body">
+        <ul class="features">
+          <li class="reveal"><b data-i18n="ov_f1_t">채팅이 떴다가 사라져요</b><span data-i18n="ov_f1">새 메시지는 말풍선으로 나오고 몇 초 뒤 자연스럽게 사라져요. Ctrl+Shift+D로 바로 답장할 수 있어요.</span></li>
+          <li class="reveal d1"><b data-i18n="ov_f2_t">음성 채널을 따라가요</b><span data-i18n="ov_f2">내가 들어간 채널의 참여자, 음소거, 화면 공유(LIVE)가 게임 화면 구석에 보여요.</span></li>
+          <li class="reveal d2"><b data-i18n="ov_f3_t">원하는 자리에 끌어다 놓기</b><span data-i18n="ov_f3">모니터 모양 화면에서 위치와 크기를 정해요. 듀얼 모니터도 따로 지정할 수 있어요.</span></li>
+        </ul>
+
+        <aside class="dl-card reveal d1">
+          <div class="dl-meta" data-release="overlay-latest" data-asset="KurumaOverlay-Setup.exe">
+            <span class="ver">…</span>
+            <span class="size"></span>
+          </div>
+          <a class="btn primary big dl" href="https://github.com/chatmdgus/kuruma-downloads/releases/download/overlay-latest/KurumaOverlay-Setup.exe" data-i18n="dl_overlay">설치 파일 받기</a>
+          <p class="fine" data-i18n="ov_req">Windows 10 / 11 · 접속 토큰은 서버 주인에게 받아요</p>
+        </aside>
+      </div>
+
+      <ol class="steps reveal">
+        <li><span data-i18n="ov_s1">받은 설치 파일을 실행해요. "Windows의 PC 보호"가 뜨면 추가 정보 → 실행.</span></li>
+        <li><span data-i18n="ov_s2">처음 설정에서 토큰, 서버 ID, 채널 ID, 메인·서브 모니터를 한 번만 입력해요.</span></li>
+        <li><span data-i18n="ov_s3">끝. 다음부터는 바탕화면 아이콘으로 켜거나 Windows 시작할 때 자동으로 켜져요.</span></li>
+      </ol>
+    </section>
+
+    <!-- Ecliptica Overlay -->
+    <section class="product" id="ecliptica">
+      <div class="p-head reveal">
+        <span class="tag sun" data-i18n="tag_ecl">VRChat · ECLIPTICA</span>
+        <h2>Ecliptica Overlay</h2>
+        <p class="p-lead" data-i18n="ecl_lead">VRChat 월드 ECLIPTICA 전용 DPS와 어그로 표시, 상점 업그레이드 사전이에요.</p>
+      </div>
+
+      <div class="p-body">
+        <ul class="features">
+          <li class="reveal"><b data-i18n="ecl_f1_t">내 DPS와 보스 어그로</b><span data-i18n="ecl_f1">VRChat 로그 파일만 읽어요. 게임 메모리나 입력은 건드리지 않아요.</span></li>
+          <li class="reveal d1"><b data-i18n="ecl_f2_t">상점 업그레이드 사전</b><span data-i18n="ecl_f2">상점에 들어가면 자동으로 열려요. 직업별 업그레이드, 효과, 룬을 한국어·일본어·영어로 볼 수 있어요.</span></li>
+          <li class="reveal d2"><b data-i18n="ecl_f3_t">설치 없이 바로 실행</b><span data-i18n="ecl_f3">압축을 풀고 EclipticaOverlay.exe를 실행하면 끝. Python은 필요 없어요.</span></li>
+        </ul>
+
+        <aside class="dl-card sun reveal d1">
+          <div class="dl-meta" data-release="ecliptica-latest" data-asset="EclipticaOverlay.zip">
+            <span class="ver">…</span>
+            <span class="size"></span>
+          </div>
+          <a class="btn sun big dl" href="https://github.com/chatmdgus/kuruma-downloads/releases/download/ecliptica-latest/EclipticaOverlay.zip" data-i18n="dl_ecl">ZIP 받기</a>
+          <p class="fine" data-i18n="ecl_req">Windows 10 / 11 · 압축을 풀고 실행</p>
+        </aside>
+      </div>
+
+      <div class="notice reveal">
+        <b data-i18n="ecl_warn_t">보스 타겟 정보는 내 화면에서만</b>
+        <p data-i18n="ecl_warn">게임 안에서 다른 플레이어에게 퍼뜨리면 밴될 수 있고, 음성이나 채팅으로 알려주는 것도 Ecliptica 제작진이 권장하지 않는 회색 지대예요.</p>
+      </div>
+
+      <details class="credits reveal">
+        <summary data-i18n="credits">크레딧</summary>
+        <p data-i18n="credits_body">업그레이드 사전·보스·맵 정보는 <a href="https://ecliptica.miraheze.org/" rel="noopener">Ecliptica Wiki</a>(ruralist, WhereFernsGrow) 기준이며 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>을 따라요. 한국어·일본어 설명은 영어 위키 원문을 이 도구에서 번역했어요.</p>
+        <p data-i18n="credits_icons">아이콘: Ana T(업그레이드), TheWIPArtist(보스), OccyBee(효과), Blacksheepiess(유물·직업). 아이콘은 처음 사전을 열 때 위키에서 받아요.</p>
+        <p data-i18n="credits_game">Ecliptica의 모든 게임 콘텐츠는 Ecliptica 제작진에게 있어요.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>made by チャ (kuruma)</span>
+    <span class="dim" data-i18n="foot">서명되지 않은 개인 제작 프로그램이라 처음 실행할 때 Windows 경고가 뜰 수 있어요.</span>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
