@@ -44,6 +44,12 @@
   function fmtSize(b) { return b >= 1048576 ? `${(b / 1048576).toFixed(1)} MB` : `${Math.round(b / 1024)} KB`; }
   function paintReleases() {
     document.querySelectorAll('.dl-meta').forEach((meta) => {
+      if (meta.dataset.static !== undefined) {   // 사이트에 직접 올린 파일: 버전·크기는 HTML에 적어둔 값
+        const date = new Date(meta.dataset.date).toLocaleDateString(lang === 'ja' ? 'ja-JP' : 'ko-KR', { year: 'numeric', month: 'short', day: 'numeric' });
+        meta.querySelector('.ver').textContent = meta.dataset.version;
+        meta.querySelector('.size').textContent = `${fmtSize(Number(meta.dataset.bytes))} · ${date}`;
+        return;
+      }
       const r = releases[meta.dataset.release];
       const btn = meta.parentElement.querySelector('.dl');
       if (r === undefined) return;
@@ -61,7 +67,7 @@
       btn.classList.toggle('off', !asset);
     });
   }
-  document.querySelectorAll('.dl-meta').forEach(async (meta) => {
+  document.querySelectorAll('.dl-meta[data-release]').forEach(async (meta) => {
     const tag = meta.dataset.release;
     try {
       const res = await fetch(`https://api.github.com/repos/${REPO}/releases/tags/${tag}`);
