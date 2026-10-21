@@ -100,6 +100,7 @@ h1 { font-size: clamp(38px, 6.2vw, 70px); line-height: 1.08; letter-spacing: -0.
 /* 제품 */
 main { max-width: 1180px; margin: 0 auto; padding: 0 clamp(16px, 5vw, 56px); }
 .product { padding: clamp(56px, 8vw, 96px) 0; border-top: 1px solid var(--line); }
+.app-icon { width: 48px; height: 48px; vertical-align: -10px; margin-right: 14px; }
 .tag { display: inline-block; font-size: 13px; font-weight: 700; padding: 4px 12px; border-radius: 999px; margin-bottom: 14px; }
 .tag.lav { color: var(--lav); background: rgba(167, 180, 255, 0.12); }
 .tag.sun { color: var(--sun); background: rgba(255, 184, 107, 0.12); }
