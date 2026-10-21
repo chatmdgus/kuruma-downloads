@@ -83,20 +83,12 @@ h1 { font-size: clamp(38px, 6.2vw, 70px); line-height: 1.08; letter-spacing: -0.
 }
 
 .plate { background: rgba(12, 14, 20, 0.5); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85); }
-.voice-demo { position: absolute; left: 3%; top: 4%; z-index: 2; display: flex; flex-direction: column; gap: 5px; font-size: clamp(10px, 1.25vw, 13px); }
-.voice-demo .chan { display: inline-flex; align-items: center; gap: 5px; width: fit-content; padding: 3px 9px 3px 7px; border-radius: 8px; font-size: 0.86em; font-weight: 700; color: #c3c8d4; background: rgba(12, 14, 20, 0.5); }
-.voice-demo .chan svg { width: 1.1em; height: 1.1em; }
-.vlist { display: flex; flex-direction: column; gap: 5px; }
-.vrow { display: flex; align-items: center; gap: 0.5em; width: fit-content; padding: 0.22em 0.75em 0.22em 0.22em; border-radius: 999px; font-weight: 650; white-space: nowrap; }
+.media-demo { position: absolute; right: 57%; bottom: 5%; width: 30%; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.shot { width: 100%; border-radius: 10px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16), 0 8px 22px rgba(0, 0, 0, 0.4); animation: shot-in 0.45s cubic-bezier(0.2, 1.3, 0.4, 1) both; transform-origin: right bottom; transition: opacity 0.5s, transform 0.5s, filter 0.5s; }
+.shot.gone { opacity: 0; transform: scale(0.92); filter: blur(2px); }
+@keyframes shot-in { 0% { opacity: 0; transform: scale(0.8) translateY(12px); } 100% { opacity: 1; transform: none; } }
 .av { width: 1.9em; height: 1.9em; border-radius: 50%; display: grid; place-items: center; font-size: 0.8em; font-weight: 800; color: #0d0f14; text-shadow: none; flex: none; }
-.live { padding: 0.05em 0.42em 0.08em; border-radius: 0.35em; background: var(--red); color: #fff; font-size: 0.66em; font-weight: 800; letter-spacing: 0.04em; text-shadow: none; }
-.muteic { width: 1.1em; height: 1.1em; color: #ff7a7a; }
-.vrow.enter { animation: row-in 0.38s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
-.vrow.enter .av { animation: boing 0.6s cubic-bezier(0.3, 1.6, 0.5, 1) both; }
-.vrow.leaving { animation: row-out 0.32s ease-in forwards; }
-@keyframes row-in { from { opacity: 0; transform: translateX(-14px) scale(0.92); } to { opacity: 1; transform: none; } }
 @keyframes boing { 0% { transform: scale(0.2); } 55% { transform: scale(1.35); } 75% { transform: scale(0.92); } 100% { transform: scale(1); } }
-@keyframes row-out { 0% { opacity: 1; } 30% { transform: scale(1.04); } 100% { opacity: 0; transform: translateX(-10px) scale(0.7); } }
 
 .chat-demo { position: absolute; right: 3%; bottom: 5%; width: 52%; z-index: 2; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; font-size: clamp(10px, 1.2vw, 13px); }
 .msg { display: flex; gap: 0.5em; align-items: flex-start; width: fit-content; max-width: 100%; padding: 0.3em 0.75em 0.32em 0.32em; border-radius: 1.1em; line-height: 1.42; font-weight: 500; animation: bubble-in 0.42s var(--ease-pop) both; transform-origin: left bottom; transition: opacity 0.5s, transform 0.5s; }

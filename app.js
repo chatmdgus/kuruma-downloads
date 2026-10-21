@@ -97,10 +97,8 @@
     ja: ['ボス第2フェーズ入った', '今日何時に集まる？', 'ちょっと休憩するね', 'すぐ入るよ', 'これ見て'],
   };
   const avColor = (p) => p.color || '#9aa0bf';
-  const vlist = document.querySelector('#demo-voice .vlist');
   const chat = document.getElementById('demo-chat');
-  const rows = new Map();
-  const micOff = '<svg class="muteic" viewBox="0 0 24 24" aria-hidden="true"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5" fill="currentColor"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M3.5 3.5l17 17" stroke="#0c0e14" stroke-width="5" stroke-linecap="round"/><path d="M3.5 3.5l17 17" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
+  const media = document.getElementById('demo-media');
 
   function avatar(p) {
     const el = document.createElement('span');
@@ -110,40 +108,21 @@
     return el;
   }
 
-  function voiceRow(p, state) {
-    const row = document.createElement('div');
-    row.className = 'vrow plate enter';
-    const nm = document.createElement('span');
-    nm.textContent = p.name;
-    if (p.color) nm.style.color = p.color;
-    row.append(avatar(p), nm);
-    if (state.live) { const l = document.createElement('span'); l.className = 'live'; l.textContent = 'LIVE'; row.append(l); }
-    if (state.mute) row.insertAdjacentHTML('beforeend', micOff);
-    row.addEventListener('animationend', () => row.classList.remove('enter'), { once: true });
-    return row;
+  // 사진 미리보기: 풍경 그림을 그려서 채팅 옆에 튀어나왔다 사라지게
+  const scenes = [['#ff9a8b', '#ff6a88', '#5b3a7a'], ['#89f7fe', '#66a6ff', '#2c3e7a'], ['#fddb92', '#d1fdff', '#3a6b5a'], ['#c3a6ff', '#7f7fd5', '#2d2a5a']];
+  function photo() {
+    const [a, b, c] = scenes[Math.floor(Math.random() * scenes.length)];
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200"><defs><linearGradient id="g" x2="0" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${b}"/></linearGradient></defs><rect width="320" height="200" fill="url(#g)"/><circle cx="240" cy="62" r="26" fill="#fff" opacity=".85"/><path d="M0 150 70 95 130 140 190 85 260 135 320 105V200H0z" fill="${c}"/></svg>`;
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
-
-  // 이름 순으로 들어오고 나가기
-  const order = new Intl.Collator(['ko', 'ja'], { sensitivity: 'base' });
-  let present = new Set(['a', 'b', 'c']);
-  const states = { a: {}, b: { live: true }, c: { mute: true }, d: {}, e: {} };
-  function renderVoice() {
-    const live = (p) => (states[p.id].live ? 0 : 1);
-    const list = people.filter((p) => present.has(p.id)).sort((x, y) => live(x) - live(y) || order.compare(x.name, y.name));
-    for (const [id, row] of rows) {
-      if (present.has(id)) continue;
-      rows.delete(id);
-      row.classList.add('leaving');
-      row.addEventListener('animationend', () => row.remove(), { once: true });
-    }
-    let prev = null;
-    for (const p of list) {
-      let row = rows.get(p.id);
-      if (!row) { row = voiceRow(p, states[p.id]); rows.set(p.id, row); }
-      const want = prev ? prev.nextSibling : vlist.firstChild;
-      if (want !== row) vlist.insertBefore(row, want);
-      prev = row;
-    }
+  function addPhoto() {
+    const img = document.createElement('img');
+    img.className = 'shot';
+    img.alt = '';
+    img.src = photo();
+    media.append(img);
+    while (media.children.length > 2) media.firstChild.remove();
+    setTimeout(() => { img.classList.add('gone'); setTimeout(() => img.remove(), 500); }, 6000);
   }
 
   function addChat() {
@@ -162,18 +141,11 @@
     setTimeout(() => { msg.classList.add('gone'); setTimeout(() => msg.remove(), 500); }, 6500);
   }
 
-  renderVoice();
   addChat();
+  addPhoto();
   if (!reduced) {
     setTimeout(addChat, 900);
     setInterval(addChat, 2600);
-    setInterval(() => {
-      // 한 명씩 들어왔다 나갔다
-      const out = people.filter((p) => p.id !== 'a' && !present.has(p.id));
-      const inn = [...present].filter((id) => id !== 'a');
-      if (out.length && (Math.random() < 0.55 || inn.length < 2)) present.add(out[Math.floor(Math.random() * out.length)].id);
-      else if (inn.length) present.delete(inn[Math.floor(Math.random() * inn.length)]);
-      renderVoice();
-    }, 3200);
+    setInterval(addPhoto, 4300);
   }
 })();
