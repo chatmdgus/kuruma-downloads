@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a0f17"/><stop offset="1" stop-color="#14070b"/></linearGradient>
+  <linearGradient id="r" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8283c"/><stop offset="1" stop-color="#8f0f22"/></linearGradient></defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <!-- 바퀴 = 발 -->
+  <rect x="146" y="372" width="70" height="72" rx="30" fill="#4a1a27"/><rect x="296" y="372" width="70" height="72" rx="30" fill="#4a1a27"/>
+  <!-- 사이드미러 = 볼 옆 -->
+  <ellipse cx="104" cy="268" rx="24" ry="17" fill="url(#r)"/><ellipse cx="408" cy="268" rx="24" ry="17" fill="url(#r)"/>
+  <!-- 둥근 귀 (안쪽 분홍) -->
+  <path d="M150 196C140 150 142 112 156 96c22 6 54 30 74 56z" fill="url(#r)" stroke="url(#r)" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M362 196c10-46 8-84-6-100-22 6-54 30-74 56z" fill="url(#r)" stroke="url(#r)" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M164 170c-4-22-2-40 4-50 12 6 28 18 38 30z" fill="#ff7b6b"/><path d="M348 170c4-22 2-40-4-50-12 6-28 18-38 30z" fill="#ff7b6b"/>
+  <!-- 몸통 = 차 앞모습 (아주 둥글게) -->
+  <rect x="112" y="150" width="288" height="250" rx="96" fill="url(#r)"/>
+  <!-- 앞유리 -->
+  <path d="M184 186h144c14 0 24 8 28 20l8 26H148l8-26c4-12 14-20 28-20z" fill="#2a0f17" opacity=".5"/>
+  <path d="M196 196h40l-10 26h-44z" fill="#fff" opacity=".18"/>
+  <!-- 볼터치 -->
+  <ellipse cx="160" cy="338" rx="22" ry="13" fill="#ff7b6b" opacity=".4"/><ellipse cx="352" cy="338" rx="22" ry="13" fill="#ff7b6b" opacity=".4"/>
+  <!-- 큰 눈 = 헤드라이트 (반짝) -->
+  <circle cx="190" cy="296" r="34" fill="#fff4cf"/><circle cx="322" cy="296" r="34" fill="#fff4cf"/>
+  <circle cx="194" cy="300" r="20" fill="#2a0f17"/><circle cx="326" cy="300" r="20" fill="#2a0f17"/>
+  <circle cx="201" cy="292" r="7" fill="#fff"/><circle cx="333" cy="292" r="7" fill="#fff"/>
+  <!-- 코 + ω 입 = 엠블럼·그릴 -->
+  <path d="M247 330h18c4 0 6 4 3 7l-9 8c-2 2-4 2-6 0l-9-8c-3-3-1-7 3-7z" fill="#2a0f17"/>
+  <path d="M232 352c6 12 18 12 24 0c6 12 18 12 24 0" fill="none" stroke="#2a0f17" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
