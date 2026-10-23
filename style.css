@@ -123,6 +123,9 @@ h2 { font-size: clamp(32px, 4.6vw, 52px); letter-spacing: -0.04em; line-height: 
 .dl-meta .ver { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
 .dl-meta .size { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
 .fine { color: var(--muted); font-size: 13px; margin: 14px 0 0; text-align: center; }
+.fine.alt { margin-top: 6px; }
+.fine.alt a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+.fine.alt a:hover { color: var(--ink); }
 
 .steps { counter-reset: s; list-style: none; padding: 0; margin: 44px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .steps li { counter-increment: s; position: relative; padding: 22px 20px 20px; border-radius: 18px; background: var(--panel); box-shadow: inset 0 0 0 1px var(--line); color: var(--muted); font-size: 15px; }
