@@ -1,7 +1,7 @@
 {
-  "version": "2.5.0",
-  "app_zip": "https://chatmdgus.github.io/kuruma-downloads/files/ecliptica-app.zip?v=2.5.0",
-  "app_sha256": "f254d9ca658201acafe57d678e82aa3f80cace24b8364ae50d82eb1ea912480e",
+  "version": "2.5.1",
+  "app_zip": "https://chatmdgus.github.io/kuruma-downloads/files/ecliptica-app.zip?v=2.5.1",
+  "app_sha256": "7abad08bc0bec54195fc44b7809a831a5bf8b63f37b6194ae552dc1cea44acf9",
   "full": false,
   "setup": "https://chatmdgus.github.io/kuruma-downloads/files/EclipticaOverlay-Setup.exe"
 }
