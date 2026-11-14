@@ -1,19 +1,19 @@
 {
  "app": "VRCTranslator-Friends",
- "version": "1.1.0",
+ "version": "1.1.1",
  "exe": "VRCTranslator-Friends.exe",
  "date": "2026-11-14",
  "update_url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-latest.json",
  "packs": {
   "app": {
-   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=048fb82c4537",
-   "sha256": "048fb82c4537ed777d98cf926b3d1125687ae2e76bf94c322f462e4bf641e019",
-   "size": 18000268
+   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=54f51761f6b9",
+   "sha256": "54f51761f6b9234899837e9a2e8d7e300fa7703a728282e02f226cc35595aee8",
+   "size": 15370558
   },
   "core": {
    "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-core.zip",
-   "sha256": "8780c6102469e9ac97a061f26f65813d992cf824e003ef56c92552309b0496e7",
-   "size": 86937160
+   "sha256": "7357d05444073a85afe3d1df423feae3ba5243bbacadc6c72ce2e0c27a8da1d4",
+   "size": 87992723
   },
   "gpu": {
    "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-gpu.zip",
@@ -24,53 +24,48 @@
  },
  "files": {
   "README.md": [
-   "ca46b99cf28420099bd348a82798aa6451faef4331e6f957f448a2713cd4d47b",
-   8548,
+   "0b04e4253aa6c6992f08d53a0f1c04f74fd3d6048dd399a579993cf640556d75",
+   9057,
    "app"
   ],
   "VRCTranslator-Friends.exe": [
-   "944aab7690ba2939de8db1b81a5cd8fe257ce74db722a3f4c9c433aefcd0df10",
-   17929550,
+   "e97aa2771db777408c2c6752c2314edf7150118d66660e05472b47afd555d7c7",
+   15187465,
    "app"
   ],
   "_internal/MSVCP140_1.dll": [
-   "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982",
-   35768,
+   "456aebccb449fcba35f1109c259ba0aa10923e660f4de812a490d35f37f54fc9",
+   35920,
    "core"
   ],
   "_internal/PIL/_avif.cp312-win_amd64.pyd": [
-   "6731dce52baab0b96b0eeb3c664844b5b42c2168ea8668af2430e2fbdd2dfbd8",
+   "3c31d65c8b3b4c91ac2838d5c843a6b2479d775b6904fe654d60b56d41772411",
    7893504,
    "core"
   ],
   "_internal/PIL/_imaging.cp312-win_amd64.pyd": [
-   "c8c519ec72bf75b2945b4fc4afa854af2fca8b970a403134f9ddda3e164d85e9",
-   2632704,
+   "7140f56d38dd6cd51512f8122386bcb914c5df2a82eb5f719c973527d9213cee",
+   2662400,
    "core"
   ],
   "_internal/PIL/_imagingcms.cp312-win_amd64.pyd": [
-   "c89c633ae1bf3f26a327d14ff688db66628e19c9866ab925479f27dcb60a2d6f",
-   272384,
+   "2640857cace64d69735bdcaa3987e9ad70f85168abc1a8662079c77ac44b5301",
+   275456,
    "core"
   ],
   "_internal/PIL/_imagingft.cp312-win_amd64.pyd": [
-   "77c6d37de41733df40fb36d9af47644989ac17da036515e759303969edb22c48",
-   2174976,
-   "core"
-  ],
-  "_internal/PIL/_imagingmath.cp312-win_amd64.pyd": [
-   "82ac45c41a008854d05f67deda298b65a7bed850d0d79a3af861ed583f6e7d62",
-   21504,
+   "985228f6086171978abb5d04f2f625c489fdc9d7f0a92f2077a621ff184a599e",
+   2250752,
    "core"
   ],
   "_internal/PIL/_imagingtk.cp312-win_amd64.pyd": [
-   "690cc1cae4a2dc8594a342b9241e691dcc89d81dad4cddcefdf285275365a2b1",
-   14848,
+   "e1c87f73e96d2269395624d03b3808300f4b0f795f5fad1ecc3d1492e5dcc7c2",
+   14336,
    "core"
   ],
   "_internal/PIL/_webp.cp312-win_amd64.pyd": [
-   "9823cebb84f425af3ac1e7437259bc176e7ad7e25d7fa829b0e1a3e55c11be70",
-   416256,
+   "bb9c64d38a6e4857bd3358e14dbe6cf3a4593b1efcd1185fdba1ef8931550896",
+   415744,
    "core"
   ],
   "_internal/_asyncio.pyd": [
@@ -124,8 +119,8 @@
    "core"
   ],
   "_internal/_portaudiowpatch.cp312-win_amd64.pyd": [
-   "b4c83f7b3535914f49e0692c99533d4a0851c64ee018d424fd015606ece909ee",
-   192512,
+   "ccb21c3c99fb62bdf929565b4b2c4f814c6b938ce467337753bd9a6ab0f7de76",
+   196096,
    "core"
   ],
   "_internal/_queue.pyd": [
@@ -4774,8 +4769,8 @@
    "core"
   ],
   "_internal/_webrtcvad.cp312-win_amd64.pyd": [
-   "00c3cf6d58934e4cff1e5a1204a898e58cf7e2a8ad145c582d1f64e1a856d66e",
-   31232,
+   "1aca277f89c1f4c22796713d633633cd27aec32baedc9a2f9bdaa949a70150e9",
+   32256,
    "core"
   ],
   "_internal/_wmi.pyd": [
@@ -4783,389 +4778,594 @@
    40304,
    "core"
   ],
-  "_internal/_zoneinfo.pyd": [
-   "76f1439cda82ab6976df6ba505c4079444703f6d44d8b0259ce59c0ff4279fb4",
-   49656,
+  "_internal/api-ms-win-core-console-l1-1-0.dll": [
+   "88ace577a9c51061cb7d1a36babbbefa48212fadc838ffde98fdfff60de18386",
+   22072,
    "core"
   ],
-  "_internal/av.libs/avcodec-62-984de33114b7fa384296817dec999c9d.dll": [
-   "777704d8914bb99e5d78f3a0e7424031b5376621f2e7c60e83b84e77fcc7e2d7",
-   19266048,
+  "_internal/api-ms-win-core-datetime-l1-1-0.dll": [
+   "1bd81dfd19204b44662510d9054852fb77c9f25c1088d647881c9b976cc16818",
+   22056,
    "core"
   ],
-  "_internal/av.libs/avdevice-62-bf7a3ffbb6a4b577f24a39ea98a958d5.dll": [
-   "f97c1c7539fddbf5d713c0904bb4340f9000705bdb2d950338f6b39dba20cb3a",
-   155648,
+  "_internal/api-ms-win-core-debug-l1-1-0.dll": [
+   "591358eb4d1531e9563ee0813e4301c552ce364c912ce684d16576eabf195dc3",
+   21944,
    "core"
   ],
-  "_internal/av.libs/avfilter-11-aef80fc767dc77e0319469b5bdcdf998.dll": [
-   "26e5bd7b01ad8874db7842c03f4ee0fa1466f1192f2f245c1cdccc8acb81ebd2",
-   5890560,
+  "_internal/api-ms-win-core-errorhandling-l1-1-0.dll": [
+   "d56ce7b1cd76108ad6c137326ec694a14c99d48c3d7b0ace8c3ff4d9bcee3ce8",
+   22096,
    "core"
   ],
-  "_internal/av.libs/avformat-62-b6d6bb16ff0b7753371e2d0b285c9dc0.dll": [
-   "a3494c5304c387518e0d5136ed9bf5e5fc1a3b227ce3f380357149ee09717ff2",
-   2845184,
+  "_internal/api-ms-win-core-fibers-l1-1-0.dll": [
+   "91d249d7bc0e38ef6bcb17158b1fdc6dd8888dc086615c9b8b750b87e52a5fb3",
+   22072,
    "core"
   ],
-  "_internal/av.libs/avutil-60-cc1777f859dcfd98b8019bdf459e774e.dll": [
-   "ff4aae43357698825fa5392764d3b680e36c1846b75677bdbf313d8c141ece6d",
-   1145856,
+  "_internal/api-ms-win-core-fibers-l1-1-1.dll": [
+   "fc9d86cec621383eab636ebc87ddd3f5c19a3cb2a33d97be112c051d0b275429",
+   22072,
    "core"
   ],
-  "_internal/av.libs/libSvtAv1Enc-c4dd99c98ddcdb013e820dbd68a30e26.dll": [
-   "c4dd99c98ddcdb013e820dbd68a30e26472894f1d788e2862376e0404542f045",
-   7673344,
+  "_internal/api-ms-win-core-file-l1-1-0.dll": [
+   "1ca895aba4e7435563a6b43e85eba67a0f8c74aa6a6a94d0fc48fa35535e2585",
+   26152,
    "core"
   ],
-  "_internal/av.libs/libdav1d-959ebc1340f7dfcbcf8e299a26281738.dll": [
-   "959ebc1340f7dfcbcf8e299a26281738d73b53c2da0a3ceb1a1df80ac0c41b4b",
-   2139136,
+  "_internal/api-ms-win-core-file-l1-2-0.dll": [
+   "4cadbc0c39da7c6722206fdcebd670abe5b8d261e7b041dd94f9397a89d1990d",
+   22056,
    "core"
   ],
-  "_internal/av.libs/libgcc_s_seh-1-4c0a762e4178b574f72d1ef1f8bb5fc9.dll": [
-   "99a25df00a49a5e1ff131533416faa8d4686dd09a9a800633bc56ce93f69b5a6",
+  "_internal/api-ms-win-core-file-l2-1-0.dll": [
+   "93c624b366ba16c643fc8933070a26f03b073ad0cf7f80173266d67536c61989",
+   21960,
+   "core"
+  ],
+  "_internal/api-ms-win-core-handle-l1-1-0.dll": [
+   "39095f59c41d76ec81bb2723d646fde4c148e7cc3402f4980d2ade95cb9c84f9",
+   21944,
+   "core"
+  ],
+  "_internal/api-ms-win-core-heap-l1-1-0.dll": [
+   "8f105771b236dbcb859de271f0a6822ce1cb79c36988dd42c9e3f6f55c5f7eb9",
+   22072,
+   "core"
+  ],
+  "_internal/api-ms-win-core-interlocked-l1-1-0.dll": [
+   "53b25e753ca785bf8b695d89dde5818a318890211dc992a89146f16658f0b606",
+   22072,
+   "core"
+  ],
+  "_internal/api-ms-win-core-kernel32-legacy-l1-1-1.dll": [
+   "a9b13a1cd1b8c19b0c6b4afcd5bb0dd29c0e2288231ac9e6db8510094ce68ba6",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-core-libraryloader-l1-1-0.dll": [
+   "7f39ba298b41e4963047341288cab36b6a241835ee11ba4ad70f44dacd40906c",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-core-localization-l1-2-0.dll": [
+   "6ee44dd0d8510dc024c9f7c79b1b9fa88c987b26b6beb6653ddd11751c34e5dc",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-core-memory-l1-1-0.dll": [
+   "0512a35316ec9180437f86696a84c5c06a7e4e82e050055a656e5bf9fca206f9",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-core-namedpipe-l1-1-0.dll": [
+   "c05f1fffe3b5a2738ea54ce9485cca026fb9635f982626fba1e1dcc531897273",
+   22096,
+   "core"
+  ],
+  "_internal/api-ms-win-core-processenvironment-l1-1-0.dll": [
+   "c4eca98c3c67b6395d5b005b00ac1eb0318b86b23aa71035a44c2b1602befba9",
+   21968,
+   "core"
+  ],
+  "_internal/api-ms-win-core-processthreads-l1-1-0.dll": [
+   "5ccb89e93d67bc3288d4e84649c5346e66e15e3d7cd65d989daf3f4cb584be9a",
+   22096,
+   "core"
+  ],
+  "_internal/api-ms-win-core-processthreads-l1-1-1.dll": [
+   "4ad565a8ba3ef0ea8ab87221ad11f83ee0bc844ce236607958406663b407333e",
+   22072,
+   "core"
+  ],
+  "_internal/api-ms-win-core-profile-l1-1-0.dll": [
+   "7809160932f44e59b021699f5bc68799eb7293ee1fa926d6fcca3c3445302e61",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-core-rtlsupport-l1-1-0.dll": [
+   "9dc1e91e71c7c054854bd1487cb4e6946d82c9f463430f1c4e8d1471005172b1",
+   21960,
+   "core"
+  ],
+  "_internal/api-ms-win-core-string-l1-1-0.dll": [
+   "60fc31d2a0c634412f529dba76af3b9bf991352877c6dae528186d3935704cfd",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-core-synch-l1-1-0.dll": [
+   "3a72b4f29f39a265d32ad12f0ce15dbf60129c840e10d84d427829ede45e78ad",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-core-synch-l1-2-0.dll": [
+   "efc1e4460984a73cf47a3def033af1c8f3b1dbc1a56cd27781d3aacf3e3330cb",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-core-sysinfo-l1-1-0.dll": [
+   "b203d862ddef1dd62bf623fc866c7f7a9c317c1c2ae30d1f52cb41f955b5698e",
+   22072,
+   "core"
+  ],
+  "_internal/api-ms-win-core-sysinfo-l1-2-0.dll": [
+   "2703635d835396afd0f138d7c73751afe7e33a24f4225d08c1690b0a371932c0",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-core-timezone-l1-1-0.dll": [
+   "33f4fddc181066fce06b2227bded813f95e94ed1f3d785e982c6b6b56c510c57",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-core-util-l1-1-0.dll": [
+   "6eda016742a6171205a387a14b3c0b331841567740376f56768f8c151724207d",
+   21944,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-conio-l1-1-0.dll": [
+   "b762061b688aae679afe788904d2c9970f74a7dac98f3b42463d08f25e483d3f",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-convert-l1-1-0.dll": [
+   "ebb2ae5535a64f65daeab8235585114fc9dd2cf1a49f5852d446250b998b6ae4",
+   26056,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-environment-l1-1-0.dll": [
+   "17d63275d00bdd8670422b95bd264c532998e0a1b041079e54fce4b6b7a55819",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-filesystem-l1-1-0.dll": [
+   "9a9e2a65a281644e368d0f272b95ba5f6b445d1c35910d06056c5ebeb77402db",
+   22056,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-heap-l1-1-0.dll": [
+   "bab9ac3ec83e380ae51e4295ef3bf2c738627812d3a49d1e713661abbc8dc57a",
+   22096,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-locale-l1-1-0.dll": [
+   "bd14c67ea28e21d6257ad780a37122c9b5773f69e693f5db6bffaee4d839526e",
+   22080,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-math-l1-1-0.dll": [
+   "606d66d82db562ea7979179d06486a0f94d079941d26b80a1e2c49d29959df6f",
+   30248,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-private-l1-1-0.dll": [
+   "1bc82bed6143d2bf1b6b08a7809f4a5e29317d6fddd338a7da3c0223522e4bbf",
+   75328,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-process-l1-1-0.dll": [
+   "f6156b1020380ec4f0e48577ebedaaef5fb1ab1f337d8b4e72e6a33a7567a9cc",
+   22096,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-runtime-l1-1-0.dll": [
+   "c5902934d026d7e15fbe9917d474f3322846a41a25e66f4b2b1f758801879f4b",
+   26152,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-stdio-l1-1-0.dll": [
+   "a9c5a153d8c0286f9b41a2b1c65854ad9e6471b8755b7de87bae4470e60bcab6",
+   26168,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-string-l1-1-0.dll": [
+   "25b8f83a7767211b11132775a0e27a45aa4ec8ab4e6572599f9c172ae3606b40",
+   26176,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-time-l1-1-0.dll": [
+   "7c7f6393f06de11750adb09cc5698ae55cd9fb27b2e51e207286feb1b5b2b156",
+   22096,
+   "core"
+  ],
+  "_internal/api-ms-win-crt-utility-l1-1-0.dll": [
+   "d8ba5f17b9ffcbf3aeaf3fa1da226832d2fa90f81acce0cd669464e76ce434ac",
+   21952,
+   "core"
+  ],
+  "_internal/av.libs/avcodec-63-2756d4fffb772585dcdece87427716a4.dll": [
+   "8e13fdedbeefb6a8b5d22b567122ec3c00384add569de9e589e53a86bd08422c",
+   19569664,
+   "core"
+  ],
+  "_internal/av.libs/avdevice-63-2b26d22512639c049532c0bc6f6c022f.dll": [
+   "43247c1bdaaec40977738037fdea7e8b779b3e93213dd529b1d25735b3099d8c",
+   156160,
+   "core"
+  ],
+  "_internal/av.libs/avfilter-12-87c7677b784d3ea4ecceb3e6cae9c9f1.dll": [
+   "a9b9e84178dd73162f47a3a531c321fad955ca3a7ff04a9517db7e7c78bf9ab2",
+   5956608,
+   "core"
+  ],
+  "_internal/av.libs/avformat-63-e8c4f8fc30664f2b7e85dcc683bd4b0d.dll": [
+   "49759edae5286f10e4b11a442f51fb70bacde1f92b7b876038231c4d8140c506",
+   2888704,
+   "core"
+  ],
+  "_internal/av.libs/avutil-61-e540ec7976bbd26a4a94dc737be3001c.dll": [
+   "ff2ba1b0d884336d53f1aee7b05873c5a3bbb987d0ffc79a49b92ed77579cd19",
+   1157632,
+   "core"
+  ],
+  "_internal/av.libs/libSvtAv1Enc-7a2b2046575991edd70ef501ca085458.dll": [
+   "7a2b2046575991edd70ef501ca085458ebdff3bf96282350057ae1dee0afaf9f",
+   7724032,
+   "core"
+  ],
+  "_internal/av.libs/libdav1d-5469d6ef7baf7426269a9483c24587b7.dll": [
+   "5469d6ef7baf7426269a9483c24587b77bf6cb6a005f2bd98443a396f528e82b",
+   2203136,
+   "core"
+  ],
+  "_internal/av.libs/libgcc_s_seh-1-3e3b83c1f8de213bb810010a5622b180.dll": [
+   "502e8318a096f0bfb26d9f628f768bfab72853eabc1b6b262f2412263aad605b",
    150016,
    "core"
   ],
-  "_internal/av.libs/libiconv-2-6ce5f4ff92ada49d6f23a8e413455502.dll": [
-   "6ce5f4ff92ada49d6f23a8e4134555028a60cbf22ac4bb5ac78b12a2727676ec",
+  "_internal/av.libs/libiconv-2-5e7e51fe6a6e182df6c9f30f41700345.dll": [
+   "5e7e51fe6a6e182df6c9f30f4170034575acd10d2079c3f1098411d21a311619",
    1141248,
    "core"
   ],
-  "_internal/av.libs/libmp3lame-0-da02696cc34a9bbc1d1d4f67a85cfbef.dll": [
-   "da02696cc34a9bbc1d1d4f67a85cfbef40a699da443aadb03551d960d2909ea7",
-   425472,
-   "core"
-  ],
-  "_internal/av.libs/libopencore-amrnb-0-b8933128305cd084d40426d0d2c0d9ef.dll": [
-   "b8933128305cd084d40426d0d2c0d9ef8c9a52b10a383aac7ec24fed03f499ad",
-   180224,
-   "core"
-  ],
-  "_internal/av.libs/libopencore-amrwb-0-49da3acfc50704f92538d74aca03c3b8.dll": [
-   "49da3acfc50704f92538d74aca03c3b838195ae4de88be98667e869c2aba0477",
-   96256,
-   "core"
-  ],
-  "_internal/av.libs/libopus-0-4369edc456631a3cc933d7918747e5d2.dll": [
-   "4369edc456631a3cc933d7918747e5d2d111056dbc8a85b01330b5a53c062d44",
+  "_internal/av.libs/libopus-0-278e2dd25a2793d306204c9d966fe0de.dll": [
+   "278e2dd25a2793d306204c9d966fe0dee6b4f56659b1ea7b759897e406980d79",
    482816,
    "core"
   ],
-  "_internal/av.libs/libsharpyuv-8b869e30854bf3db317a2a93d0782c3d.dll": [
-   "8b869e30854bf3db317a2a93d0782c3df2e9a03d1360320815257f0cbd306c63",
+  "_internal/av.libs/libsharpyuv-90c3f670f207c806d3e44db799e78832.dll": [
+   "90c3f670f207c806d3e44db799e78832750826c47a0cf8dea907603d240f9dbe",
    51712,
    "core"
   ],
-  "_internal/av.libs/libstdc++-6-2d5c346d47ad531ef9f5185db0e8cef3.dll": [
-   "80c66b5220c554aa61b72cce0e9322547d111f81179792dde4d9a645255d0e5a",
+  "_internal/av.libs/libstdc++-6-7ad22040206bf70776b13a24ec3f87b2.dll": [
+   "1cba2ca3b6f410fa4b03b01b479f7663493ea9903857cd753dc8dbc772f67447",
    2660352,
    "core"
   ],
-  "_internal/av.libs/libvpl-969a52d626b0390fc34f6a4fb0b08d7e.dll": [
-   "96a2ee0b9d4645791485f0f897fd4ea4d77f324e11918dbc10466fc949f7dca4",
+  "_internal/av.libs/libvmaf-e1698aa5c58a07400697833b5f19b0a3.dll": [
+   "12e93e157295be651758eee56af4ed95c6a2ee5b3b91c65a83c8c6818af4c35f",
+   1639936,
+   "core"
+  ],
+  "_internal/av.libs/libvpl-45cd70cb42c579529a30ad6fc282c626.dll": [
+   "1a0bc607afbd8a224cc0c2db6fd5efa51245d7715ff1b659c16b47e773009115",
    444416,
    "core"
   ],
-  "_internal/av.libs/libvpx-1-d869f8b2cb42d58b35545ffbfb0f7509.dll": [
-   "e0be857ba4f86709addb42c5e81fef2f565faf52c13fdb982f393ff74d92a0ca",
-   2600960,
+  "_internal/av.libs/libvpx-1-dd81d2b55a771749d485047772201cc1.dll": [
+   "738629b026940c256dfe988a62062bdc96ae5065d13163bf7e579dc95a4634f4",
+   2583552,
    "core"
   ],
-  "_internal/av.libs/libwebp-4bf4e57964c7a01c09ce39470d6b67ca.dll": [
-   "5f044e8cf8d0347fdd4d5fff197a64c20b9e2356ee1dd84c11a19638fd9901eb",
+  "_internal/av.libs/libwebp-abac96c4759f9eb9b31588c8a839816c.dll": [
+   "e253a4adb1c133a690662e46d8c41e0a3b81b0e62d0f3a5e1a1109484a020dca",
    759296,
    "core"
   ],
-  "_internal/av.libs/libwebpmux-9cf6581f8709616d9591befbb1a2264b.dll": [
-   "8394a4928195acdde4d7a5c3cc1f11b581890d061ca4b25ac35c8745376d06ae",
+  "_internal/av.libs/libwebpmux-0b9545d83accdb1110a7efa5d1c54007.dll": [
+   "ce17228391b86192f201da1ce9c345ff5f7a9c1eca95ab04150491c24032f74e",
    78336,
    "core"
   ],
-  "_internal/av.libs/libwinpthread-1-02332fab016bf884a2a7a7b2ece22ffe.dll": [
-   "02332fab016bf884a2a7a7b2ece22ffe1dea58d56609f913026c22697dd950bc",
+  "_internal/av.libs/libwinpthread-1-3e9f18fdf7e856e1e9fedd138e84e874.dll": [
+   "3e9f18fdf7e856e1e9fedd138e84e874542e8717272fa7fdae5d0d826e88658c",
    62464,
    "core"
   ],
-  "_internal/av.libs/libx264-165-f3a909470ddc2d85ed21eda3d0fb7954.dll": [
-   "f3a909470ddc2d85ed21eda3d0fb795404382727c59efa502e3b71cb5ef1aebc",
+  "_internal/av.libs/libx264-165-0f71f37cf3f3ee0e2ecac2b06829e9ff.dll": [
+   "0f71f37cf3f3ee0e2ecac2b06829e9ff3cf2b3e237f25bb14aef6b8de14cd777",
    2267648,
    "core"
   ],
-  "_internal/av.libs/libx265-efe48a158520a59ef99c0a0b3eb835ae.dll": [
-   "57b1a6cad779aa841985cbdc22539802dd0c15f5832f1783bf38e72e09929f60",
-   12746240,
+  "_internal/av.libs/libx265-ee9d492f3fb55d0a3b564bb1bf4f6822.dll": [
+   "efe075f1ee008c722eb71adfe00d926071836d777cc9ef23b59c9ecb9db7d57f",
+   12830720,
    "core"
   ],
-  "_internal/av.libs/swresample-6-0158536d5c4197d7d623445553ce9472.dll": [
-   "44b6c43045b783970832cd5cac9b3a7250a79476ca34cf90c98f02428749c8b0",
+  "_internal/av.libs/swresample-7-4f9462a1fb73b949ccad2774dd941624.dll": [
+   "a8bfee136c4c4e49d95b4439b1b80136504b2783cf93638f64bd3ad7de8e0ebe",
    180736,
    "core"
   ],
-  "_internal/av.libs/swscale-9-0c9886c118598c54e159ef2267ff99f3.dll": [
-   "134b9ba046e46a4391a63d391635a0fc2ba12769295ffc0ffd9b2e78f1376472",
-   2022912,
+  "_internal/av.libs/swscale-10-9af0a10ad7003982e48548ff39e98465.dll": [
+   "f2956978470b3ed26c4f5db80b45d4c3a9188a4a8622133f73ded71504df85d6",
+   2124800,
    "core"
   ],
-  "_internal/av.libs/zlib1-79e0c4f9db71cb511398c504b832d395.dll": [
-   "79e0c4f9db71cb511398c504b832d395ba0fdee530f98efd1f861dd96de2ceb2",
+  "_internal/av.libs/zlib1-4d767210e087ff082d94ef0a09ddc7f8.dll": [
+   "4d767210e087ff082d94ef0a09ddc7f8c04316c64d69d5a7b9ee802ceab407dd",
    126464,
    "core"
   ],
   "_internal/av/_core.pyd": [
-   "25d669349bb0f9763b00c9e9fabc2028657e6c1bfc61fcc2e50beca0903f1788",
+   "95be47c22953a6721f31bd243e3cc4abf2c073a989f7ea9c6620abeac6d4968a",
    29184,
    "core"
   ],
+  "_internal/av/_cyutil.pyd": [
+   "1d9b1ce1b2e2ad9428c58beadaec66d45b40a14a32e333574b8985fbb1835ff2",
+   142336,
+   "core"
+  ],
   "_internal/av/audio/codeccontext.pyd": [
-   "21071a8d7c7e70371a70d6576bfe6d2a60a27fb296ff290249d027d6f1ad8f61",
-   39936,
+   "845df82420c19b09b8c1cf09d9839451e00feb0a00968dde3c88ff05c0740e3e",
+   36352,
    "core"
   ],
   "_internal/av/audio/fifo.pyd": [
-   "1872c6a588dbdefd603eb0a43796693b45073669913502fb4bc9193ca196f2a1",
-   50176,
-   "core"
-  ],
-  "_internal/av/audio/format.pyd": [
-   "c19acceccba205853ab1e7dae81782a6ce8cf92d1216d79431ee652ce07d4061",
-   33792,
-   "core"
-  ],
-  "_internal/av/audio/frame.pyd": [
-   "f80a1a55e01577074cf4f092e486f1fdd7be96e75d85bdc239ec369affd142ee",
-   58880,
-   "core"
-  ],
-  "_internal/av/audio/layout.pyd": [
-   "6dcd2f5a1f7e8b658d395438600352971cde9ee91de87d3f4d71f546ef8edae2",
-   49664,
-   "core"
-  ],
-  "_internal/av/audio/plane.pyd": [
-   "2492c6966023e671276eeeed9afa9680da02e14e8e2508cd6db41e45c84ed16a",
-   35328,
-   "core"
-  ],
-  "_internal/av/audio/resampler.pyd": [
-   "bef8646dec1270e2aa094b83811224bed9fda2b5d5afe51d2ebb28f0ec0a3f49",
-   53760,
-   "core"
-  ],
-  "_internal/av/audio/stream.pyd": [
-   "ee2756d1851388e6ae5a9e0b053122a601ced785aaa3f7017b0c9df7491b057e",
-   40960,
-   "core"
-  ],
-  "_internal/av/bitstream.pyd": [
-   "3277f0f5abd59e71826f07de264dab001a1bc0b6f7b95cacb65fcac54896d90a",
-   38400,
-   "core"
-  ],
-  "_internal/av/buffer.pyd": [
-   "c0b70eccfa773196c7b7f3feecaa6f5c3b111a42099e2421166d656084d09015",
-   41984,
-   "core"
-  ],
-  "_internal/av/codec/codec.pyd": [
-   "4353e90e3bda30e2000583aca39cbd2aa1b8a1174ac80c2b7dedc1ac5ec3b443",
-   68608,
-   "core"
-  ],
-  "_internal/av/codec/context.pyd": [
-   "50f66dc7cdd992be51c159134c5f469beb76a4d3a114c514b51e3a8fe19577a3",
-   122880,
-   "core"
-  ],
-  "_internal/av/codec/hwaccel.pyd": [
-   "d74b0048b9277cc84837f26d39087a29c483c26c0ba15c39c75258d2ec8b95da",
-   61952,
-   "core"
-  ],
-  "_internal/av/container/core.pyd": [
-   "93547e184b60efdbda531b0aabd47a2ae4881a05d4db6d3c6ba45e92e051cd32",
-   96256,
-   "core"
-  ],
-  "_internal/av/container/input.pyd": [
-   "c3bdfae2d75b08b78fdd36159ae74e48ad7cd8bbd627bca005033ab4f6404643",
-   74240,
-   "core"
-  ],
-  "_internal/av/container/output.pyd": [
-   "c85278fa35483b70d94af5276ca9ec90cf5276bc3970c6537951354673a9abdc",
-   90112,
-   "core"
-  ],
-  "_internal/av/container/pyio.pyd": [
-   "26b9e5f6a63328fe4c35fb1b7c0cc2654af865fdab14ced2550dcc3fb56183e1",
-   38400,
-   "core"
-  ],
-  "_internal/av/container/streams.pyd": [
-   "ed0e2d8927a75aed0553b2729523647275db1dfab7a69ad25fd1b6a6dd13f066",
-   72192,
-   "core"
-  ],
-  "_internal/av/device.pyd": [
-   "eb542faf9c13d3312539f0a8645af5b86c7104b062f9717f786cd7a52f25f768",
-   57856,
-   "core"
-  ],
-  "_internal/av/dictionary.pyd": [
-   "21a513157b6ae517bf45af01a54b9e0f5af63b2fd5333bebd0db351141595068",
-   56832,
-   "core"
-  ],
-  "_internal/av/error.pyd": [
-   "b03d2bedd87a40f12d712d791ebcaced177d1126bb1356c0c19c26e2d3c20429",
-   94208,
-   "core"
-  ],
-  "_internal/av/filter/context.pyd": [
-   "d2c077b9c29ce268d5fa3a526052a4e135a96cbecb69c0fc261cab14a1bb957b",
-   135168,
-   "core"
-  ],
-  "_internal/av/filter/filter.pyd": [
-   "1d51964274998bb5b503937e2de9975d60e5198125ef7836957fa47ea458b26a",
-   32256,
-   "core"
-  ],
-  "_internal/av/filter/graph.pyd": [
-   "d9ea2a3aa35cac97f5e385cb0bb47e5e25be2f18ec9dbeef15ab3bef7fbe09d6",
-   74752,
-   "core"
-  ],
-  "_internal/av/filter/link.pyd": [
-   "c1d8626838d424e2c81e69ab5f1298dcf317277257ade1f281b551bd547b1aa1",
-   47104,
-   "core"
-  ],
-  "_internal/av/filter/loudnorm.pyd": [
-   "f9927671ae5aa68ba8b26b966ad0a2b189cd570590a80b5ba0275064db8c55e8",
-   35328,
-   "core"
-  ],
-  "_internal/av/format.pyd": [
-   "a4a10ecf6118d6b6a78b8cb60e3ccbd6e7a8e74314b1f728384c6e441760ee97",
-   39936,
-   "core"
-  ],
-  "_internal/av/frame.pyd": [
-   "19b26fc869f35bf4cdc823f5371fe357aa2833d29aabb311f11d7831aef98def",
+   "467c7f2b11384a4d6c8e8befe9b705208376f61a0c17bbd5f5ec87f9b97ff5b4",
    42496,
    "core"
   ],
+  "_internal/av/audio/format.pyd": [
+   "4766c9b6658fcf2fe389c2a5a7d44d322e1488b7b7cb7146e846f4ae3e63c157",
+   30720,
+   "core"
+  ],
+  "_internal/av/audio/frame.pyd": [
+   "ca389c07ec692f9a9bfeab21dba4b6e02d17d08a8db0db8e88eef385e7ebd174",
+   52736,
+   "core"
+  ],
+  "_internal/av/audio/layout.pyd": [
+   "59c50ab6f13948316a377aaf683c043b56eba89017d8efeb1761a3269aceef0b",
+   35840,
+   "core"
+  ],
+  "_internal/av/audio/plane.pyd": [
+   "a015b48e64c898fd473a9a2f25e504f730b359097c7c858e7620266f3364604a",
+   31232,
+   "core"
+  ],
+  "_internal/av/audio/resampler.pyd": [
+   "34cdeec46d57a7aa9383edde6788f1bb85f60cdc7665e6ecb16666d13a51c96e",
+   51712,
+   "core"
+  ],
+  "_internal/av/audio/stream.pyd": [
+   "e55dd87b43d5a582f168d12a6c91906bb1fce46467c993de9c3cad8648fee50f",
+   34816,
+   "core"
+  ],
+  "_internal/av/bitstream.pyd": [
+   "9c19e50cda6272e9c05a0e01214fdc5ba3408ceb113b1298fedb740d5e1d5688",
+   32256,
+   "core"
+  ],
+  "_internal/av/buffer.pyd": [
+   "5fad707c96cade2a3032249995608e5ef91b3793eaf2506b83a5688ffd45bee1",
+   35840,
+   "core"
+  ],
+  "_internal/av/codec/codec.pyd": [
+   "27d744fc0596a03f5f3e5603dcca6b8019f30354d167a4dd8d67fb127594a1f4",
+   67072,
+   "core"
+  ],
+  "_internal/av/codec/context.pyd": [
+   "79055d540ec15a54afe894befdc1852d608507f9748b4f83c9470a989fc5da5a",
+   124928,
+   "core"
+  ],
+  "_internal/av/codec/hwaccel.pyd": [
+   "54ed579d10bce20f7428c7d8c7f0a51bec972597a6a499c70cc395ae794ff70f",
+   62464,
+   "core"
+  ],
+  "_internal/av/container/core.pyd": [
+   "83751a9b2be16d6e11ed87787a218dcb9cd02f56bed91e0f8e290283ac9c86ba",
+   87040,
+   "core"
+  ],
+  "_internal/av/container/input.pyd": [
+   "3b9d4d5a7caf7a67af8013e8773dcd0ae3e18493c32ff27c407c69de2dec7584",
+   66048,
+   "core"
+  ],
+  "_internal/av/container/output.pyd": [
+   "6592ccbae0b89a3814147e99425996c64c562c61d49a33610ca87d2649e01a7e",
+   82432,
+   "core"
+  ],
+  "_internal/av/container/pyio.pyd": [
+   "302f1004566e59b00092e4e18e111629fea1b8bfe711705363a8f41df590aa79",
+   35328,
+   "core"
+  ],
+  "_internal/av/container/streams.pyd": [
+   "6634aab660492936ebec66e69d4af79454ef74c4c26e90908b6fe5ce69d8244a",
+   66048,
+   "core"
+  ],
+  "_internal/av/device.pyd": [
+   "07be8e1db22c933fe250d407d7052e9a782c06717f3796c882c60171287d7a50",
+   44032,
+   "core"
+  ],
+  "_internal/av/dictionary.pyd": [
+   "46d4ef32bfeac6a449c934c222dc78377d471cbc06f6959060380f9d8fa5f619",
+   48640,
+   "core"
+  ],
+  "_internal/av/error.pyd": [
+   "d44f741c954856d16e1b3d3571cfb3c31df92f1e51209060e761426fb965f821",
+   79360,
+   "core"
+  ],
+  "_internal/av/filter/context.pyd": [
+   "88ea520ba401cf4669a58779465eaa09816645bc9a31c56e843be36dfd9a52da",
+   50176,
+   "core"
+  ],
+  "_internal/av/filter/filter.pyd": [
+   "8c09c0909d84a24b349fd50c4e7846af324941ec61d742488ef1d21e5a2aaf1f",
+   28160,
+   "core"
+  ],
+  "_internal/av/filter/graph.pyd": [
+   "0f8686b2094bb2d3c8c44ce59d8210a57df5e203fc1b11e70dd7645455ae6205",
+   68608,
+   "core"
+  ],
+  "_internal/av/filter/link.pyd": [
+   "711f289214dd0baee85b69a044e762ea10a9fbce1c7dd0a046663eb8ae2c7e17",
+   44544,
+   "core"
+  ],
+  "_internal/av/filter/loudnorm.pyd": [
+   "24e63377d720f3998f56b55d8b8b3a3e8601a1a0ec0c3abce32946ca1ededc65",
+   32256,
+   "core"
+  ],
+  "_internal/av/format.pyd": [
+   "61e8e5f0b89e47c6152af9e588d97f7c0f89412e0b6463806ddcd0e1bdcf3c71",
+   35328,
+   "core"
+  ],
+  "_internal/av/frame.pyd": [
+   "cf92ad1272087e97b24c86717b270c7b3b6fa865029bb31bebac3d75a602d30a",
+   36352,
+   "core"
+  ],
   "_internal/av/index.pyd": [
-   "6ce35fe62976ce29be74e18026231adf4b99eff9e08ee7fff03b6746dcf79d46",
+   "b48327dc7a92427b680c633d4e231ed57d5e77ff956c9939cc6dae5406f147fd",
    58880,
    "core"
   ],
   "_internal/av/logging.pyd": [
-   "e25ee4fbbe3fc6444292b00aae9b4594ed44b67e29f901ad4c7f9e17aca7c930",
-   62976,
+   "77e2b494ab1b58c6d24a6ebe1e5542516c93331501ca85e9df88f97e4e0e59b1",
+   56832,
    "core"
   ],
   "_internal/av/opaque.pyd": [
-   "01f4fa6fc6923af682fa969beb63511ae3f784d9b648627fcb13345bfa8fee68",
-   31232,
+   "239b91a2e3e98106f8fbc33d177e1b736cbe1c35894590b0f37e6719a410fad6",
+   25088,
    "core"
   ],
   "_internal/av/packet.pyd": [
-   "2db7b19f55c0a0a97f1d72d22a8d930f9c9012d9d9c0d14fdc998c92bb78f7fd",
-   87552,
+   "69a777be0b9dbdc2db5734fe32e1214c25eb5897cbeeb7a36e1822326623df22",
+   77824,
    "core"
   ],
   "_internal/av/plane.pyd": [
-   "d4caf7fed366fdee2c57adc03fb018035d46091654c884c90ecb28489c9cef69",
-   36352,
+   "057e9f3a2badd3f0f4a753d69168fb7fc5a147bc5f91b9aa854e259809aceeb2",
+   30208,
    "core"
   ],
   "_internal/av/rational.pyd": [
-   "4d82a67d6fd770e344af87cac19bbf042045d329ead85acada6a96b9d8702460",
-   44544,
-   "core"
-  ],
-  "_internal/av/sidedata/encparams.pyd": [
-   "465a09cfa3334c0e9634e23fb7349ba237879098238e1539e252411893f5a0d4",
+   "f942cb2cc77d0e4caaf1f3e9a525f6fcb776749a9913e68296ab08ba5174608e",
    53248,
    "core"
   ],
+  "_internal/av/sidedata/encparams.pyd": [
+   "682692b34b6ec8205a2c179ff3008f28f0db397794f072a2cb5861dc896d8118",
+   48128,
+   "core"
+  ],
   "_internal/av/sidedata/motionvectors.pyd": [
-   "4de475251e478ffa21563f9ea69c68f64f67344cba91bd1d1ce02877812af843",
-   64512,
+   "0982c5a70d4bd74628c4c0ce800ad8754715c89c8a11fe4ce04a436b1527e442",
+   57856,
    "core"
   ],
   "_internal/av/sidedata/sidedata.pyd": [
-   "438dda9bec7a1b062c3021676eacdef5f16f9823c898758922c39881421b9b4d",
-   58880,
+   "ca3187bb2a2e99018588cbaa22780355a49b5f0dec04f8b0b7545a499f6e9cf3",
+   55808,
    "core"
   ],
   "_internal/av/stream.pyd": [
-   "dcba76f21ead0bc7cdcecbf8f59f4e6839ef834251359780af3113bb0311408f",
-   61952,
+   "ba71b9618e79e7b016bd588130a3613dd37481fc9d1724c8698450642410f24c",
+   54272,
    "core"
   ],
   "_internal/av/subtitles/codeccontext.pyd": [
-   "2a43955af37b2a7b2bf1741e0cc42cf8dc6ff8efed4e1dd431d359d38c5cf4ec",
-   40960,
-   "core"
-  ],
-  "_internal/av/subtitles/stream.pyd": [
-   "7ee6782ddd100dc290ad9871684a14ba670742146a134d2c4ba24e0381accad7",
+   "b9eb3a57eea0f84d32c8bfb723cb3c4481a3fc9f47218093fde1adfa2d01a4ea",
    34816,
    "core"
   ],
-  "_internal/av/subtitles/subtitle.pyd": [
-   "68abd3b3626acb404f75ecfd0e773ed33deebf1f58c7220c9ba99a3c6db9f1a7",
-   84992,
-   "core"
-  ],
-  "_internal/av/utils.pyd": [
-   "85bea4074088698336853a1506f37ce4f4e2277d8d1138e800aff98d0611ef27",
+  "_internal/av/subtitles/stream.pyd": [
+   "7054b83eaffc3d00fd87861f60c44e4579d9cafe3a17dc269179d90b5fe1efa6",
    28672,
    "core"
   ],
+  "_internal/av/subtitles/subtitle.pyd": [
+   "0416ed1fa59a24b828f111e87f576ad69bd924eb25859f3dea498e80f98fba99",
+   78848,
+   "core"
+  ],
+  "_internal/av/utils.pyd": [
+   "d3b04bdd3301a7cea8e7b0310104fd71fa7ef12fc36925a89928cee94dccce34",
+   29184,
+   "core"
+  ],
   "_internal/av/video/codeccontext.pyd": [
-   "b7216176e1fc7014f62f85af34c3d879a9037462980cfeb843b966c218231c5d",
+   "bd0a03ac04b1b1f747a63d75e9919467839ab2c5879ff865cbcd32c0ababbe0f",
    59392,
    "core"
   ],
   "_internal/av/video/format.pyd": [
-   "e700da2b012b04bdfa0111c6515b04ef6d729db7df2bd01d95e1e36093b585d8",
-   63488,
+   "c584629a071362ac0cfcbe801303d74d69850e0aeba455368852dbebe18fe3bb",
+   58880,
    "core"
   ],
   "_internal/av/video/frame.pyd": [
-   "795cbc8fb5ab47eef644128f184151fb6fe3115b449f732bb6fa81befb231ad1",
-   296448,
+   "21a21196f805402d0c0a8491579c7f3dfab30507936dd23eb4273a21892ac869",
+   221184,
    "core"
   ],
   "_internal/av/video/plane.pyd": [
-   "4f75d521534967de75f62acefe50b53dd58442152cf186c3e770186340301c66",
-   52224,
+   "8d97555f896ff18f9206a7eea3203b80e75ad0e96348c02d931c04b6345d5186",
+   46592,
    "core"
   ],
   "_internal/av/video/reformatter.pyd": [
-   "c432512fd625317df6f6c32ec65ed8dcdac9ed5f48b262e8fa5dc627f1a2b129",
-   58368,
+   "ab2ebe2cd1d47f78903753b60b691675fa3b3edcd5e40fb00475e5b6b21b71b8",
+   52224,
    "core"
   ],
   "_internal/av/video/stream.pyd": [
-   "668a6af479595e8466bb1c9f8b74a845ae1b9a209baef7a07fed6548e46fa435",
-   53760,
+   "b5db14bb55eaf4b07e638d64ae3983fed32d3516a9c8d0779aa616f301364c7d",
+   47616,
    "core"
   ],
   "_internal/base_library.zip": [
-   "bc2ba36f81f545154ad4aeac09e722aef215e416d887a3092c97216fdb94f307",
+   "0f4243cae5d98fa11de5d89185209945043ec0bbc0bda6731cba7b7339217ee4",
    1333717,
    "app"
   ],
   "_internal/certifi/cacert.pem": [
-   "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f",
-   240216,
+   "2ef52ad56b4803e264045c915e55c236cbfa045b84b81efefc218a19eb44bd2b",
+   235863,
    "core"
   ],
   "_internal/certifi/py.typed": [
@@ -5174,13 +5374,13 @@
    "core"
   ],
   "_internal/charset_normalizer/cd.cp312-win_amd64.pyd": [
-   "71ffb046452b819770538cb59fd25694c0a8e9b08af4b8b71f26dac85dcff062",
-   117248,
+   "2bdbc0805f85565d76f8d6166e451bfafa6d5490b06b36c9f423cd0102b4f149",
+   115712,
    "core"
   ],
   "_internal/charset_normalizer/md.cp312-win_amd64.pyd": [
-   "c53a0a481bbcef6a88492bd113b6293997900f4a17a1a5055776d76256d720f9",
-   193536,
+   "b08be5d29125f39a92e22d0abe4b9160753f7a790fffd07258319a8e16394afa",
+   208384,
    "core"
   ],
   "_internal/click-8.5.0.dist-info/INSTALLER": [
@@ -5234,68 +5434,63 @@
    "core"
   ],
   "_internal/hf_xet/hf_xet.pyd": [
-   "ea8f5ddb1ae42adf5e4d376ec27b7f1ea1fe843e15f5d7a9e45fe1298ca4fd4c",
-   9499136,
+   "f4e963b3bc1cfc9fcbdaae1dec8f861a28e35fddd05d9c03753eb9ffae176949",
+   9512960,
    "core"
   ],
-  "_internal/httpcore2-2.13.1.dist-info/INSTALLER": [
+  "_internal/httpcore2-2.16.0.dist-info/INSTALLER": [
    "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
    4,
    "core"
   ],
-  "_internal/httpcore2-2.13.1.dist-info/METADATA": [
-   "37a0ea0674e98b7c3a1f99c17d9bb5457de27a0f93c8b6560c9d17d525139abb",
-   26537,
+  "_internal/httpcore2-2.16.0.dist-info/METADATA": [
+   "c073bd68b2bd543fbc2bab3763b42ed1e70666536d32c1bf39ef2764fd50b0a4",
+   27552,
    "core"
   ],
-  "_internal/httpcore2-2.13.1.dist-info/RECORD": [
-   "3a91ba5cb15292167fbd1ad10b6b3e325edaf6001567db1a0b25fd4cf76a8d99",
-   4835,
+  "_internal/httpcore2-2.16.0.dist-info/RECORD": [
+   "24c15ca785e0a44066cad3ba9431c9f85a1e10b74e001cdf04113c7eedeee90e",
+   4837,
    "core"
   ],
-  "_internal/httpcore2-2.13.1.dist-info/WHEEL": [
-   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+  "_internal/httpcore2-2.16.0.dist-info/WHEEL": [
+   "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
    87,
    "core"
   ],
-  "_internal/httpcore2-2.13.1.dist-info/licenses/LICENSE.md": [
+  "_internal/httpcore2-2.16.0.dist-info/licenses/LICENSE.md": [
    "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9",
    1599,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/INSTALLER": [
+  "_internal/httpx2-2.16.0.dist-info/INSTALLER": [
    "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
    4,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/METADATA": [
-   "b75b03a003b5593e000907cf7239fcc3f688b8f17db4ecff883d11221ea988fc",
-   9799,
+  "_internal/httpx2-2.16.0.dist-info/METADATA": [
+   "192f20046200ff50911a7278c21dfbee1e1a4c6fa7943227afe9231d28defc3f",
+   10019,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/RECORD": [
-   "25517a1d9f3cfe2783d28d69aea969ebfe4c64d15a17dd097ee980d42cd34c3f",
-   4542,
+  "_internal/httpx2-2.16.0.dist-info/RECORD": [
+   "1e3e7f5ea82f532e2ce924bf00bebe64698698127ecc751754acc3f6c0c76e72",
+   4667,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/WHEEL": [
-   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+  "_internal/httpx2-2.16.0.dist-info/WHEEL": [
+   "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
    87,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/entry_points.txt": [
+  "_internal/httpx2-2.16.0.dist-info/entry_points.txt": [
    "dee899a2b4509500053681da0f1b8cb2691d8eddeb5139ae073f35b4b5c57506",
    45,
    "core"
   ],
-  "_internal/httpx2-2.13.1.dist-info/licenses/LICENSE.md": [
+  "_internal/httpx2-2.16.0.dist-info/licenses/LICENSE.md": [
    "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30",
    1589,
-   "core"
-  ],
-  "_internal/jiter/jiter.cp312-win_amd64.pyd": [
-   "4cf612d63cf512f8fc3171f3c610cdf02acee71cbc9030cfffe4fd7f8294d521",
-   465920,
    "core"
   ],
   "_internal/libcrypto-3.dll": [
@@ -5314,126 +5509,126 @@
    "core"
   ],
   "_internal/msvcp140.dll": [
-   "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
-   643512,
+   "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+   575056,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/DELVEWHEEL": [
-   "4a71fefce03586c3347fcd8f3a994ad4af93717dc6e5d964d976e6134e3230fa",
+  "_internal/numpy-2.5.4.dist-info/DELVEWHEEL": [
+   "071835e9599badbf48ff13018c74eec31bf7e6e566cf17cc6a131eeff34b09ea",
    462,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/INSTALLER": [
+  "_internal/numpy-2.5.4.dist-info/INSTALLER": [
    "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
    4,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/METADATA": [
-   "451a9b8028000588e66b0b415587b6aef0bbc51a96d8e8a0cba0dc23acf64f99",
+  "_internal/numpy-2.5.4.dist-info/METADATA": [
+   "e2b909d6a37d76c2bc130f528d7fed0c517322bce16dc7846b6a6df30e200403",
    6635,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/RECORD": [
-   "7dd9114df48802b85a584baa60140707b1401ddaf79df4c321a4c530eeeabad7",
-   113358,
+  "_internal/numpy-2.5.4.dist-info/RECORD": [
+   "2a9afbd8c2b9767e1a70ae9017492a5d3dacdfd9cfce1f553f84b4b6470172ad",
+   113361,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/REQUESTED": [
+  "_internal/numpy-2.5.4.dist-info/REQUESTED": [
    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    0,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/WHEEL": [
+  "_internal/numpy-2.5.4.dist-info/WHEEL": [
    "e743de01ba6503a3e4234858398a1e69c07d512d51e8482ec9f3a7b1c707d165",
    85,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/entry_points.txt": [
+  "_internal/numpy-2.5.4.dist-info/entry_points.txt": [
    "ec26fade0c8bdac211a6c1dd003a65eb16885b925395423e93fcaa115af4052c",
    220,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/LICENSE.txt": [
+  "_internal/numpy-2.5.4.dist-info/licenses/LICENSE.txt": [
    "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
    45831,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt": [
    "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
    1039,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING": [
    "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
    704,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE": [
    "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
    21155,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt": [
    "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
    1441,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md": [
    "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
    1542,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE": [
    "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
    1573,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md": [
    "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
    1523,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt": [
    "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
    2314,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE": [
    "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
    1616,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md": [
    "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
    3582,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md": [
    "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
    2805,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md": [
    "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
    2986,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md": [
    "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
    1176,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md": [
    "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
    1540,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md": [
    "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
    1253,
    "core"
   ],
-  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md": [
+  "_internal/numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md": [
    "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
    340,
    "core"
@@ -5449,67 +5644,67 @@
    "core"
   ],
   "_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd": [
-   "8fdd39b1dcd81239b1fe0b10744afd76dc85c8575aa09429b392e323fb750f4b",
+   "f09f60242eaed510e1af6384284f53ff56ae42770a62e630bd415bc2b6854d66",
    65536,
    "core"
   ],
   "_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd": [
-   "a9d5c4202cf109bf24305f3f1180e0509aaf661ba850612bd75df7cfd9f928b8",
-   3854848,
+   "9c10617e66e992b5ac6d9f78fe7cedd0011618e1c2f89d09a185bb63073e2c90",
+   3855872,
    "core"
   ],
   "_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd": [
-   "3ed9c2f73c7dc165e41e98ecfd0a4f66481a5afec7e39148a2af317b9a4ff62e",
+   "4f008612d6b9e2ab3820ee17a1c758c499e45e80a36764c9dfb7bf304b066f03",
    276480,
    "core"
   ],
   "_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd": [
-   "15884ab8ded82bc5f834e429a63cc9cfdcc24f61737a5c563efb2c2f274213a8",
-   112128,
+   "03bc9de2d6d8e2d9ea3ec781f3c16bcbc9960095cc02ca588f4229cd1560c661",
+   112640,
    "core"
   ],
   "_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd": [
-   "031cbd54dcbef2ff3fda13889879a6442f17c31df6d008154708b31d7582309c",
+   "927c1673ba698a85e6253b4d8d2223eb019b021792c54604489767c694d2ab93",
    208896,
    "core"
   ],
   "_internal/numpy/random/_common.cp312-win_amd64.pyd": [
-   "8bd4fcd63a3f0643a81b4095a8221a4a3917dd86816ecbeea595db237071369f",
+   "712a7bb4b2d3e56548cdf255eb4e6c1ca0737d7d81d76f09bdccebb0703ae572",
    174080,
    "core"
   ],
   "_internal/numpy/random/_generator.cp312-win_amd64.pyd": [
-   "8dd9ad224065d8c38d99149d6816a519eb769b3e01210164b3bcb186e7d59479",
+   "0fa509dcf5ae21910cb2b3c74271977d0fac7fab15ffd5f32017e08b97e71de6",
    624640,
    "core"
   ],
   "_internal/numpy/random/_mt19937.cp312-win_amd64.pyd": [
-   "9b3aff503e8872d6e6b71b2d41a5a1304c02092cb75f5387194c3fa98c1a5610",
+   "e6938df4dd3a193b7d9171d3e192702be3a70de2ebe866cf6fcd92f9e368349d",
    92672,
    "core"
   ],
   "_internal/numpy/random/_pcg64.cp312-win_amd64.pyd": [
-   "f68a6a65df54920f091c6745694fd7adacc7311d980a429c8217385b43f8df26",
+   "8eb5569b221d40884093def83d897376bddd99c9279f182b9db3145b9b897d34",
    105984,
    "core"
   ],
   "_internal/numpy/random/_philox.cp312-win_amd64.pyd": [
-   "1872654c8ade0ed9e11ca3f1b2714154f39a0cef46416b48e40c7e96a6dc2018",
+   "cc0c03e2c1443e8981300ddb9cc5ceb504e7f8494323d4ec0a1ad95ae16fbf75",
    89088,
    "core"
   ],
   "_internal/numpy/random/_sfc64.cp312-win_amd64.pyd": [
-   "958af4dd25196f436d67b681c64a8639f0ec5a98dbb37124859def7eb353c0ab",
+   "20c551734cd2b2be2425c8773b795f1e92de8826ebbe6c1103cd0fa6b5c94408",
    64000,
    "core"
   ],
   "_internal/numpy/random/bit_generator.cp312-win_amd64.pyd": [
-   "1e7a030cfd348ab125a681eaf21b227be145d8329430b8d521f9bde520390267",
+   "c7f637df1fa0db9fe4bba6c05dac680d89aed245401423f1ffd16d93366a35a7",
    173056,
    "core"
   ],
   "_internal/numpy/random/mtrand.cp312-win_amd64.pyd": [
-   "2dbf4488af25a9d6b2863b3eea53d4a39b692b3be579e970761730d310e8ea65",
+   "e8bdaf22830ceaabc596854a816d39d96d1d60e96c2e12a9a17950b624d480a1",
    522752,
    "core"
   ],
@@ -5579,18 +5774,18 @@
    "gpu"
   ],
   "_internal/onnxruntime/capi/onnxruntime.dll": [
-   "e42c5c917207ff706530315177e39dca2539695a6a8d968a22225e34291b1f12",
-   18446176,
+   "443c0065fcdba17618ddef05050308f4b471893c5c7da0337d6957c9073ad8a7",
+   22668640,
    "core"
   ],
   "_internal/onnxruntime/capi/onnxruntime_providers_shared.dll": [
-   "46b999f9d5cd9d284091407e9f50a262624e6a71265fc428a1dfbd42d149bd81",
-   21856,
+   "b7ce00a1246473401b9b7fed2816852c1f9ecd70f2e68a136761c40d6523b712",
+   21816,
    "core"
   ],
   "_internal/onnxruntime/capi/onnxruntime_pybind11_state.pyd": [
-   "c0b7c1a5524b702863d24d6c38b3fa5ad8199b25cb5e0893ac9b5a6661979f14",
-   19112248,
+   "d4d9df764064dee9216dfa9a3933beaefc480b9c421a62d3f681168cec90c23c",
+   23516512,
    "core"
   ],
   "_internal/openvr/libopenvr_api_32.dll": [
@@ -5619,39 +5814,9 @@
    "core"
   ],
   "_internal/preset.dat": [
-   "f478e0d351f0f9c92082d698c6d20f86c7d189264f08c742b13b3a313b89a8ba",
-   824,
+   "0d1b30caaea54ae3125ea6c08487982f1ac6bad27c3ca2928eb25e4c0bc4710e",
+   820,
    "app"
-  ],
-  "_internal/pydantic-2.13.5.dist-info/INSTALLER": [
-   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
-   4,
-   "core"
-  ],
-  "_internal/pydantic-2.13.5.dist-info/METADATA": [
-   "0685830d13647bd6f3f05526043d32a8b2a221d86b53773053d6c52bb17a9c07",
-   110178,
-   "core"
-  ],
-  "_internal/pydantic-2.13.5.dist-info/RECORD": [
-   "33724f6f5112f6e362460d7d57ebde3437aa22cf7dcb6bc60d7c132ffb208e1d",
-   15456,
-   "core"
-  ],
-  "_internal/pydantic-2.13.5.dist-info/WHEEL": [
-   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
-   87,
-   "core"
-  ],
-  "_internal/pydantic-2.13.5.dist-info/licenses/LICENSE": [
-   "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
-   1129,
-   "core"
-  ],
-  "_internal/pydantic_core/_pydantic_core.cp312-win_amd64.pyd": [
-   "28fd1266fb9946fe61775505a13c0bf803f6932b51b306a0032687393d9a558b",
-   5157888,
-   "core"
   ],
   "_internal/pyexpat.pyd": [
    "d615e193d1affcdbfe504e90d3621cbdcff94bf72b79d899126534507fd6d27a",
@@ -6164,8 +6329,8 @@
    "core"
   ],
   "_internal/tokenizers/tokenizers.pyd": [
-   "05848a2a85e1466d19242499ed6b8c016a886db79aca020792aa5598ded77ef9",
-   7847936,
+   "cef9accc734aed0f2095ba7c073a48f90cb2f6dfd50e02b22f9f7d75727aadd9",
+   7860736,
    "core"
   ],
   "_internal/tqdm-4.70.1.dist-info/INSTALLER": [
@@ -6179,7 +6344,7 @@
    "core"
   ],
   "_internal/tqdm-4.70.1.dist-info/RECORD": [
-   "34adb625178b8f76e438238110687cc72983c3ea6f015ac6c0fcd239bd4f1714",
+   "5336a4ed113be1906d4ec23b0d1c9883a0d4e0b55ee989cc3ed2f589a40690ea",
    4551,
    "core"
   ],
@@ -6203,52 +6368,57 @@
    5,
    "core"
   ],
+  "_internal/ucrtbase.dll": [
+   "2e5fb14b7bf8540278f3614a12f0226e56a7cc9e64b81cbd976c6fcf2f71cbfb",
+   1361448,
+   "core"
+  ],
   "_internal/unicodedata.pyd": [
    "208ee1cd3cbad0828433ca7246b05be2b1ff5569983d27d296c0b38888585488",
    1140592,
    "core"
   ],
   "_internal/vcruntime140.dll": [
-   "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
-   178616,
+   "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4",
+   120400,
    "core"
   ],
   "_internal/vcruntime140_1.dll": [
-   "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
-   50112,
+   "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8",
+   49776,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/INSTALLER": [
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/INSTALLER": [
    "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
    4,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/LICENSE": [
-   "df49a6fde45c3acc8ebd34815d1eaf9c4f5d91a20bc7c2a00ed5ce47d9df9092",
-   2770,
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/METADATA": [
+   "57a6154f06406c4d2ea7770a14ac8d5c8f826dfe63e3463e9e3a7151071d3db5",
+   6080,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/METADATA": [
-   "ac245f9c22f3514a52325f309a8cb0f7c03fff420b7b7a9cf50d6ff284520b62",
-   5633,
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/RECORD": [
+   "19b1d72023ec7a58cdc9a327f7ae2c0dffa4d0bef47e770a0b248babe3ad563c",
+   889,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/RECORD": [
-   "9ea10e58d4f713ef574d34e7bc00fca280f996d6ebb7d1efcdb18a20dd0f153e",
-   838,
-   "core"
-  ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/REQUESTED": [
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/REQUESTED": [
    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    0,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/WHEEL": [
-   "67d342f8ebd1064b502d4ba38d98ae69cf6317fd3a0aa6e34dbf85aab08294db",
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/WHEEL": [
+   "547199cfb31450578b25778938b82f94e190e69e750e6c850e3b6d657fa1a30f",
    101,
    "core"
   ],
-  "_internal/webrtcvad_wheels-2.0.14.dist-info/top_level.txt": [
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/licenses/LICENSE": [
+   "df49a6fde45c3acc8ebd34815d1eaf9c4f5d91a20bc7c2a00ed5ce47d9df9092",
+   2770,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.post1.dist-info/top_level.txt": [
    "da8c0167bcdfa5d9246d3087cdc732b049cab22026fce09a3c084e4dfdccab01",
    21,
    "core"
