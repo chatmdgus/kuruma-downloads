@@ -1,14 +1,14 @@
 {
  "app": "VRCTranslator-Friends",
- "version": "1.1.1",
+ "version": "1.1.2",
  "exe": "VRCTranslator-Friends.exe",
  "date": "2026-11-14",
  "update_url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-latest.json",
  "packs": {
   "app": {
-   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=54f51761f6b9",
-   "sha256": "54f51761f6b9234899837e9a2e8d7e300fa7703a728282e02f226cc35595aee8",
-   "size": 15370558
+   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=8443938df99c",
+   "sha256": "8443938df99cf3b6527c7997e3e1705b8d0c028e1f9886dfd83329255aaaa721",
+   "size": 15417996
   },
   "core": {
    "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-core.zip",
@@ -29,8 +29,8 @@
    "app"
   ],
   "VRCTranslator-Friends.exe": [
-   "e97aa2771db777408c2c6752c2314edf7150118d66660e05472b47afd555d7c7",
-   15187465,
+   "86f4bc5741287a7d5b230eee1ce5360140fb75df1491ec9c454f9e9a1ad4cb64",
+   15187848,
    "app"
   ],
   "_internal/MSVCP140_1.dll": [
@@ -5359,7 +5359,7 @@
    "core"
   ],
   "_internal/base_library.zip": [
-   "0f4243cae5d98fa11de5d89185209945043ec0bbc0bda6731cba7b7339217ee4",
+   "115926dd406ecac82e653e5dc902bd24835b07a654ccc74fcf1eeb46ca050bf0",
    1333717,
    "app"
   ],
@@ -5474,9 +5474,9 @@
    "core"
   ],
   "_internal/httpx2-2.16.0.dist-info/RECORD": [
-   "1e3e7f5ea82f532e2ce924bf00bebe64698698127ecc751754acc3f6c0c76e72",
+   "492867905b11c44f14e092c0c3742dc7b0d33af4df9850ddac5dcba16c9b5024",
    4667,
-   "core"
+   "app"
   ],
   "_internal/httpx2-2.16.0.dist-info/WHEEL": [
    "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
@@ -5529,9 +5529,9 @@
    "core"
   ],
   "_internal/numpy-2.5.4.dist-info/RECORD": [
-   "2a9afbd8c2b9767e1a70ae9017492a5d3dacdfd9cfce1f553f84b4b6470172ad",
+   "8d519125363f599f74b80e4cbdd5b1871aef646ba763210b4173a3504b77f06b",
    113361,
-   "core"
+   "app"
   ],
   "_internal/numpy-2.5.4.dist-info/REQUESTED": [
    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -6344,9 +6344,9 @@
    "core"
   ],
   "_internal/tqdm-4.70.1.dist-info/RECORD": [
-   "5336a4ed113be1906d4ec23b0d1c9883a0d4e0b55ee989cc3ed2f589a40690ea",
+   "71a4580ab8f9064dcbf5936c35fdda8e229a17c39ec51a8f280f6f23f4d2d39c",
    4551,
-   "core"
+   "app"
   ],
   "_internal/tqdm-4.70.1.dist-info/WHEEL": [
    "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
