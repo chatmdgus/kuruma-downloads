@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>kuruma tools</title>
-  <meta name="description" content="Kuruma Overlay와 Ecliptica Overlay 다운로드">
+  <meta name="description" content="Kuruma Overlay, VRC Translator, Ecliptica Overlay 다운로드">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp-dynamic-subset.min.css">
   <link rel="icon" href="files/kuruma-logo.svg" type="image/svg+xml">
   <link rel="icon" href="files/favicon-32.png" sizes="32x32" type="image/png">
@@ -25,10 +25,11 @@
   <header class="hero" id="top">
     <div class="hero-copy">
       <h1 class="reveal" data-i18n="hero_title">게임 화면 위에<br>디스코드를 가볍게</h1>
-      <p class="reveal d1" data-i18n="hero_lead">디스코드 채팅과 사진이 서브 모니터 구석에 떴다가 사라져요. 음성은 디스코드 기본 오버레이와 같이 쓰면 딱 좋아요. VRChat Ecliptica용 DPS 미터기도 여기서 받을 수 있어요.</p>
+      <p class="reveal d1" data-i18n="hero_lead">디스코드 채팅과 사진이 서브 모니터 구석에 떴다가 사라져요. 음성은 디스코드 기본 오버레이와 같이 쓰면 딱 좋아요. VRChat 한↔일 실시간 번역기와 Ecliptica용 DPS 미터기도 여기서 받을 수 있어요.</p>
       <div class="hero-cta reveal d2">
         <a class="btn primary" href="#overlay" data-i18n="cta_overlay">Kuruma Overlay</a>
         <a class="btn ghost" href="#ecliptica" data-i18n="cta_ecliptica">Ecliptica Overlay</a>
+        <a class="btn ghost" href="#translator" data-i18n="cta_translator">VRC Translator</a>
       </div>
     </div>
 
@@ -71,6 +72,38 @@
         <li><span data-i18n="ov_s1">받은 설치 파일을 실행해요. "Windows의 PC 보호"가 뜨면 추가 정보 → 실행.</span></li>
         <li><span data-i18n="ov_s2">처음 설정에서 토큰, 서버 ID, 채널 ID, 메인·서브 모니터를 한 번만 입력해요.</span></li>
         <li><span data-i18n="ov_s3">끝. 다음부터는 바탕화면 아이콘으로 켜거나 Windows 시작할 때 자동으로 켜져요.</span></li>
+      </ol>
+    </section>
+
+    <!-- VRC Translator -->
+    <section class="product" id="translator">
+      <div class="p-head reveal">
+        <span class="tag gold" data-i18n="tag_tr">VRChat · 한↔일 번역</span>
+        <h2>VRC Translator</h2>
+        <p class="p-lead" data-i18n="tr_lead">내가 한 말은 VRChat 챗박스에 번역해서 띄우고, 주변 사람 말은 내 언어 자막으로 보여줘요.</p>
+      </div>
+
+      <div class="p-body">
+        <ul class="features">
+          <li class="reveal"><b data-i18n="tr_f1_t">내 말 → 챗박스</b><span data-i18n="tr_f1">마이크로 말하면 번역문과 원문이 챗박스 두 줄로 떠요. VRChat에서 음소거하면 번역도 멈춰요.</span></li>
+          <li class="reveal d1"><b data-i18n="tr_f2_t">주변 말 → 자막</b><span data-i18n="tr_f2">들리는 한국어·일본어를 내 언어 자막으로 보여줘요. 화면 자막 창이나 VR 오버레이로 볼 수 있어요.</span></li>
+          <li class="reveal d2"><b data-i18n="tr_f3_t">한 번 받으면 앱 안에서 업데이트</b><span data-i18n="tr_f3">새 버전은 메인 창의 업데이트 버튼 하나로, 바뀐 부분만 받아요. NVIDIA GPU 가속 파일은 필요한 사람만 앱 안에서 따로 받아요.</span></li>
+        </ul>
+
+        <aside class="dl-card gold reveal d1">
+          <div class="dl-meta" data-release="translator-latest" data-asset="VRCTranslator-Friends.zip">
+            <span class="ver">…</span>
+            <span class="size"></span>
+          </div>
+          <a class="btn gold big dl" href="https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/VRCTranslator-Friends.zip" data-i18n="dl_tr">ZIP 받기</a>
+          <p class="fine" data-i18n="tr_req">Windows 10 / 11 · 새 버전은 앱 안에서 바로 업데이트</p>
+        </aside>
+      </div>
+
+      <ol class="steps reveal">
+        <li><span data-i18n="tr_s1">받은 zip을 바탕화면이나 내 문서 같은 곳에 압축 풀고 VRCTranslator-Friends.exe 실행. "Windows의 PC 보호"가 뜨면 추가 정보 → 실행.</span></li>
+        <li><span data-i18n="tr_s2">처음 실행에서 「한국어로 말해요 / 日本語で話します」를 고르고 마이크와 스피커를 확인해요.</span></li>
+        <li><span data-i18n="tr_s3">VRChat에서 Action Menu → Options → OSC → Enabled를 켜면 끝.</span></li>
       </ol>
     </section>
 
