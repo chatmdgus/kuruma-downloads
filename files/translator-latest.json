@@ -1,14 +1,14 @@
 {
  "app": "VRCTranslator-Friends",
- "version": "1.1.2",
+ "version": "1.1.3",
  "exe": "VRCTranslator-Friends.exe",
  "date": "2026-11-14",
  "update_url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-latest.json",
  "packs": {
   "app": {
-   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=8443938df99c",
-   "sha256": "8443938df99cf3b6527c7997e3e1705b8d0c028e1f9886dfd83329255aaaa721",
-   "size": 15417996
+   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=c5eb35f66684",
+   "sha256": "c5eb35f66684f2939d88054c75d8121044199c7173635c92dcf00570913d0f93",
+   "size": 15418426
   },
   "core": {
    "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-core.zip",
@@ -29,8 +29,8 @@
    "app"
   ],
   "VRCTranslator-Friends.exe": [
-   "86f4bc5741287a7d5b230eee1ce5360140fb75df1491ec9c454f9e9a1ad4cb64",
-   15187848,
+   "5178f019f3a7b82039c0b3ce10fbd58c34356985094b7c568bdc56e432755a22",
+   15190108,
    "app"
   ],
   "_internal/MSVCP140_1.dll": [
@@ -5359,7 +5359,7 @@
    "core"
   ],
   "_internal/base_library.zip": [
-   "115926dd406ecac82e653e5dc902bd24835b07a654ccc74fcf1eeb46ca050bf0",
+   "df38e54789545c41ee75612dffdbb165846918533a753ba4986de1c1e0f14eac",
    1333717,
    "app"
   ],
@@ -5474,7 +5474,7 @@
    "core"
   ],
   "_internal/httpx2-2.16.0.dist-info/RECORD": [
-   "492867905b11c44f14e092c0c3742dc7b0d33af4df9850ddac5dcba16c9b5024",
+   "1ff171f942e75652388596c260453e3e973ad475dc256489f6f4b88e687131fd",
    4667,
    "app"
   ],
@@ -5529,7 +5529,7 @@
    "core"
   ],
   "_internal/numpy-2.5.4.dist-info/RECORD": [
-   "8d519125363f599f74b80e4cbdd5b1871aef646ba763210b4173a3504b77f06b",
+   "af4bd71ad5d4ad3cbd8b0ccd7c191ce5d2740ab63130658ef5e61acde664958c",
    113361,
    "app"
   ],
@@ -6344,7 +6344,7 @@
    "core"
   ],
   "_internal/tqdm-4.70.1.dist-info/RECORD": [
-   "71a4580ab8f9064dcbf5936c35fdda8e229a17c39ec51a8f280f6f23f4d2d39c",
+   "416f14d2638bf5d5e915c28d357a904da84d3069d4d9fd74a7ea4533379c45b3",
    4551,
    "app"
   ],
