@@ -1,0 +1,6267 @@
+{
+ "app": "VRCTranslator-Friends",
+ "version": "1.1.0",
+ "exe": "VRCTranslator-Friends.exe",
+ "date": "2026-11-14",
+ "update_url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-latest.json",
+ "packs": {
+  "app": {
+   "url": "https://chatmdgus.github.io/kuruma-downloads/files/translator-app.zip?v=048fb82c4537",
+   "sha256": "048fb82c4537ed777d98cf926b3d1125687ae2e76bf94c322f462e4bf641e019",
+   "size": 18000268
+  },
+  "core": {
+   "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-core.zip",
+   "sha256": "8780c6102469e9ac97a061f26f65813d992cf824e003ef56c92552309b0496e7",
+   "size": 86937160
+  },
+  "gpu": {
+   "url": "https://github.com/chatmdgus/kuruma-downloads/releases/download/translator-latest/translator-gpu.zip",
+   "sha256": "731ec5226802b7fb777de41792ef7eef6392567ed0358a41aeb52385b35065dc",
+   "size": 928626659,
+   "optional": true
+  }
+ },
+ "files": {
+  "README.md": [
+   "ca46b99cf28420099bd348a82798aa6451faef4331e6f957f448a2713cd4d47b",
+   8548,
+   "app"
+  ],
+  "VRCTranslator-Friends.exe": [
+   "944aab7690ba2939de8db1b81a5cd8fe257ce74db722a3f4c9c433aefcd0df10",
+   17929550,
+   "app"
+  ],
+  "_internal/MSVCP140_1.dll": [
+   "206c931bf90fdad8816de3b5e2ef80b2bcaa9406c89ecc05fe6fddffe251e982",
+   35768,
+   "core"
+  ],
+  "_internal/PIL/_avif.cp312-win_amd64.pyd": [
+   "6731dce52baab0b96b0eeb3c664844b5b42c2168ea8668af2430e2fbdd2dfbd8",
+   7893504,
+   "core"
+  ],
+  "_internal/PIL/_imaging.cp312-win_amd64.pyd": [
+   "c8c519ec72bf75b2945b4fc4afa854af2fca8b970a403134f9ddda3e164d85e9",
+   2632704,
+   "core"
+  ],
+  "_internal/PIL/_imagingcms.cp312-win_amd64.pyd": [
+   "c89c633ae1bf3f26a327d14ff688db66628e19c9866ab925479f27dcb60a2d6f",
+   272384,
+   "core"
+  ],
+  "_internal/PIL/_imagingft.cp312-win_amd64.pyd": [
+   "77c6d37de41733df40fb36d9af47644989ac17da036515e759303969edb22c48",
+   2174976,
+   "core"
+  ],
+  "_internal/PIL/_imagingmath.cp312-win_amd64.pyd": [
+   "82ac45c41a008854d05f67deda298b65a7bed850d0d79a3af861ed583f6e7d62",
+   21504,
+   "core"
+  ],
+  "_internal/PIL/_imagingtk.cp312-win_amd64.pyd": [
+   "690cc1cae4a2dc8594a342b9241e691dcc89d81dad4cddcefdf285275365a2b1",
+   14848,
+   "core"
+  ],
+  "_internal/PIL/_webp.cp312-win_amd64.pyd": [
+   "9823cebb84f425af3ac1e7437259bc176e7ad7e25d7fa829b0e1a3e55c11be70",
+   416256,
+   "core"
+  ],
+  "_internal/_asyncio.pyd": [
+   "c77de90cad749087a0c5dc5e19d78d24f6ef44e7e5ac19b8420cfc0cea62395d",
+   74096,
+   "core"
+  ],
+  "_internal/_bz2.pyd": [
+   "65f610646d10d5babea080e060d244b546ec52c54012e5e937dc72dcc2e2e7bc",
+   86896,
+   "core"
+  ],
+  "_internal/_cffi_backend.cp312-win_amd64.pyd": [
+   "9af5e4f68a41f26b726f2e9424f9d58a4f5666189f6a48be95f406b257102aec",
+   181248,
+   "core"
+  ],
+  "_internal/_ctypes.pyd": [
+   "0e56107a891100535f2da79d85a5ae65ff1227b4765bd108f8593ac1a1110d81",
+   127480,
+   "core"
+  ],
+  "_internal/_decimal.pyd": [
+   "aeacfead2befcc0768063a037bb64bd32109ae09cb144e5f571b04dd7965db9d",
+   262000,
+   "core"
+  ],
+  "_internal/_elementtree.pyd": [
+   "5009a9a53c03ef8387443b5cf6ce08e5c3a79727466a0b931c5bbca915bf89ca",
+   135160,
+   "core"
+  ],
+  "_internal/_hashlib.pyd": [
+   "03d233dbace599168eaffec823de6ed7beec8c2a4ebfe9b8a3d8e042a59af3ba",
+   68976,
+   "core"
+  ],
+  "_internal/_lzma.pyd": [
+   "e3deecc1f59a3b811c608861decd84de1e8df8bafd5e2b39188861318c5a38cf",
+   161136,
+   "core"
+  ],
+  "_internal/_multiprocessing.pyd": [
+   "2c636df7059cb0dd7e978dd735c7c5c8ddb09cf94754cf9e232296b96c5c545a",
+   37368,
+   "core"
+  ],
+  "_internal/_overlapped.pyd": [
+   "662126ff80c3a1b4cedf74074029c12ae4743e6d3b37376e39ac70aacb7d4d3c",
+   57336,
+   "core"
+  ],
+  "_internal/_portaudiowpatch.cp312-win_amd64.pyd": [
+   "b4c83f7b3535914f49e0692c99533d4a0851c64ee018d424fd015606ece909ee",
+   192512,
+   "core"
+  ],
+  "_internal/_queue.pyd": [
+   "48e76e0ad63f6932b4a77b5819f41c1e7595636ca8d9e824f0943a14b8bb5035",
+   33784,
+   "core"
+  ],
+  "_internal/_socket.pyd": [
+   "3efa4636cf9e350856f6927d67a4c2564bf9bd2758a00bbf17d3aece5b60016d",
+   85496,
+   "core"
+  ],
+  "_internal/_soundfile_data/COPYING": [
+   "ad01ea5cd2755f6048383c8d54c88459cd6fcb17757c5c8892f8c5ea060f6140",
+   26518,
+   "core"
+  ],
+  "_internal/_soundfile_data/libsndfile_x64.dll": [
+   "22518c16f9d13eda5ae5adf999c4740d7d16cc2d6b178b36dd4ac2f759a38559",
+   2364416,
+   "core"
+  ],
+  "_internal/_sqlite3.pyd": [
+   "64b51df2805c58b023a875e8ae3be7ac7f61ef664f32ca6c90f6315da47ef0bc",
+   126184,
+   "core"
+  ],
+  "_internal/_ssl.pyd": [
+   "0bc527d2dbc50009f43b2ed5d5982c4f63f4b647647ffa9eda612dcda80f6040",
+   179432,
+   "core"
+  ],
+  "_internal/_tcl_data/auto.tcl": [
+   "08113823951619d659eb03a1f6acd2f9500e1264795219125a5df7b83cabcb99",
+   21578,
+   "core"
+  ],
+  "_internal/_tcl_data/clock.tcl": [
+   "bd1c2dc481a582ef9eab301468ec7e7c3a284c57617fb2f4a8a97c22576fc762",
+   133009,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/ascii.enc": [
+   "fb87bf197f4f485b08ea81f7534bc07d9c3a538d022424be11011a1fe3c413fd",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/big5.enc": [
+   "ad1ed201b69855bfd353bf969dfc55576da35a963abf1bf7fc6d8b5142a61a61",
+   94389,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cns11643.enc": [
+   "8924545cc92584169138aadb64683c07bbf846a57014c2e668d23b63f43f3610",
+   98634,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1250.enc": [
+   "e2991a6f7a7a4d8d3c4c97947298fd5bacb3eaa2f898cee17f5e21a9861b9626",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1251.enc": [
+   "0aa66dff8a7ae570fee83a803f8f5391d9f0c9bd6311796592d9b6e8e36be6fc",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1252.enc": [
+   "741859cf238c3a63bbb20ec6ed51e46451372bb221cfff438297d261d0561c2e",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1253.enc": [
+   "5b8d47451f847c1bde12caca3739ca29860553c0b6399ee990d51b26f9a69722",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1254.enc": [
+   "31639ca96a4d3602d59bd012540fe179917e0561cb11a0d0b61f1b950eb76911",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1255.enc": [
+   "47576cae321c80e69c7f35205639680bf28010111e86e228ed191b084fac6b91",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1256.enc": [
+   "29340ea8e5ad3532bf67fa77cc852f055081b1238925cb109908aa72804ccc04",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1257.enc": [
+   "c15ab85438728bf2c60d72b1a66af80e8b1ce3cf5eb08ba6421ff1b2f73acdf4",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp1258.enc": [
+   "29d93dee7c01b2264778bc6b75f6ef76ea6ac53e9f4a334d83707229e7f482d2",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp437.enc": [
+   "e5613c04d3d2ee44ccad85ae53a37c257674491c540836e5d942bbcc4e4a8db4",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp737.enc": [
+   "a0415f14f5d72ad24e9c3a5c91517a0e3d22e1adbc3505c0c6e918b961f7a07d",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp775.enc": [
+   "c3c6542e902dec2c44ddcfd8b5cb7abf309b0413a7ced1614dc0b20cf7c5e35f",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp850.enc": [
+   "13df611f429a9b331da1b34f3c718cccaf0bd4ab44f71a9c632197987b4d643b",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp852.enc": [
+   "f3a18a8c7934f6586f023477e08d3f9d5ead9a45e9e58a3f8d018af9bb13f868",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp855.enc": [
+   "e64fd2e639da6f654d9bfbb2266f9432259a6a55941622f5cddc3797e382eb0a",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp857.enc": [
+   "b6cd5c6f2b54d89142679d599ed0a5dee6955a3b3f6b6673e46afe7a5a303cdc",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp860.enc": [
+   "804efa345c5bbbad2449c318a7a3f5b31f4234712aad23dc49b3fb5aa33b7a57",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp861.enc": [
+   "4b7e76aeb75289faca76434ea6e9874e9504ad2bc3d8d47550eadbcc8294857e",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp862.enc": [
+   "6c15cb256b1c22170292589c6f589e64e164eb36ec7e84f0bd48149babb7c5fc",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp863.enc": [
+   "232d6fe34d7151920232eaae9c515f36400ab64136dcc5b802d6245ac6f5d56b",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp864.enc": [
+   "81bebfd9a61e9f17495763b68d57742fab2a1a43871015699a2c8e5fded4ec19",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp865.enc": [
+   "ada1a52064ee93ebe6f8a5d101d01f8776038e12f21a5ca1c006ee833577c705",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp866.enc": [
+   "32a45deba933c7ed99141535087a4c99ba79802175e3f762aca6eb941157f85a",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp869.enc": [
+   "afe6ed6eb5d07c45b6b928a48bc5ef57efcf61602d36ff9fbde4a8ea3fa6df75",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp874.enc": [
+   "4f05f31ca026bbfeeee49ed86504cb060784137a9cfae0e5954d276e837ab5de",
+   1110,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp932.enc": [
+   "6d1b512110beaf2cd1296ac878f51d567848ab4a1ced4f18c72806bb136b3d23",
+   49008,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp936.enc": [
+   "b6ec2be0504ca62b9d1b6857f6baa13ffac5a567d4432f4eab98adc830f5d9c3",
+   134671,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp949.enc": [
+   "477f8b79b67f4a22c963ee65b9b387dbd8e4b8f62d800b0a51d2276580c6adbb",
+   132551,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/cp950.enc": [
+   "f80e05533d1a1494c32f9412e9ad2d9c11faf9ae0668a6f9d1fa5ceedc6870e2",
+   93330,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/dingbats.enc": [
+   "eb9b262e4d179268e6f017c0d4ef0e7034e31a5b4893595d150640ca1f6a1c45",
+   1113,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/ebcdic.enc": [
+   "165be658ab7d61ffc3df1e2f1438c2f9fcee6808a756316302157f44e6d3acd7",
+   1073,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/euc-cn.enc": [
+   "1700af47dc012a48cec89cf1dfae6d1d0d2f40ed731eff6ca55296a055a11c00",
+   86971,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/euc-jp.enc": [
+   "a3c916ba16bcac9faa5a1ccc62aca61452d581cd8ba3ee07ec39122c697274c9",
+   83890,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/euc-kr.enc": [
+   "5448643398685456a11cbb93af2321f70b8659e2fff3ccc534b4d53bd2f38c89",
+   95451,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/gb12345.enc": [
+   "b4894aedd2d5b5ae54b6d2840f7c89a88e9308efd288f179e65936e172ef4b0d",
+   88033,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/gb1988.enc": [
+   "acd50951f81566c8d823670f9957b2479102eb5ae4cf558453e1d8436a9e31ff",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/gb2312-raw.enc": [
+   "c445e4c9f676ae997d2dda2bbc107b746f3547d85f39479951c56f46275ee355",
+   85912,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/gb2312.enc": [
+   "1700af47dc012a48cec89cf1dfae6d1d0d2f40ed731eff6ca55296a055a11c00",
+   86971,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso2022-jp.enc": [
+   "98074c85650a420a095ada9138da3a8a0aa4027be47ea1e97a596f319eb084e9",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso2022-kr.enc": [
+   "234811fc8b0f8ff2b847d9cc3982f1699df1d21a43c74dce45ba855d22520007",
+   122,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso2022.enc": [
+   "741b4c842557eed2952936204d0ae9c35fa3a0f02f826d94c50c46976291797c",
+   240,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-1.enc": [
+   "a9cb4f4ca111608f882729bc5eb1c2f15530c515ef02dd2ca62f2d8dc5a210cf",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-10.enc": [
+   "48f4a239c25354f0e9f83a39f15d4632bb18a9c33e60c671c67307159917eced",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-11.enc": [
+   "21e769c5a66e4d12d6e7db24022e92af1ec0d0331fe3c8c605654f239c0f3640",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-13.enc": [
+   "3271d39d7b4dcd841e8e5d5153d1b8837718b88fefec73dc37d314816eefe5e5",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-14.enc": [
+   "f0a5675027fb1ca34b4e4128d24c2968cd275890569a32a86afa4994ce4983e0",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-15.enc": [
+   "c74e8e23a0ff0d5dea7c318ca20dc817da4e57b0dd61b3361fc0d5098a9316fe",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-16.enc": [
+   "640d977ec1d22b555c5075798da009e3523e8f55f29be22a3050cd1b4ef7b80e",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-2.enc": [
+   "76949b03f57041b07f41902bd7505ab3594d79aa8f7bdeed5f0481004b10cbc3",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-3.enc": [
+   "1f51e7bda64d466c16fee9a120bbe3353a10ceb9dab119ffa326779ba78d8c5d",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-4.enc": [
+   "66b3cf994f0b5e0103d13e812958320afb555c91e3f81b579d4cbf231e6a0805",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-5.enc": [
+   "3130bf26da0c840c1e02203a90c3b1c38966fb203130e2fbb3dd7cb3865a3539",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-6.enc": [
+   "cb71909bf01a3a7a4c7396359da06d206b58a42ad68192ce37169d6640d46e13",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-7.enc": [
+   "76f6bc85fc9cb89bc3f94d36275ab23c740ba17fd36ec8907479da3a885415ea",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-8.enc": [
+   "865e3665743b5faba3e1ad6aa55515a666bd05da6266879d9b66c98905daff3c",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/iso8859-9.enc": [
+   "cf51e867dde2f19553d98feec45a075c4b4f480fb1edadb3d8dad1ebea9299f3",
+   1114,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/jis0201.enc": [
+   "61b14a7c312366f79bb45f02c6b7ee362e6f51cbad5e479e563c7f7e785db654",
+   1112,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/jis0208.enc": [
+   "f6b1c6ac5f5fc4e990a7a1aac16a406012040936431befe7d2b6cd1da9e422c4",
+   81772,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/jis0212.enc": [
+   "785cfc5f5d9cb06db8061730ab0016a0f70d0b59f6787d2a3cbb8d5779c99706",
+   72133,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/koi8-r.enc": [
+   "0e43244bfc4f33facb844b9e00270a1a4c24dc59b8a9b95104e2d788bb2f59fd",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/koi8-ru.enc": [
+   "087f597d223a0835262b0fb963924628fc7316ba2dffb28b73c1fe0db001f531",
+   1092,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/koi8-t.enc": [
+   "b54215edddcbf3c2ba13cb4ba16fa9a152a035b75a4aacfddfa46d1581f2db42",
+   1091,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/koi8-u.enc": [
+   "3c283132d53c4608ca2d2d886aa9e466d1b8e7f4fa5bd26fa2dfe540878abb12",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/ksc5601.enc": [
+   "9b27fe7e7054f36e279993f19e52e18ac03360d117ae80c42b4e984a97c590aa",
+   94393,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macCentEuro.enc": [
+   "81eca6840b87f2def9fcdd171a55c2d71a49386d88401ce927ae57d7ddd7aaaa",
+   1116,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macCroatian.enc": [
+   "bbe6f5ebb5eab08c91df7d524faf39b03aa8b9f84c67aba0553a84ec56668cb9",
+   1116,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macCyrillic.enc": [
+   "76efe571adda7aed467f146cb0bd3a2351f2a720508ea0642c419f5347789caa",
+   1116,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macDingbats.enc": [
+   "062e31d48dc33160999074e49205e08c3655dff91c2c87f254522e6ebce2dd96",
+   1116,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macGreek.enc": [
+   "1aabe561b5c944abd11c293d4acac0f3a4a5a9e84a0342d066f4e3e992348895",
+   1113,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macIceland.enc": [
+   "6fd08ce6fba521d51e8058de5c2dbd6583b80306a8be7d015361f76314e70a35",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macJapan.enc": [
+   "47007d9ebf4d34c6ce3599e50afc7c1cf8129b88994de2c2a857c09003f9cd2b",
+   48813,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macRoman.enc": [
+   "c83d971d6bc0284ef323c197896e38c57a5ff44784e451ec2997eda70c0dd85c",
+   1113,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macRomania.enc": [
+   "0b805daf21d37d702617a8c72c7345f857695108d905ff378791f291cea150f0",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macThai.enc": [
+   "a1802a2feb01b255ec7c17425eee4525372df8ce226f4047d149172eb438f913",
+   1112,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macTurkish.enc": [
+   "afb66138ebe9b87d8b070fe3b6e7d1a05ed508571e9e5b166c3314069d59b4e4",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/macUkraine.enc": [
+   "f7e11736c9ff30102b31ec72272754110193b347433f4b364921e8f131c92bf0",
+   1115,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/shiftjis.enc": [
+   "4a15ed210126bcdae32543f60eb1a0677f985f32d49fce923b9fae8c5bcf3da4",
+   42552,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/symbol.enc": [
+   "9660537a7b62996478555c6f57c1962c78fb3972f19370b2e395c44842818a1f",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/encoding/tis-620.enc": [
+   "50b62381d6edd4219f4292bfdc365954491b23360de7c08033e7218a3d29c970",
+   1112,
+   "core"
+  ],
+  "_internal/_tcl_data/history.tcl": [
+   "eb86cb9d05a7b659b90765e244d535669cb8a78a65a0cf7a2c617e3544d85003",
+   8236,
+   "core"
+  ],
+  "_internal/_tcl_data/http1.0/http.tcl": [
+   "fa7b657aa7d5bbd1bf1e3fbba8bb26fddd6ccff5805625d2e400db5ebe1f968a",
+   10052,
+   "core"
+  ],
+  "_internal/_tcl_data/http1.0/pkgIndex.tcl": [
+   "77265723959c092897c2449c5b7768ca72d0efcd8c505bddbb7a84f6aa401339",
+   746,
+   "core"
+  ],
+  "_internal/_tcl_data/init.tcl": [
+   "acacce15658dd7ce8f69b1e3d3a94770a22972a8e906eb3b61cd06f0ecd5db59",
+   25722,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/af.msg": [
+   "a1eaca556bc0cfbd219376287c72d9dbbfab76ecf9bf204fd02d40d341baf7da",
+   1038,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/af_za.msg": [
+   "1548988458bbf0dfccc23b7487cec0e9c64e4cc8e045723e50bec37c454a8c81",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ar.msg": [
+   "b69d0061a728d59f89ff8621312789cd9f540bf2e2ed297804d22f6278561d85",
+   2018,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ar_in.msg": [
+   "2e04b96da002519d28125918a22ff2bb9659a668a7bcad34d85dddecec8dc0b4",
+   265,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ar_jo.msg": [
+   "5adbb3d37c3369e5fc80d6a462c82598d5a22faef0e8df6b3148231d2c6a7f73",
+   1851,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ar_lb.msg": [
+   "1fc13070cf661488e90fece84274c46b1f4cc7e1565eab8f829ccaa65108dfca",
+   1851,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ar_sy.msg": [
+   "294f3e46c55453edad44567e1330f9b43e69a07fa0655b24dd2780a4490c1194",
+   1851,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/be.msg": [
+   "a636a82c7d00ccdc0af2496043ffa320f17b0d48a1232708810d3bb1453e881e",
+   2157,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/bg.msg": [
+   "cfe4e44a3a751f113847667ec9ea741e762bbde0d4284822cb337df0f92c1aca",
+   1871,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/bn.msg": [
+   "890ea6521deb1b3c3913ccd92562f6360e064daee2e2b0356a6dd97a46264a1f",
+   2335,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/bn_in.msg": [
+   "b3d8a4632290b0f3da690e47c1fdf06a8b9e171a96e938afdb0dd52cf806ce54",
+   265,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ca.msg": [
+   "3be295dcc8fcdc767fed0c68e3867359c18e7e57d7db6c07236b5bc572ad328e",
+   1152,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/cs.msg": [
+   "afea12a16a6fa750ea610245133b90f178ba714848f89aec37429a3e7b06be1a",
+   1354,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/da.msg": [
+   "0d422a991bca13fe9033118691cfedab0f372222ebb0bc92baf8e914ee816b84",
+   1208,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/de.msg": [
+   "4c27733502066e8391654d1d372f92bf0484c5a3821e121ae8aa5b99378c99ae",
+   1276,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/de_at.msg": [
+   "1c02d14140196623297f858e2eef00b4159e1c6fafe044ec65a48c9c24d46540",
+   847,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/de_be.msg": [
+   "532845cd15ec821c1939d000c648694a64e8ca8f0c14bad5d79682cf991481ce",
+   1276,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/el.msg": [
+   "8b23e0e2f0f319bb9a2dfdccdc565ff79a62fa85094811189b6bc41594232b6b",
+   2304,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_au.msg": [
+   "705c66c14b6de682ec7408eabdba0800c626629e64458971bc8a4cbd3d5db111",
+   307,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_be.msg": [
+   "bc87754a253c1036e423fa553da182dbc56f62a13eda811d8cd9e8afa40404a6",
+   312,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_bw.msg": [
+   "ec48f18995d46f82b1cc71ea285174505a50e3ba2017bcce2d807149b7543fd0",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_ca.msg": [
+   "3cf2d0937fd95264549cf5c768b898f01d4875a3eb4a85d457d758bc11dfec6e",
+   295,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_gb.msg": [
+   "c2ce5b74f9e9c190b21c5df4106303b7b794481228fb9a57065b9c822a1059c3",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_hk.msg": [
+   "563450a38db6c6a1911bc04f4f55b816910b3e768b1465a69f9b3bd27292dbee",
+   329,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_ie.msg": [
+   "9e0dcee86a03b7bdd831e0008868a9b874c506315bf01df3982ad3813fd3ba8e",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_in.msg": [
+   "adea3a1ab8aa84237ddb2f276abdb96dcb4c51932e920d1a5e336904e1138664",
+   318,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_nz.msg": [
+   "ec305b7cb393421e6826d8f4fea749d3902eba53bfa488f2b463412f4070b9ed",
+   307,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_ph.msg": [
+   "3a9c22b07906544c04f7a29b800fce87c09d7fdf5c251236925115cf251a3890",
+   329,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_sg.msg": [
+   "d565679ae9aacbfe3b5273fe29bd46f46ffbb63c837d7925c11356d267f5ff82",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_za.msg": [
+   "67c253e2a187aa814809418e5b7a21f3a1f9fb5073458a59d80290f58c6c1eb4",
+   251,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/en_zw.msg": [
+   "6f4754ce29dfa4f0e7957923249151ce8277395d1af9f102d61b185f85899e4e",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/eo.msg": [
+   "98d52cab5ca65789d1dc37949b65baf0272ab87bccbb4d4982c3af380d5406ab",
+   1285,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es.msg": [
+   "e9a6fe8cce7c808487da505176984d02f7d644425934cedb10b521fe1e796202",
+   1232,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_ar.msg": [
+   "b97dcea4fec3e14632b1511d8c4f9e5a157d97b4ebbc7c6ee100c3558cb2947f",
+   248,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_bo.msg": [
+   "b47f55539db6f64304dea080d6f9a39165f1b9d4704dcba4c182dbd3aa31a11b",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_cl.msg": [
+   "9d1a2a6eba673c6f6d964dbcddf228cb64978f282e70e494b60d74e16a1db9cb",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_co.msg": [
+   "5fac53acfb305c055afd0ba824742a78cb506046b26dac21c73f0bb60c2b889a",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_cr.msg": [
+   "a33dc22330d087b8567670b4915c334ff1741ee03f05d616cc801ecfda1d9e64",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_do.msg": [
+   "8dc2f857e91912ed46a94eb6b37dd6170ea7bcddcd41cb85c0926a74ee12fcc1",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_ec.msg": [
+   "52ab5a6c9dd4f130a75c049b3af8f54b84071fc190374bccf5fa0e1f3b91eb21",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_gt.msg": [
+   "19b4d3025156c060a16328370a3fdb9f141298decfc8f97be606f6438fece2ee",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_hn.msg": [
+   "07873d4d59bb41000706a844859c73d26b1ff794058aa83cffca804981a24038",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_mx.msg": [
+   "a0f57137d2c0abdc933e03cfb188f5632176c195ceadb9dc80d469c8dc6cedc6",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_ni.msg": [
+   "6250663da1378e54bedcef206583d212bc0d61d04d070495238d33715bb20cae",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_pa.msg": [
+   "ebb661c1c09e7d4f6fbcc4b2dad0f41442b1ffdd27f003abdc0375dd316e57d7",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_pe.msg": [
+   "90c130b66958cf63cb3ddd2c633e58444357dbab44c56831dd794cbd2eb1aed0",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_pr.msg": [
+   "f790e8e48dc079dcd7deb58170561006a31294f7e4acbf9cf2abfa3db9e3fa9e",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_py.msg": [
+   "70263f7eb22822dfee8849b7ac4418ed9331275a71e77236b59226396505cdff",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_sv.msg": [
+   "26a38b3745c95673d21babb987f1d41ee08dda945c670f5432ba0ce6f893c0e9",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_uy.msg": [
+   "1291b58810739ea0651493dd7887f5ee3e14bdb806e06dd4bb8ae2520c742eda",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/es_ve.msg": [
+   "91191517403c712299919f9c797f952502e33cb6961d1dbee3a7c9e8d2b170b9",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/et.msg": [
+   "4bee224c21b0483cff39be145c671aa20cb7872c8727fd918c0e8eca2bbeb172",
+   1258,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/eu.msg": [
+   "6889b57d29b670c6cfb7b5a3f2f1749d12c802e8e9629014d06ce23c034c7ef1",
+   1032,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/eu_es.msg": [
+   "d45cc432e5743e6cec34e9a1e0f91a9d5c315cda409e0826b51ad9d908479eb6",
+   294,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fa.msg": [
+   "86898728b275288693b200568dc927c3ff5b9050690876c4441a8339dae06386",
+   1711,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fa_in.msg": [
+   "6b56545c1ae1de53bc2389bb7ae59f115bade24f907e384e079491dc77d6541d",
+   2009,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fa_ir.msg": [
+   "3d9779c27e8960143d00961f6e82124120fd47b7f3cb82db3df21cdd9090c707",
+   426,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fi.msg": [
+   "9929a6b7139bd7e0f29487f7888a83e4c4f5e9ce0352738cfca94ee2ddf3bd6b",
+   1195,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fo.msg": [
+   "2ec9b03469fa38b260915c93318f446ea5e12b9090bd441936b57552eba1e3c9",
+   1033,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fo_fo.msg": [
+   "c3dccf5e5904c24d4ad9aaa36160a78f5397a7452510c0c0e61de4de863305cb",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fr.msg": [
+   "96b1e1e12cd13a56722ebf27d362c70b467342fa1282a40b89fb16b5105a0480",
+   1257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fr_be.msg": [
+   "aad828bcbb512fbd9902dcdd3812247a74913cc574deb07da95a7bbe74b1fe48",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fr_ca.msg": [
+   "0624df9a56723ddb89e59736c20a5837dea2206a789ebe7eef19ad287590ca45",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/fr_ch.msg": [
+   "290ca6eb74baeac4e2420d0755d148849f89ee87e37860f25cbb7b8afa3edcbc",
+   288,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ga.msg": [
+   "880806867acabd9b39e3029a5add26b690cc5709082d43b0959eba725ea07ab5",
+   1188,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ga_ie.msg": [
+   "3f9615c617d3cdbc1e127b3efee785b0cb5e92e17b7dabac80da2beaf076362c",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/gl.msg": [
+   "34d61b49dbf9584893051ffb458d6de9e7e2e7774ac0011f70c4dd4184eba81c",
+   997,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/gl_es.msg": [
+   "b5688ca07d713227b713655877710258cd503617e8df79293a971649e3134f05",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/gv.msg": [
+   "404795f2c88d0038f9ed0b5120a251d26edf8b236e1b1698bc71acd4dc75ac45",
+   1084,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/gv_gb.msg": [
+   "86cabf3b9360c0e686cc4cbeb843e971c28bc6d35210ed378b54eb58cc41f3d5",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/he.msg": [
+   "787da79af58872bf45ab09e3b6a920a4496b5bd8a4f3c7f010cf013ec2e8efe0",
+   1990,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/hi.msg": [
+   "192f4a8e77e1627712f85533c9896ef6a040157c7bd56df3a4a7fa56ad6746c2",
+   1777,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/hi_in.msg": [
+   "5a3bf0dd61bfb5a2bf75e96b11e0e3528ffab720a0bf1923853606f8caf0e76d",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/hr.msg": [
+   "105a9180bc5d23738183374fa0ea8dd80484bf3947e1432e515bdc2913c017d9",
+   1171,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/hu.msg": [
+   "993475532f89e1ea7214adb265294040862305612d680cff01dd20615b731ccc",
+   1381,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/id.msg": [
+   "41c0c3d3b4491e9b36e719466503efcd325175cb7824c4a5055cb113d347be0f",
+   961,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/id_id.msg": [
+   "ba7fc0c0452d3e482db6e19bdf512caced639ba72b92ed8f66d80b52fea11ac0",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/is.msg": [
+   "778be3d6bfe2dffb64ff1afb9ec8351a3343b314cf93a68e8f7fd1073ee122bb",
+   1305,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/it.msg": [
+   "1d72170b9f9028a237364f7cd7ea8b48bd4770e61922205ce862300103b13de5",
+   1294,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/it_ch.msg": [
+   "24b5f303f5c7af6f63fdc23adb4d713087ae74b6d18c117d787af03374c5f57e",
+   250,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ja.msg": [
+   "2b6d15a191437f1b84fa7023e34153b61e6bf1de1452ea921e9ccbbe5d4beb1c",
+   1689,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kl.msg": [
+   "96ff17f1cff976e4e204d3616d1efced4d0f907c5e6a0f04b4536cb4ad1190c9",
+   1025,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kl_gl.msg": [
+   "3027cfe9ebd2172cefc15c025786cad47a6e2894bf0474afc1b0c341e70202aa",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ko.msg": [
+   "ef6fb319c398eea79b3a951319f831f3b186d556565d17d738e5f9b4b77570f2",
+   1621,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ko_kr.msg": [
+   "4cac8fb43d290a63a4d3215f22228b358ab4fa174f08712dd6c5b64c5e485071",
+   354,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kok.msg": [
+   "9d215e31a39fed45b3657144e5f73c942e59e500036ce16b1fff201fd6358595",
+   1997,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kok_in.msg": [
+   "644f2b6d4ba27af14891b781def60f708a9f18fc2f73566649b631a6dea3ef09",
+   260,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kw.msg": [
+   "eab468ac5bf1833d4f8cd658789413d4a46cad16b63fb9b906cff6dc9ea26251",
+   1013,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/kw_gb.msg": [
+   "edac14d929d1c6559ec46e9b460f8f44a189b78fb915f2d641104549cbd94188",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/lt.msg": [
+   "855b652fcc8066ba45c7dc8dbfd3807d1b4759ea8d71c523567f47bf445d1de6",
+   1307,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/lv.msg": [
+   "7e90d2008b220db19c796c7107ad69d263b8ac8c7bddfb879230699d978e9a0a",
+   1271,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/mk.msg": [
+   "4c0eb07f0fcb36dd12a3f7edd6531616611abf62bf7705b5a37cc59098221d5d",
+   2157,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/mr.msg": [
+   "ae873bf5484eacbbe179913d43451be53378fa701b5d81594d052266b8a09af0",
+   1846,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/mr_in.msg": [
+   "b7b1d379355a1d278e13ef557a887a662e84fb6a9b62b8e19a27927926270ef9",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ms.msg": [
+   "970b2f3ecc04980fcc2f9531ca6ce2bf36bc12942cb614bf70313b4cb0508985",
+   957,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ms_my.msg": [
+   "f5b859d8dd2a2b5f756e39b0dfeb26b95878d2f54ba3ce46c56f0f26cf2b554b",
+   265,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/mt.msg": [
+   "7dbc4e82d82fde8cdf522fa10e082289d46b0c1a4a7d7a5fa83ff116677f052b",
+   717,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/nb.msg": [
+   "534c5dacef12f818faf4ed806997a559f95d591f1b6236b0c30b07a107dd13f3",
+   1209,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/nl.msg": [
+   "9e2fe3851cf13ec79a9b10a09b01ceb0a26044ae0dc90a4e00be57745e854c79",
+   1129,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/nl_be.msg": [
+   "77a69dd60d171b321512b14794e75a66ff753410c007997b310790d86e09b057",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/nn.msg": [
+   "06fa2d6d8c59d0b8eac2ede5ab0ddb8b6e095d1a023b1966fce3b65916fa14fb",
+   1200,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/pl.msg": [
+   "61462c325db0065352d8155307f949869862a86cac67ad7bb6703f57a7fa2ff3",
+   1263,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/pt.msg": [
+   "6f6eeeddcf232bdcb952592a144810ced44a1cbb4bcc2c062d5f98d441505380",
+   1177,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/pt_br.msg": [
+   "320be7d5b730091e6fa35f196314737261c8e154577dcf6ac8c2057d44394ad7",
+   286,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ro.msg": [
+   "25ed6ac7a353e23b954b98611ae3b7e56bdcf2b0cb0db358253cfb8bebbb831c",
+   1224,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ru.msg": [
+   "bb35bb6f07baef72c329ec3e95d6527a2736070ee2ffe5de227e1ff0332390f8",
+   2091,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ru_ua.msg": [
+   "13e4e79a0ed82034bade0cff8def5de1222f6968108ad710662bdb7daf36d7e1",
+   248,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sh.msg": [
+   "e65d6e5e837df0a2df0db77bce45334bbc27efff9023c37119e75d49932d9d6c",
+   1212,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sk.msg": [
+   "976813f6c53c9bebbf976b0f560fd7fc5e4ec4c574d7e1cd31f9a4056765cb7a",
+   1255,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sl.msg": [
+   "11a6264676dbed87e4f718075127e32e107854f35f141642454f484984084486",
+   1216,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sq.msg": [
+   "1f4efd78f6b45b65f73f09b2f52fc13c2a7c4138dcb7664804878d197b6ebdf9",
+   1321,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sr.msg": [
+   "fa00a7b22c9941f6c2b893f22b703dcb159ca2f2e4005fd6a74a632aeb786bfa",
+   2087,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sv.msg": [
+   "483916b51bd7e071e88f9ec36aaf3e08fea823991532f832de491c6c40b55a9f",
+   1219,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/sw.msg": [
+   "1da068c9aa02ef14a2440758c6040d632d96044a20ec501dbb9e40d8592e0e7f",
+   1040,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ta.msg": [
+   "aefdc4255890d5b3ffe5cee1b457b7d711283c2287aba644155c10956012f6c1",
+   1874,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/ta_in.msg": [
+   "4978a193076de56944236f7f1dcecacff739536dfb3dbefc1f7fe2b97a8aeaf4",
+   257,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/te.msg": [
+   "9e96c7123100234a7018533764502985a208f2eb3314f5b6332d46016725a63f",
+   2149,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/te_in.msg": [
+   "b110feedda21eccefa624bef8e1476e9f221fb253880ac370967ae4d0237ca7a",
+   419,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/th.msg": [
+   "48beaf693bf5b6eed15234db0d375b97e6d576a749e9048420c153e6cafc0259",
+   2359,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/tr.msg": [
+   "4b85b345d6c43f7257c6849a60a492397fd5fd9d82df3a2252189d7a1eccbb64",
+   1183,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/uk.msg": [
+   "7093da7e39ceb6d3f51eb6cf1cca2d7f3680ed7b8fe4a5f0ceceef6beb21ac77",
+   2165,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/vi.msg": [
+   "e9b7aecd456f1d2288604c982b5ded0dcf71dca968c0b0eaff4ca16cc3b73ec2",
+   1471,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/zh.msg": [
+   "eb247f5184a59414d3df7e3eca51f5998c248cfb27d2c02e62a7a30ab35197a7",
+   3385,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/zh_cn.msg": [
+   "4c8a855700fefe8ee21b08030ff4159d8011ae50353f063229c42de6292475cf",
+   319,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/zh_hk.msg": [
+   "7e1c5bd9ec1a17bb851b0dcabd0dfa9ff9d64b89603d9d3fbeaac609172346ae",
+   780,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/zh_sg.msg": [
+   "500546b3211d454659d845b4ab9aef226125100df40407c49530de17cdd4363f",
+   347,
+   "core"
+  ],
+  "_internal/_tcl_data/msgs/zh_tw.msg": [
+   "dba0584b8e1925b439f06e0bf0965e97afb7eb39e70e0e4c9b70769ebc5f996c",
+   354,
+   "core"
+  ],
+  "_internal/_tcl_data/opt0.4/optparse.tcl": [
+   "b8ac6c849dd7ee771f9d95718c3b9fc289872f05bfb1a36d32fde8edcba5e1c4",
+   33781,
+   "core"
+  ],
+  "_internal/_tcl_data/opt0.4/pkgIndex.tcl": [
+   "68accee3eb8d0f134f9472c95425190ec08e7793df20a58d7d35325f42804695",
+   636,
+   "core"
+  ],
+  "_internal/_tcl_data/package.tcl": [
+   "b471cec9056b62d562020b14d69d4bd1f92dfe158afc8ba81c6341836211ca46",
+   23983,
+   "core"
+  ],
+  "_internal/_tcl_data/parray.tcl": [
+   "e269029c8263e3cbc1920c3604ecdcf15edccb208a0d68f9eb42b73954d620c0",
+   844,
+   "core"
+  ],
+  "_internal/_tcl_data/safe.tcl": [
+   "5359b1a04e22823101661590136325561524372ae0f5dc7dd320422689667201",
+   42328,
+   "core"
+  ],
+  "_internal/_tcl_data/tclIndex": [
+   "577f042bbe640e2739606a1f76098abdb8bd1d1f31526402fb82b21091644f65",
+   7432,
+   "core"
+  ],
+  "_internal/_tcl_data/tm.tcl": [
+   "f0cc13daca21fee538cca757aa09e88a969a85174eda26e61e573dda6c7ba413",
+   12236,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Abidjan": [
+   "7213997bb9cf9d384a7002b8c8efef25c01aba6083d9835a16d583d5dcee40a0",
+   147,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Accra": [
+   "6040827afed8cef45f252fbd7e3e862c0b5e9d06c1c98c58bad61dfe67bd57cc",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Addis_Ababa": [
+   "e11fd8ad8572b684333810cfdc23b92e1acf619875866985e288d92f8277d07f",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Algiers": [
+   "e6874647561ce1c5fd1f650c9b167f77ac5b24fd2026046399a9043cf998e5c4",
+   1080,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Asmara": [
+   "064eb7f9a1fa05a317c6bdca6b102bc1560d980758f9e4ddb010c9e7dc068ecb",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Asmera": [
+   "76939852a98ea7bf156d0ac18b434cc610daf5232322c0fbb066cd52c5b72af7",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Bamako": [
+   "f6d1ba22115a6565b6d6abeb578f001ddb41e673c422c8ea70d0df77b24115f6",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Bangui": [
+   "5047a507d22b68c9349eb6a48c41c80db4c69f98f99c6574059dea87178e36c0",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Banjul": [
+   "77e610a02ccece3045b09d07a9be6100f5aa9c3c2aeb543535c9ae941194f4e4",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Bissau": [
+   "e94b39b22b972a1ef1d72298ff17fa6ea7612b60ebcbe910d434aad252335327",
+   175,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Blantyre": [
+   "8f700409b8eee33ace5f050414971ffee0270949842e58e9299bb5cd6ccf34de",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Brazzaville": [
+   "596db2d64cdd6250642cb65514d5bcb52f3e3ea83f50d8915d9d4fdea008f440",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Bujumbura": [
+   "9a15867255b43a954ca60da11660f157553aab6a15c50acd49d182276e0cf4cc",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Cairo": [
+   "a7985e0d2273b26bffa18ee4d87f10fb1afb9a0f316505919fe99a24909f5e3d",
+   8472,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Casablanca": [
+   "310eb69ed18ede89832c95c820bef8b75f48433039d149493859ec5c2bdbb654",
+   5335,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Ceuta": [
+   "8827f7311ede69a9679bdf2b7418dbf350a2fc8f973e8b1e1e4390d4d5c6d2e8",
+   7536,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Conakry": [
+   "3176c99fc45337cbce0cd516de4b02b8baa47d00e84f698122a2add57797984e",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Dakar": [
+   "d50f9732757b284bac75526f2cfa585df7f6974160827afb0ff66124c7cfd361",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Dar_es_Salaam": [
+   "ab69948637416219a3d458777990fa4568bebc89388884bbf129c0e1370a560b",
+   191,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Djibouti": [
+   "e7f7560ccd65d53c446adae7128a74d37e17dd0b907a2f2fd85322fb8707b497",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Douala": [
+   "fcf2dad148f4d2951320ea99730c56d5eb43d505f37416be4bad265ce2902706",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/El_Aaiun": [
+   "41e4035fa6505460a6cdae205858c10039e84d23b8fd5fb1bf4f4d42c119bdd2",
+   5049,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Freetown": [
+   "bc53a4d489f48f14c594c4b0e52079b34e043a5751bbc7df254a560352243575",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Gaborone": [
+   "653af88955c4418d973e2f8681a99552eb7be95bca64c736072f488462f7b373",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Harare": [
+   "06b82c524585192e0e8fc69dcc1cf86183a8c5ef404645dc413fcf3f8c16b0ab",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Johannesburg": [
+   "5eef6475e1312051037fcae3354e32dc0910be7a5116b71f8ccbe1cca08d3f1c",
+   309,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Juba": [
+   "f2646e15488abf2e960759cefe5705416e71da71bb8407b26196244fd1a3394f",
+   1127,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Kampala": [
+   "8ea3028ce2b025f0c457dc8f7601279ca5af565a88b9fe80208f9f1030f2b0d0",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Khartoum": [
+   "f475db8a857a46b310b12c21d6a9bc6ca9ff2960da429a9d57fa375f9439e13b",
+   1131,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Kigali": [
+   "73feb807006897b4b485cb82394867444e890265efe960ec66d6c0e325da9372",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Kinshasa": [
+   "611375c4901ad6c4844c2bb7d02fb17f34996f49e642546a6784d6f0b28530cc",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Lagos": [
+   "b50f0579651479dd48278f6bc75b8ee1a7ae234efbbae9039a1d366adf6bf710",
+   232,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Libreville": [
+   "ab3e797548c7663cf9aba7fe163635ff7cab9e6cb61fa1644c0f7b4b5cce8b99",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Lome": [
+   "eaca9124f17e5b11f27d11fa6141d19eb3ac23e155e155b73467bdaa3bc99aa7",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Luanda": [
+   "4c2fd1e44dfaaf0c0dd2eb56b84b538f1e2d84b301ab2cfb8ee7759783501444",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Lubumbashi": [
+   "24384eec359fd24d181aaef3c017e3c345490a8d352b29d19b1b143a29a811c2",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Lusaka": [
+   "b00801a7279741434d9c2d7ec7322dd93b85ea4f5c9976ab3a43f0ab142e1553",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Malabo": [
+   "35d56effe9e7e60f17b32bd30486e566b635f0ae7a8948d77395b8e6332e26f1",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Maputo": [
+   "af4518b61d574f993dfe38fb02d288b37a13b736f55fc5b03a133a6ef9fe4e4f",
+   149,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Maseru": [
+   "1d80fd86cb733d57d88ecd404e702f750b233ed0ccbfbfffeed1aad3b7f1cb04",
+   199,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Mbabane": [
+   "547197c09c1987350ae5720a4eec7e8d8f4b9f4a0559726e225e13c707f7c564",
+   200,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Mogadishu": [
+   "25e221be49dec5547a74aeb91b0041859c59bc866987272a447ab2343d1cc30c",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Monrovia": [
+   "2bf0d90610211651127402680519b29ab50b15d344263d0c1a22edebe5e01e27",
+   208,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Nairobi": [
+   "b17c8e19eef4510639a2e137559cf98e9f09ae139f436944e298f029f52ab68b",
+   268,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Ndjamena": [
+   "9ada5f5afb25e823e1f0e8ad2489aaa1c09f01356634a9403670d7ab21ca2e2c",
+   208,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Niamey": [
+   "b517120ad8db3f21eab4e44a78001ee856eb4ea35852c54cca96d38887debcfa",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Nouakchott": [
+   "64caf2bf9d45095df97f419714d5617cf6300acdb544b621dce1d594aa9b910c",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Ouagadougou": [
+   "03b9c1fe350b5e9f6f333f9519fa394dcc562308d9388a903af3d3fecebdc762",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Porto-Novo": [
+   "8fb8692db9281ae2b087d704168bfd47d3d0901781fef65bfd62fcb213ba6b50",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Sao_Tome": [
+   "ba1d60df2b41320f92a123a714e17e576c89383526b96e0541a464c3fba415b7",
+   234,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Timbuktu": [
+   "9d8009acab019b32b1e87ab10e0ac3765abcabe8066318da8ca4905d41562f72",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Tripoli": [
+   "b447b6b1c351e77f22a2d77c0437f2bbb7d8bdfdfdc3d6285e0d260519cc7110",
+   954,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Tunis": [
+   "0760d1028e733888e43e7f1e057217dc2b52786029fcec67b27eb69cc6a54938",
+   1111,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Africa/Windhoek": [
+   "ca5388dabd017763ee2f4edcdfac0c2126cebfe4982c17b34099f9cc15eaf5c7",
+   1646,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Adak": [
+   "77231d179260c08690a70aee6c2517e4b621ed4794d9aeea7040539f4ff05111",
+   8447,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Anchorage": [
+   "de7fbe2b3ed780c6b82099e1e249dd41f4452a3adb9dd807b1d0ec06049c2302",
+   8685,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Anguilla": [
+   "f38610019c0a2c18ac71f5aa108b9647d9b5c01dcb55211afb8312308c41fe70",
+   202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Antigua": [
+   "561e58e11dc5a86cae04b5cb40f43efcff9abc0c841fac094619e9c5e0b403f8",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Araguaina": [
+   "8aa7b6d4c111cb9cd56f7561c853af7a71e2ed4288ac3924e8f022cc474c920e",
+   1727,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Buenos_Aires": [
+   "d096aea480db239bb483cec9f69b1937698e97a1960e024e8d0541c1ecc5fbe2",
+   1987,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Catamarca": [
+   "04b05cd47c1dcf2fbf2c401b5c4c1578f28019cc14d42f1b53d0fb62dfc3dc8c",
+   2015,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/ComodRivadavia": [
+   "8ccd6fc77d55582938f1912b1ba66035882d1bfc18a797c631e5e89abfbf570b",
+   242,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Cordoba": [
+   "65569e4afdea8a58c67cb35035e72ef4c643eb8a4371d294700894eb159be9a3",
+   1982,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Jujuy": [
+   "e78a0909b13ed9e4618706d2b47c7de0b2c26edd92446c9cc93ce710c65b3404",
+   1980,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/La_Rioja": [
+   "9b1f93180355d98dcdc57a78a7977a3eb3f525b87d74bc352798522543671deb",
+   2043,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Mendoza": [
+   "7cff9a463454388855b917b65f632665a3db539888f86de6aafe466863e1ca2f",
+   2015,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Rio_Gallegos": [
+   "428690a6b0223c0456b2224bb4b8d76068a6c6309c13f54a0723d988b9d2f721",
+   2018,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Salta": [
+   "590fa488243ed8ed910d7bd6e1857037e07397694a8979a32cd236de63dcfa5a",
+   1951,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/San_Juan": [
+   "46f59a58bac9acca75f36401b907190000be010c1c85d22c2a2f1bcb2ab3c2c7",
+   2043,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/San_Luis": [
+   "e89884e428bc842f758e5fe3295476d2d1897a483396f50aed472268d0c4b6da",
+   2019,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Tucuman": [
+   "456a0e7c93b94879e71c3d0071b1cd75428ad2882369d71bfb707a3ad771ab9f",
+   2042,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Argentina/Ushuaia": [
+   "8be90459c5a01f0f648047d78b59dd8a7d01c029101d845aa4ebddbf8073011f",
+   2013,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Aruba": [
+   "7490cd66408b8a14c549278fe67dc3338fe9e458f423f01ccbea00b5e6f6cef6",
+   199,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Asuncion": [
+   "5d671924db9a3bccb7669c278cdc80b418ad89b425472c534075bf37dfadbeb7",
+   7691,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Atikokan": [
+   "518beb6e54ae811f8c725ea8cc42787d48fc605a3476d6e7a00a1b5733cbd6ac",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Atka": [
+   "1d6fee336e71fffb64874a830c976867c071ebf6b133c296b32f87e3e7d814c9",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Bahia": [
+   "44dcda0a887eebf2a5c683cb1005d8af5913f2b42ff456c6a0d85313c5ad0ed6",
+   1949,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Bahia_Banderas": [
+   "0d50303dcd682e5f8007858bf3076f3df07c2e525565f43381a54e83c65081d3",
+   2042,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Barbados": [
+   "fd5e04136506c6543a9acdc890a30bcf0d561148e1063ec857e3913de1eba404",
+   648,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Belem": [
+   "fdc36df200e2e0a11c2d7c2af09ab200bc633e53bc7a0914ab9007c1f8eb9b74",
+   1001,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Belize": [
+   "e07f45264e28fd5aa54bd48cb701658509829cf989ec9bd79498d070a1ba270f",
+   3284,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Blanc-Sablon": [
+   "facd0a835d1f425cd323ee453ade231810b2d1cf6eba227ba1b50522ae3879f7",
+   206,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Boa_Vista": [
+   "94efaddb58f3fe1eeb8de428e1fb92d809f78e396e777282bd29a6d210fa0692",
+   1164,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Bogota": [
+   "cf82454ec9e6c838fcdca8993fa50ed67ccd6823e566bfdcec8db8a10e946cfa",
+   243,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Boise": [
+   "93af910cb2ad2203b71c1ad49d56df4a4a14d07f885afd4e755271f1372a517c",
+   8605,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Buenos_Aires": [
+   "defc5c9da2d4d4146145a50d692a6bff698c3b0a1f19efd82ad0ee7678f39fcf",
+   239,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cambridge_Bay": [
+   "172706b4abbc9b8afa07069ce49223208601d9dc55a986b5814d2d5e5ed73672",
+   8154,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Campo_Grande": [
+   "d5a6fff45797e5a50bd5e8574dd2ae2f6225aef42e57a0f335d3d83a8ca4b2bd",
+   2827,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cancun": [
+   "38b771d352e2a1d7126e4339a5086080925911688a29a3445b61b987c6abd1c0",
+   1442,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Caracas": [
+   "3e8ba6c7081faf41e1e92e7f238deb7c9f7eb1464039e959dd560f38fc0e0454",
+   276,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Catamarca": [
+   "37cd6bdaa6c6eedfac3288ca1c11f5cbbe8a17e5f2e790e7635a64b867afbd87",
+   227,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cayenne": [
+   "9db3df7f240670f7a5b160097abd3c88d94959b81d551ff5f354d06ae2d09986",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cayman": [
+   "c38c49ae1c3e67bd2118002dcfcc3c0efb6892fb9b0106908a9282c414d0bf2e",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Chicago": [
+   "c7707af88d650f90839e7258356e39d85228b33b6dbcc5c065c3d8733ae28cee",
+   11372,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Chihuahua": [
+   "a668ad1d165747e885c2a4e07ab0868d899d04b41cb775d48a75a601874439cb",
+   2040,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Ciudad_Juarez": [
+   "c4860ed8461a851c5cf2db766d3d84478f34461f6d2694ddf9823fcda225359a",
+   6657,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Coral_Harbour": [
+   "c8cbf5a29cc1d0827390ca6e98b2efcf90743c6dd0eca143b300050dd4164041",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cordoba": [
+   "28b84710eadef7ad5e7fa63ef519a9d93996d3bb91dd9018333de3ac4d8fb8dd",
+   219,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Costa_Rica": [
+   "e3061dc6fa9f869f013351a9fdf420448592d7f959c2b4404093432508146f7e",
+   431,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Creston": [
+   "a01ddb460420c8765ce8ef7a7d031abd7bdb17cfa548e7c3b8574c388aa21e17",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Cuiaba": [
+   "68fdc170483e72748fac6a616cd4999af9a2fba192faf6544046b80dade654f0",
+   2821,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Curacao": [
+   "accf08cf53c9431e226714df8bede3c91baf62d5bd7b98ca8b50d7258124d129",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Danmarkshavn": [
+   "7a3e479bd5001002501d9f97523d13ec487a8ef98d792ce471553f2fb692150c",
+   1095,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Dawson": [
+   "685a9281e2e864562d35efddd39f553b89192c7fe0ce9f29cf51b8332a88a843",
+   3028,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Dawson_Creek": [
+   "540804becdeab92340ef02d32a62bfd550b71a3db8d829be426ee4d210004643",
+   1940,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Denver": [
+   "3fe2ee8c05c5d6f268b58bd9fc3e3a845dea257473b29f7b3fb403e917448f3c",
+   8920,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Detroit": [
+   "84f6897b87d3978d30d35097b78c55434ce55eb65d6e488a391dfc3b3bb5a8fe",
+   8430,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Dominica": [
+   "3da98aa7d3085845779be8ed6c93ccbda92191f17ca67bbf779803e21da2abf3",
+   202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Edmonton": [
+   "026d51d73d30a3710288f440e0c337e44e3a14d0aa2d7b6c6e53af43fc72a90c",
+   8600,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Eirunepe": [
+   "786d782cdc27503a316b841cdcc016ac7a57c7f1314e1a7850c4faf3ff209561",
+   1194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/El_Salvador": [
+   "c02c6e79398553bd07bea0be4b7f0ebdd8bc821595909cffb49de4290a0d1d0f",
+   279,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Ensenada": [
+   "3e363bf82545f24cce8cfa6eec97ba6e1c2a7730b2a9ce6c48f784821d308a5d",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Fort_Nelson": [
+   "ab15023807e7c7d1026c9970d190f1b405d48952464025242c2bb6c6bbb8391a",
+   4578,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Fort_Wayne": [
+   "c8948616262cf6990739343abbbd237e572db49310099e21dd8f9e317f7d11b3",
+   231,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Fortaleza": [
+   "d3556bace8ce27e315897a3236ba50a3c4d52a64dcae2c90c32a2794e94c3e2e",
+   1380,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Glace_Bay": [
+   "58c207cbd9de7a7bb15e48a62cea9f15da184b945133dee88eff29fd8b66b29e",
+   8372,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Godthab": [
+   "5fb2cfba25ce2f49d4c3911aff8e7e1ff84efc2d01f5783772e88246bfbc56ac",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Goose_Bay": [
+   "52d2478289682bf95bfb93d64d679e888c9d23c0f68dfff7e6e34bfc44b3d892",
+   10353,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Grand_Turk": [
+   "560b39485ced4c2a0e85a66eb875331e5879104187d92cb7f05c2f635e34ac99",
+   7522,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Grenada": [
+   "ebed070e8e67c5f12ff6e03fe508be90789f17c793dfe61237b4045b8222580f",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Guadeloupe": [
+   "6cb1930532831d12057fcb484c60db64a60a4f6d8195dafd464826923116a294",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Guatemala": [
+   "14f6a98d602f3648c816b110f3a0ba375e1ffe8fa06beeab419dc1abfa6edcaf",
+   399,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Guayaquil": [
+   "b79096a07a7bb354bd06d4c94672edffeca0437f5066bb117c2715d0083f2e08",
+   246,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Guyana": [
+   "6c59c37181b60d9385f748ede8fd8d07e0a26b587667dc71849fe5dbeb6701aa",
+   242,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Halifax": [
+   "01e11c7b07925d05e9e1876c310a2b87e0e80ef115d062225212e472b7a964f1",
+   11124,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Havana": [
+   "96b62bfbf0c05cf970245597c691f89ebf631175796459642a85287f131d0215",
+   8729,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Hermosillo": [
+   "fcf2b8602da22cfc5b1ca115e5acf73b3c7c8d1caef46804e6b2ed748ee79f5f",
+   589,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Indianapolis": [
+   "4b114545167326f066ab3a798180896b43ac6fdc3b80d32bcc917b5a4a2359eb",
+   7230,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Knox": [
+   "f1253f5f3f5aacd1a5e1f4636dd4e083f4b2a8bd995cf3e684cdd384641849f1",
+   8755,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Marengo": [
+   "675162381639598e7100e90663d42780f8ee1cb62bd6da5b948b494f98c02fe3",
+   7273,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Petersburg": [
+   "23b8fa75ce0a9555dfd84549723a12679ff7fc5faa58e4b745ba3c547071ff53",
+   7611,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Tell_City": [
+   "d368123db703b55244700876906775837d408c274c5a5801d80b77eadb6d5853",
+   7100,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Vevay": [
+   "0623233aa39a1a82038a56df255adf49e648777375b8499491c8897ebea1cdf1",
+   6563,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Vincennes": [
+   "b8452b6aa739a78ac6d03806463b03d4175639593e19faa3ca4b0d0fb77f18c9",
+   7226,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indiana/Winamac": [
+   "4b293fdb7680c4597b8c885333719214492ecf09bd5ea342d1ec15f2bf9c8605",
+   7410,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Indianapolis": [
+   "437da148b94dba4cea402169878541db9c3419abab6750d1c36625dd3053019e",
+   233,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Inuvik": [
+   "0fffe17a60fdbb958264704ac03d6f79a6754bde18c54a663d3cff9cfe7432f6",
+   8053,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Iqaluit": [
+   "e85abcabec22efeb3de45545fb1853ac5cbc1900dbebe3c90e8a868281e64b86",
+   8086,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Jamaica": [
+   "4b9d5177cba057cd53d53120a49b8a47eccb00150018581a84851e9d5437d643",
+   847,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Jujuy": [
+   "4a0495852cd4d0652b82fb57024645916db8f192eef9a82afd580d87f4d496ed",
+   211,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Juneau": [
+   "5fbe6a1fa2d3dfe23c7378e425f32bebca44735da25ea075a7e5ce24bfd4049d",
+   8682,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Kentucky/Louisville": [
+   "9eb1f2b19c44a55d6cc9fd1465baf6535856941c067831e4b5e0494665014bf5",
+   9553,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Kentucky/Monticello": [
+   "1c6c7fb0ae628eb6bb305b51859c4e5594a6b0876c386ed9c1c3355e7cb37ae1",
+   8558,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Knox_IN": [
+   "d66e77e6ff789d4d6ca13cdb204b977e1fe64be9afee7b41f2c17ed8217fd025",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Kralendijk": [
+   "5af9b28c48661fdc81762d249b716ba077f0a40ecf431d34a893bb7eaba57965",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/La_Paz": [
+   "6a410f2004f90feb65ce17e7b8db4cf5cc538d7cf53956a9dc0f11bb734a8180",
+   217,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Lima": [
+   "7014064702198dab0fd229b5ff89a92ec7c1b7e3b4b7b9cde2e6f0621c6b4c96",
+   450,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Los_Angeles": [
+   "da3f7572f04e6ae78b8f044761e6f48d37ee259a9c1fe15a67072cc64a299fdb",
+   9726,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Louisville": [
+   "f85c1253f4c1d3e85757d3dea4fd3c61f1aa7be6baae8cb8579278412905acb2",
+   228,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Lower_Princes": [
+   "1e786229b84ce86db6316b24c85f7cf4cfe66011f973053ad0e108bfcc9a9de2",
+   207,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Maceio": [
+   "7f404cda1796c0d849f344e0dc5d3803fd37727c534137275d6b62cb3d4c37ee",
+   1492,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Managua": [
+   "f0f0cce8de92d848a62b56ef48e01d763b80153c077230c435d464cf1733ba38",
+   611,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Manaus": [
+   "0fa52c1f3ebe79d3f3207517d6271d8da2e6a6e00911a91ae92837b52f33c2ea",
+   1132,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Marigot": [
+   "5c26d7ce93f91cc4f5ed87e9388b1b180ef9d84681044fd23cc01a628a1284ca",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Martinique": [
+   "d411fb42798e93b106275ec0e054f8f3c4e9fb49431c656448739c7f20c46ede",
+   251,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Matamoros": [
+   "59c658cea1bf5392a8f16295a09a74230efb52ef7bf783e493e9a9c1799036f2",
+   6745,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Mazatlan": [
+   "dd7b0c21909964639b9dc67546d0dd437c5cf764f89f9d2dace1f2fb943a93eb",
+   2036,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Mendoza": [
+   "d6b308a1619f2de450dacbfef0e11b237df7375a80c90899dd02b827688cb4b8",
+   219,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Menominee": [
+   "b0863f8b66f0848020651b69e7997307d62209259ae653fdc1a0fafc8e793068",
+   8410,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Merida": [
+   "cfb71e4426e66ebcbf397c5a1bba4704315473edc76aa4bce278ef98035a9026",
+   1877,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Metlakatla": [
+   "2574831391092ad44d7b2806eef30d59ce3bae872111917dd39ec51efdd62e5f",
+   6705,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Mexico_City": [
+   "655d65e7600aa3c303cb674e96e47e0648f6320f38fe60a4c49d9580c267965e",
+   2261,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Miquelon": [
+   "bb8e64e0bcc5dd2f28b60ba3053e544cd101c20f88694e05eb00d1657be86fa4",
+   6852,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Moncton": [
+   "d977d045de5cdaeb41189b91963e03ef845ca4b45e496649b4cb541ee1b5dd22",
+   10507,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Monterrey": [
+   "983908f77c2221181adb96969baed58b32349842c455e31cfd9eebfbda7e26be",
+   2100,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Montevideo": [
+   "88921d674fd32c3d92326373ddf82d2a5f04dc03ca2eb628cab0987b9a2b13bd",
+   2800,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Montreal": [
+   "97f48948ef5108fe1f42d548ea47c88d4b51bf1896ee92634c7ed55555b06dbd",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Montserrat": [
+   "6c3ee46983a3daa91c9adf4b18d6b4b80f1505b0057569b66d5b465d4c09b9c1",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Nassau": [
+   "a889810b8bb42cd206d8f8961164ad03ccfbb1924d583075489f78afa10eaf67",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/New_York": [
+   "7ba7da179aa7df26ac25e7accd9bd83784174445285a0d9ccbd7d6a9aa34f4bc",
+   11373,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Nipigon": [
+   "55c37bf1a579a22a790ade6585ce95bec02da356e84d2ef7832c422a4484ff9d",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Nome": [
+   "8e971c9560cce548b46626d072e62ab0f4c9682bf6a6abfb4d0e8d63745402fe",
+   8680,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Noronha": [
+   "d8c0aa1745967c8e0dff6a1774ebf31fd0ecaf85f607663bbfc6aab265150187",
+   1354,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/North_Dakota/Beulah": [
+   "d0d8b108453265b60f525a4ec04de9555087cd6ac5ddba980b3a96cf0fcd68d1",
+   8557,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/North_Dakota/Center": [
+   "abc2b6c97d9e9fba37ac582adba2ce996890d090060e083405d75cdaed9eabe0",
+   8557,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/North_Dakota/New_Salem": [
+   "8803ff7c81c933b57178b9d3c502fb4268d9aa594a3c638a7f17af60b12d300d",
+   8560,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Nuuk": [
+   "08947aedd8967538ef065a5c35999409440515aca6d8a2bc45ad1d8ad7e53394",
+   7111,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Ojinaga": [
+   "e1abc33d0778840939525d80106dd6a85f263b655aba97a1746d48b70f3fdce3",
+   6874,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Panama": [
+   "990213dde00adceb74c8d1ecaf81b9c77963e4ab1f35767f7349236fc8e917df",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Pangnirtung": [
+   "650a845bd9cec7270438cbea1a19d281b890019242ad782a60af167bd1a0650d",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Paramaribo": [
+   "1c5bfac21f2cc6c292def86fa61ab514d9d167ed2506f540056d5a7a8eab50cc",
+   249,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Phoenix": [
+   "dfa0ec91804b789a1a7e1b1977710435d2589a5b54c1579c8e1f5bf96d2fd007",
+   496,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Port-au-Prince": [
+   "a89c580899ad2ff8df45a783bb90d501dc32c28b92931ca18abd13453e76244b",
+   6613,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Port_of_Spain": [
+   "a4952380c89a6903ffe5bf8707b94b1bb72568ffd03db04bf4d98e38ac82eeb7",
+   207,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Porto_Acre": [
+   "52921eea2a1925df06cea4638ed4128faaa8fba40ed4e0741650b419e5152dcb",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Porto_Velho": [
+   "7e165001997b7ca982eb728d302f445ace93a31943caa6985f09709d7107307d",
+   1021,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Puerto_Rico": [
+   "2981248a9f14ebfc8791ec5453170376cbd549557e495ea0e331cc18556c958e",
+   283,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Punta_Arenas": [
+   "8a16acfd690551735a24ac00e553ac5269ad0eb003a92d89610efda010bfcdf5",
+   3614,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Rainy_River": [
+   "fec74a3fcbd9b99fdff24b54223da187958697cbe756a54592f6171c69f1403f",
+   196,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Rankin_Inlet": [
+   "ac78db0895b016f81c09676f32b69bf38ca216283e7d2f5e594e41df9bcb5530",
+   8029,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Recife": [
+   "588dc90d6e6984f1cb7d1188d0504b1fc17ce0bb5c2219b628a5a324e43d55c8",
+   1377,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Regina": [
+   "50105e788288cf4c680b29bbdcde94d8713a5361b38c6c469fd97cf05503ff7d",
+   1781,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Resolute": [
+   "38c8868acd122c3c60224ee384dfc15bc37d774c68d8463c58762f208fa2fec9",
+   8025,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Rio_Branco": [
+   "c8ec638fe4e670cb214dc9d3391a256e37573f43540d43a19839726d156cbb5c",
+   1080,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Rosario": [
+   "0117d33d4f326aa536162d36a02439fbd5f2eb3b4f540b5ba91ed7747ddac180",
+   219,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Santa_Isabel": [
+   "3b4c2f3a5b9cd22a73f05187c032723d07bb53c9946d04d35e1ba1cb90ca0a62",
+   194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Santarem": [
+   "4caaa57943e75167c66729cd240fe20509c3ce4ea51196cb4d2aafa9aaa32ea0",
+   1048,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Santiago": [
+   "7bfd87de198bd19f981d343f7e64ccc3618c5f08799189e30104bbc88be9a662",
+   8590,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Santo_Domingo": [
+   "2217e72b11a90f2d679c175de3cc0f2fed4c280c9ff9707cffaf118bf9a06a4b",
+   616,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Sao_Paulo": [
+   "18204201715bf516deabc000ae23e3aa337d24772aa01fad786c69e7981bda6a",
+   2808,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Scoresbysund": [
+   "eed7e7b534f04927fe9035a1281bbac1e9fd64aa95bc5815bf7652c18230a433",
+   6902,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Shiprock": [
+   "bf4fab3ae72cc7fa4f9e34cf0551a85c54a084cd826df5d9cc684de6188e84db",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Sitka": [
+   "abb08435cae80119068a85984bffe9c1596f4fb90f07cc01124c907e5162c189",
+   8651,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Barthelemy": [
+   "353cdbd46ba8c7472a93e9e800a69105801f6784b22ec50a59294cdc3be40e18",
+   207,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Johns": [
+   "e2917204b0c843c32051bb371cf6d0ad272c02720b9c0d913ac072c8abe1ec64",
+   11289,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Kitts": [
+   "edb9457a7c64e47062bdc6458fd3bcfcd6c37820f1a2bc89dfe99ed77355011f",
+   202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Lucia": [
+   "6727a509bb937cb3446d41b57826de70c7028e96f088ab5b7f803beaa18279e8",
+   202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Thomas": [
+   "974aeed3d79124b50265c83d84f23cbe4f0328d00c75f42dd3abc5d4c0a78de1",
+   203,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/St_Vincent": [
+   "6b19404d295964ef66f47802836bb728fce8e6481115797c0b5f200c354d7c8a",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Swift_Current": [
+   "939b25c9412b9e25d73f552e87826999fc8c929770e66491d1e4530046d3e758",
+   874,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Tegucigalpa": [
+   "1f0503579b0dddbaf88814a278127d9cd7019edd3c35f4cbfc0ef11c0edafe5b",
+   341,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Thule": [
+   "7fb0cbb101d3b6fbb6b9dad5446bbf9e6aec65ec38472739e604f68f6aa9ab7b",
+   6890,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Thunder_Bay": [
+   "845101f85a6daf9deb58a075473f9e541a0b68461677779b1461de59e3fa3d18",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Tijuana": [
+   "e43879f52b81508435f428e20397599387c90008a66148d14b21e7d1ab45015e",
+   8941,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Toronto": [
+   "05c99d02d1f30e578cc3f1b0c1a30432953c8d7469bf23ceda82e4450446c9f2",
+   11248,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Tortola": [
+   "46a236ec38f3a122d414208328a462b2a937392ecc6c55f673fb7a402f118d96",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Vancouver": [
+   "00b5fb8f37dff43925c501aeab039f39f058e002572c4203286317046cc1d700",
+   9815,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Virgin": [
+   "561d9d04b0ce0f96a9c351c7d5c30aa1d5a42a3d70066cd9af0da6cbc5388dbe",
+   200,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Whitehorse": [
+   "247049f795fdfdf7a9b3957ef6b1482540092aec49147b7479e61551b6a31f47",
+   3033,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Winnipeg": [
+   "f3fc5f6d93d1d9eb0f3ded33873f33c47f841797d96439966f8e0a5a189941fa",
+   9695,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Yakutat": [
+   "79b44f245d86a4ec299d1a9a2edb2ab92d50ab5a7c1c03759d283ac4070f9005",
+   8683,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/America/Yellowknife": [
+   "b95db5099c5c96966056e292f0c8ba590a5d1a2417cc939cb7ac39a097b99b28",
+   196,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Casey": [
+   "02de46c7ace9d304513444e3e4a1b0de1976e7639d5e109ee9a97cf62dbe998c",
+   611,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Davis": [
+   "d543698d6ec4e90f19bf4223a46762d6286c07c7a1586453fa0356e659bec9a9",
+   318,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/DumontDUrville": [
+   "96f2ab9a9ffcd10598fdf105f68460cc4b4ebc1f18054d1bc8e39df6ad24d1ac",
+   214,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Macquarie": [
+   "c4ea7f1c0b5a0fae653419f1c6d058bddd745a3cdba11900005c157df23ddc01",
+   8447,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Mawson": [
+   "4243345b1f84890a43df00ec0c7b89552491e3780aa6b03e36b80224ee7c80e9",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/McMurdo": [
+   "e9d99293c5b275d8e0d7b066084177edf670d5b52b81e87608bab02025f33155",
+   195,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Palmer": [
+   "eb503d223cbd9d9d7ee5b9603913bd606701f864ce0494c6035a7df4fe7f1ee1",
+   2531,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Rothera": [
+   "e18c4d2bbbd09769363d520c25bc437abcfa500cc1a0928bdc0f642870b793cb",
+   150,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/South_Pole": [
+   "88057832175bb642b23fc99f788a2f78a24005cf1f84a7b1b5e8c84fb8f4d4c1",
+   198,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Syowa": [
+   "2488805de4fea42305689f679f1ae2d80b1e934e657fea329ad39a82dac63022",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Troll": [
+   "6fd5ab8b7b308cdcea4b747a81d8675988ae218813c91714fc4ca97919cebea5",
+   5370,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Antarctica/Vostok": [
+   "8cec10a80eb3b5868d1f82467fbdefd7321536fce83cb36f4d4798209f6286b7",
+   231,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Arctic/Longyearbyen": [
+   "25462b656d240da6b01c1a630fac04b25dd65c799b659be1c8bd3ab62610966f",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Aden": [
+   "8fcddb246932baed880b70c0ca867057e7989aea55eddc174430e1055cd1058d",
+   171,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Almaty": [
+   "a971af887cfe7f4e7cb33b46e6ebd40b84d21366a7e5f7f16dc3ad857590746e",
+   1614,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Amman": [
+   "e42e734e7418f1654fd0c8d849e43f7a03d5837cfe596609236d7415fc53378e",
+   2681,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Anadyr": [
+   "23d5664ac62a61a91ca55820846911b8487733e2b22631da60b8a9e4f2b92e1b",
+   2019,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Aqtau": [
+   "7c25c516c80b237b9702bb211dffb172d0f059803eb878b42ca7531a484379d2",
+   1612,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Aqtobe": [
+   "1e805cfdf389dd09ad7d51e00faffd85f68403f982b1872df6f233aa0efe16af",
+   1613,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ashgabat": [
+   "5c8a8de82d831790ce8b8710702faeae29c4ac8ca76f8b918a5bfa131f4d0715",
+   852,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ashkhabad": [
+   "2c752f641b98e3c05b14ae31330d1f198daa4a7e354ba9670c7754926bfb891a",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Atyrau": [
+   "e714d90b78db803b10c205dd9cf1e86ca906f24180d0e462f9e7327c043f3487",
+   1613,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Baghdad": [
+   "4f81b9715dac338dcd21c02077eb6f8ec3ae0e248c694f834181ef8f9cf10515",
+   1649,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Bahrain": [
+   "3d437037fbf2bbdf969c8e71967080947f24860d431b39f5d8f23151316abcd5",
+   171,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Baku": [
+   "5858d7dcbdc1b8b8d5c452c21cf9d3f0ac20c3c765892d9ba497d272fd79fa23",
+   2080,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Bangkok": [
+   "b88190e891fcc3c908cacf1e2649962134d0d04ddde277f10845461fa3bee1f7",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Barnaul": [
+   "fba41957b0b7d15e1639e623a5a0caedd4983b1aa2f654856a18871d6a11dc24",
+   2049,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Beirut": [
+   "17af14646d562afe17dccfd1d2fba95c122f3e0263906a36eb48bff04acf233e",
+   8024,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Bishkek": [
+   "f0f8673527e018eb1da77973317f2aefca70178e90abfafa1984aeb0235f7db1",
+   1616,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Brunei": [
+   "f3110e9dd514e3654a9de777e22b2d2391692927954b4b7e42ed54ab665c3cf5",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Calcutta": [
+   "1baef7850111d2c33b2a766a8ae804534aba1711bf80a4087a89656ddd8469d5",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Chita": [
+   "6515a74384c20be7e5d289215fbf6b151d83f3b376f8a1cc236cf6bb01c035a9",
+   2019,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Choibalsan": [
+   "2cae08d33662117def9dd917992806d73931b2fe101641cac7b80b758b2c02d2",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Chongqing": [
+   "a87382dc5f3c3141547a65e3746af1daf94b51468b96da6cef30e95754c97d37",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Chungking": [
+   "d6d2b4a761c547f1f853ae901ac71ab49fbe825037079c4e0c89dc940ae4a822",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Colombo": [
+   "f4325173bffb21cf10d84074f7388bcc44654b26bd7807f61dc5c8d7f7da1104",
+   352,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Dacca": [
+   "b3ad560f66ea330e54a147017e6e6ab64452a5255d097b962d540836d7b19ee7",
+   169,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Damascus": [
+   "26eb7f06fbc56b414f4fabd8e1218571c404beaf4c051a8c86c9998cd78efc9e",
+   3691,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Dhaka": [
+   "68a84bb1f6b66f100c91520627174a2f0e6bcd6daec503bb1527429c01c8b75e",
+   351,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Dili": [
+   "61710475d3fcdda8cd19c659112c91d422d4a944208f34614b3c25d29194afb1",
+   231,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Dubai": [
+   "8e1d28508c742ecd7ac48aa446277168f8f3103240c952387a51f853916b298c",
+   147,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Dushanbe": [
+   "d20e156bda138768e0b9abf5bba32c60c07d20f4e64b6845ec313234d9b27a22",
+   796,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Famagusta": [
+   "823be8a684b162b7e3d273b7a4e97f62ce0cfc0fe5b5e657e2ec40b8e45779fd",
+   7596,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Gaza": [
+   "94768cdccec68e1123ebdfde55a1b6f0244c221af8b437e969dc7ec2cd327900",
+   10227,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Harbin": [
+   "12811a7944b892e3d1c0b4b09057cc1899f28081b3cd47ffd248ba49ba308af0",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Hebron": [
+   "337dc81f78ee2114248a554d67d7329eae22b127d3bb3df10b4e8ece311547fd",
+   10202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ho_Chi_Minh": [
+   "61c748f21401bb91a8bf9b28b9fa56f60a4b7b11f7ba62493ad89afdc307ad3c",
+   387,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Hong_Kong": [
+   "ee9a6997bc1aad4a8fa95db312774c3f37fbb895549230c30fc66c02cc170eb6",
+   2226,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Hovd": [
+   "30c89d272774f58c790265ab0b492f7aac41deaa18801a5cdf87b05eeb4d65ae",
+   1533,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Irkutsk": [
+   "251356595f56258dabe2469e9b1653214f8ee25baa0b77c99dcfd0b5a2f7b145",
+   2023,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Istanbul": [
+   "1f77c4bd27574e1d2066885def01806a02d3e444424a219a8ec5c114f89665e5",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Jakarta": [
+   "b9007218eee8851599647f14ae7921ded3c28856c1112378b29cbb82d4addde4",
+   356,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Jayapura": [
+   "d9859d94ef2cb6348b698353ee5260180355e46e6f37d41c61023894136a51ac",
+   209,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Jerusalem": [
+   "0bdc2c693134199c2ecd374cc01468813db29df47422c706a3ea2be5ecca177a",
+   8135,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kabul": [
+   "d4aeca96910398a1331c27b458d12954a46fb0a4aabbaf0c4b44b195df452688",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kamchatka": [
+   "368bdca9a596da61939182417cddd582a73617bbdfedad96178230149aa1d711",
+   1994,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Karachi": [
+   "f12f3d0c065e3c8d86b55764fc2ffa41c6fd5d0ed7357f014a96b1bc97ca1a3a",
+   447,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kashgar": [
+   "7b2251f0a41cbadf45d69f24604834167b14d8d33b510e635719ab404cabbce2",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kathmandu": [
+   "6e27eb6893f41c325ac10cff358b953db4ca3d81cf76098780a66cd4df1d4740",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Katmandu": [
+   "9acc9586b6f8b53bfe8b242283a434a9a9633d60559ebfdee263b4c8915d50ca",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Khandyga": [
+   "4a2c7a91890ca7305f151ecea1b59519499d8a46830823955d3c18cfad6704ed",
+   2051,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kolkata": [
+   "ec2799b6759d1036fff2cb592bc677919866248efea93e7db124743bf2471e70",
+   330,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Krasnoyarsk": [
+   "fd634744dbbf485a674670e0b29b978402fbe69acd2e85d679a04799d454daf1",
+   1996,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kuala_Lumpur": [
+   "056d352ddcfec155375430fff3c8743ed5c9b51b866a099e97e12cc381071f50",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kuching": [
+   "2db8283acfa06a33ae4408535c83055c5b5ac3a6891b471f39a21b7be9076245",
+   649,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Kuwait": [
+   "8e0c60a9aa64fb8602edc35311f7436b04853970a21c1f6c871494a09aad5787",
+   173,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Macao": [
+   "4308d741c83b263c7c9fb8ec692a7b7b502135e407b265b12ea7ef92523455c0",
+   169,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Macau": [
+   "28643f671b55d8f5886face1a217b99868a57f41a1b1ccb42b739e343c07348b",
+   2212,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Magadan": [
+   "2e956dc977b16ca5bfcfd6d886647034df396d5e0f16d8d5e137e7b19094964d",
+   2021,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Makassar": [
+   "33d17dc119c954046266d9e56c7906c22c997759dc6396f59ef3b04f4feab246",
+   241,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Manila": [
+   "070d61a0e39643a700aba89a8a4be5733ba456958966098405e11ecdfa854d76",
+   421,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Muscat": [
+   "011b7de1c9f7ec241b224bc864d8ae66acb433fbc8ad939e4dbeb12be6390243",
+   170,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Nicosia": [
+   "3c3e4844c70d361893ef022d6c3c8e38b243e91d40c5a726c924355476816f25",
+   7625,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Novokuznetsk": [
+   "172424dd63344a68049a5bb8fc271280862b2f3a1ee7927fab116687e9ad5336",
+   1997,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Novosibirsk": [
+   "71d4fc83b0207572ac060e7470d92b1902953273454429a32c3908445c77e66d",
+   2053,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Omsk": [
+   "bfeb241544800495d4e458edd6de8aeef979723fe0d2b46ab26b32ed1d3c634d",
+   1989,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Oral": [
+   "54e43e529d08c0905fdf629b84e0f4dfab60cb1d39ec13f6283eefd94d054dc8",
+   1611,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Phnom_Penh": [
+   "dcee88876d00396918f43deca421b6c9b02f84b5866a2ce16e641b814b390a9f",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Pontianak": [
+   "7035ce31a4d99eadf8617a2ea5c856eaadebddd518131fda0630da8317da6c15",
+   358,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Pyongyang": [
+   "29ba17f756f5c0bba30febf44e620504d04921c832bd1cb56e1b60ef288b57df",
+   273,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Qatar": [
+   "1ffaecbd8fea4c778d59054475fb84e94a1b28b0db7fc9266b36ceeba7dc1c9a",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Qostanay": [
+   "87035f18dbc29f27d8d4369e96155089cfffd2d82bad93559540ee19352c2ccc",
+   1644,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Qyzylorda": [
+   "e84f53974e79b3bd9e6939477ca1c511de7fdda166c16aa4207124f26dca7fd1",
+   1617,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Rangoon": [
+   "e4d2c38d8e7377a528291a88129cdac40ca4d40a5f1cd8adb98228527556906e",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Riyadh": [
+   "1d30947dc2c0717efb1c40352f90b140bdea6c9297abc3865f719cc34608891a",
+   147,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Saigon": [
+   "c695981a0df691c3f4509999fbc52858adc75024cccbdefbe1094fed17e809e4",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Sakhalin": [
+   "cfd21cc9ec04482366c99abe605eb3066056a98659a9f2f746b7f4fb7cd2489f",
+   2049,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Samarkand": [
+   "83e2feaba51d3ed4d05087327f57c6f39f0871908dbaa77e37fa661241c2881a",
+   853,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Seoul": [
+   "c4f82c94650572fe4d03bc1fe54ced8f4bf55dfbee855d52de3ea6378240af93",
+   985,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Shanghai": [
+   "3aabb42d9efe95d906b7f34640e7815919a1a20979ebb6ec1527fcaa3b09b22a",
+   981,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Singapore": [
+   "792ae46f74ae55aa61b9c7a0ec0556ca30a744358e59bc3d4e0d300d7becc91c",
+   357,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Srednekolymsk": [
+   "eeaa6d5808fcf81a86f272dc7865f4e5c22f43d251c9159c7c696ef082e229b1",
+   1998,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Taipei": [
+   "389c9d3ee2970665d0d8c5cb61b8b790c5fbddc0df0bf2b9753046f5953a477f",
+   1344,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tashkent": [
+   "aa03f91c5405cf24c8200f442ffc1e08626d90217427ffbc9af559a9fff1091b",
+   852,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tbilisi": [
+   "74da4a3a3aafda95af61ce5c6cabaf94dd87e154d03f61ce76ac10f1ed64cfee",
+   1675,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tehran": [
+   "adc0aa4e656435d0058b16702354c6dda26fde7805401a2c6506cd19addb26b0",
+   2150,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tel_Aviv": [
+   "07537a30e6236d9e334dafd5c4d352d25fdef95d6dc7496f5d93efab74d9ebb1",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Thimbu": [
+   "37459c17b59639df62b3f3943751902ce6aaf1f11b7630069db45052ebefb5b9",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Thimphu": [
+   "b1b6db821843d8af9d595ecb09599f099dd835e4d8376a37d1cc780335478641",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tokyo": [
+   "3da522fa88541a375d53f30a0b62dc4a305fa0315fee534b7998c9e0a239450a",
+   388,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Tomsk": [
+   "b3db0c15abe779ad90ec91ee964ff6563e91201b1d40f0d09b586f58290a8ab6",
+   2048,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ujung_Pandang": [
+   "732751845acedbffd3c6170f4b94cb20b25bfdcfcc5eea19f4be439f5c5b573a",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ulaanbaatar": [
+   "feda07eb6f0aa858e87f8c757e912188a7f15a0ad8a9f5b6d43121b19b75fed2",
+   1540,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ulan_Bator": [
+   "d17fdaf17b3dac3a1310e2332f61585598185e64ced799abd68249eb5b698591",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Urumqi": [
+   "585031052679ba76f0ab88fd06ee5940da726024e91496f21f0075c80512d36d",
+   148,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Ust-Nera": [
+   "5925b5501c776fc7c719b2dd6df9d233912f9b6f334d76c7893946fc18607acc",
+   1992,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Vientiane": [
+   "18f5e4fe8247f676278ac5f1912ac401dc48df5b756d22e76ff1cfa702f88da7",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Vladivostok": [
+   "b6b95bd4104b793b2da026e6dc511eebb6221dccb3fdbb5cee775936cea31ab4",
+   1996,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Yakutsk": [
+   "4763845bed7f506b96605ee9d903be87d42b755901984721a664a80c36c9179d",
+   1992,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Yangon": [
+   "4e86bb3c6076ce9c2b375af5909282d9aca35734120a4d5ddda6e3126055f4b0",
+   237,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Yekaterinburg": [
+   "7497ab82b2716feb15fdc57813f4e5e66d3cc8c07dd85809fbe1112778a175fd",
+   2029,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Asia/Yerevan": [
+   "d581b78495292f63cbf89d116305d12e13f01e06332f3ee1d51a5db2b3e27249",
+   1964,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Azores": [
+   "8650d1b69acbf7a5ccb82f27bee7a160eb0820cc332f03bbd30d97b5ac1c6f7c",
+   9517,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Bermuda": [
+   "099c3befba3b4c00ae19bc53d475a52b32fac9b36ec823c8eaefc7d00f78f388",
+   8784,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Canary": [
+   "5ff26aa3a440a0c6e0f4de98662206d7713571bc2d9e4670e4e5cf2dfbd59888",
+   6855,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Cape_Verde": [
+   "bc8d4c7498985ad5c781f501a01e0e6a6244280ef25955f6ac0744595d0e93cd",
+   242,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Faeroe": [
+   "64fb8cad17cd36666c7027aad01344fef659b13699eef1942365842f8ed2170e",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Faroe": [
+   "795f438e7f01342d5f25eccdd09fce65c03c5d2d561b9b5191301d57ec16b850",
+   6796,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Jan_Mayen": [
+   "11bf0746f95ba01807d3b34c8fae3ff4ae9db5e4e6bc0cb8b36906cc3f44ede5",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Madeira": [
+   "f87d285083b1b99fa5a0857f70c7aa9b4db1da9f6b637501f5ea2a9f134e0e9d",
+   9510,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Reykjavik": [
+   "bda015714260001bae2848991dd21e802580be2915797e5dabc376135d1c5246",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/South_Georgia": [
+   "741e5eb97ae3bba64c2668da9356debdcd7d93651ee03f5d760973ef456f369f",
+   159,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/St_Helena": [
+   "1c9ca8966fc8bd0be70f4a187e17e56fb99139bc88c392e82ba2e23e23111c54",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Atlantic/Stanley": [
+   "041772863a60e10f18e311b07cbf385e4ea41071921f2dff7325654ba6cfa255",
+   2187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/ACT": [
+   "df7cbddcbb2f5926a07d19a35739e5b8dcd9733c037f7d1ff95753c28d574674",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Adelaide": [
+   "5c43d3152982bcfd5b9f51d0e909cf3a558bed1c270feffe030531d38d6f91b7",
+   8372,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Brisbane": [
+   "0d3c39edab34a8db31a658a1549772f7d69eb57565e40aa87b707953a2d854a4",
+   674,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Broken_Hill": [
+   "734f295bd0b558bdf6178de62151b8913699d08ab2b1d101c55b8debc410074c",
+   8437,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Canberra": [
+   "5fe3ced97293fe0573d5ece0cef59ce5ddb4c57bc568ae7199e77b01d3ade17c",
+   195,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Currie": [
+   "1dd4ec4ed4f854e2ef6162b2f28c89208710f8ec5aabb95ffa9425d3fbbcab13",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Darwin": [
+   "ac004fd4b3c536406991ec13ebb3e64e0ec0c7b264bc18c0700c8fa545868155",
+   437,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Eucla": [
+   "6bc46aa779db14f3d6421312c17a71ac037c7ccb033954f735d4b563ba0fbdee",
+   699,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Hobart": [
+   "d813f6a97befc22ca4f24c59eb755d269b9c68a449cc7cf0d2c61f911860ebe7",
+   8734,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/LHI": [
+   "4d84e4040fbc529c9e0366bb74d0cfadeeeeda0dfcc6c2c9204ded6c6455cac3",
+   199,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Lindeman": [
+   "01b278309353849cc2fdf62a30e2ff483833d5713cf5e329252738be6f2c0a84",
+   824,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Lord_Howe": [
+   "b74e02723a7f9bcfa4592d40ae6ad5ef7cb6753b4d56260229a9a0aa1c103848",
+   7047,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Melbourne": [
+   "f21b9ea51c0d41bad0420fe0601e5a4b491fb895856f4bddf6541d704469d92f",
+   8341,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/NSW": [
+   "73d7c9e207e61acf8df7242bdcd84488189033e22a84873a953b65de02fa1b0b",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/North": [
+   "a983c9cad7e542caed43b083e68cd2b782959a4b54015f374c29250d3acf9b8d",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Perth": [
+   "fc1b54ca261074e47a8a486feac12dd04d46166d1d2b44163bd8791bec32d275",
+   739,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Queensland": [
+   "dda669b9bfb3e08fc23ce67030148b9e4740824add8de02580d6afd31ce05bab",
+   203,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/South": [
+   "d9dcfdc377901ec0c0feb9cea743c2c1425273f69a1baa7bf3b74fec5885b267",
+   198,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Sydney": [
+   "fc453486325ade1d31f14087b76d4936f3a6d551abd1db6fcac129bdb043951c",
+   8338,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Tasmania": [
+   "c94fa7a7640cd00963ee8ff1a3d9dcda2075408739d998edbf7cfc998db764fd",
+   195,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Victoria": [
+   "dbef9c5bdd290fec5fa740d697143332d3ca1fc373cf1df736f1883ac9ba3298",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/West": [
+   "75abb7f20c4a0b618138aa190af33ceaf2a6d2c707da6c1314e4bff2f9904f58",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Australia/Yancowinna": [
+   "55a9264d0414644a1be342106ae86086a6659596dc9322a74fc4d1ddb41f7c60",
+   212,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Brazil/Acre": [
+   "2f594239a434052d36053a2b3eab134eadbad06eb6737e67cf72166dab157537",
+   194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Brazil/DeNoronha": [
+   "a676562a90ff8587a775f6f0e3be05d870456a56d25b5330816bf9043c8d475b",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Brazil/East": [
+   "961fb3ab99a63b1e9704b737eab2d588b5a39d253a213e175cc678bedffd498d",
+   191,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Brazil/West": [
+   "0500c9a248c8ce9030ea30d0af9dd95dc465480baf60646c0b7c511fa23c6d1f",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/CET": [
+   "959b6b00f2794f6e383310b46ac0a89c077b4c6b4e2141179fe7b463e8a75045",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/CST6CDT": [
+   "a830d6a23a920d54df0091135b59de284dc82fd9b544c5eb78b9b6dbc74a0ca0",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Atlantic": [
+   "6dc6354d761cbe7820c9186568cab87ad48ca925507f6a740357195b60e16d87",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Central": [
+   "db32e83949d62478d229e9fb57bb1624d21b3a9ccee4cd55335f8262c01d820a",
+   191,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Eastern": [
+   "22844994ae893f3236a091b050e932e84a5218ec0d01f72595e17ccc471fa564",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Mountain": [
+   "d7a203e60ff19dcdeaad14121720de51da73392d25b40ffa301c1935cdf89517",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Newfoundland": [
+   "87f42f45fd7d059ca47650d445420de8320f3a7c1cbc7671fbfa8a8881274433",
+   196,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Pacific": [
+   "5c4fd46054b190a6d4b92585b4dae4e3a8233ee2996d14472835ddd264911dc6",
+   194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Saskatchewan": [
+   "46ba00ae3a07a4dc83d6cb517d87c9cbba491b3421fe9ad6c74cac5695eb73f7",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Canada/Yukon": [
+   "a1b1af37dc89c6ba663e4e967a18409ae4e0fa9ef1b908d0461368da31001c09",
+   195,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Chile/Continental": [
+   "5b40167dd0c0b5c293861070c4ac249f78ddf8bad798dd0165e3ae894c9b9570",
+   194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Chile/EasterIsland": [
+   "1e2da1862e0e0f131b7c6eb12fac5f920852c61c162993a30bc843a464a5aad4",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Cuba": [
+   "6f4f2d7f5bca4e5183460c0153d2b98f5239a99f149de6638b311c73cedb1329",
+   175,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/EET": [
+   "497915828f7a7d533c269c611aea15fc62baeae2f7cd89159ee27adc4c7339e1",
+   171,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/EST": [
+   "457e72bddc1f3746c07454c1445e80a0dd2ed3b0d2b0fc4a5ab728a16539f63b",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/EST5EDT": [
+   "974d3633d1f111ce09920e185dbce8a85ef771ca2427e4840954ff08bea0a073",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Egypt": [
+   "936b6484469351def8fafe8ec180862729f5e43bde4e53e2e9636e221b54c3c2",
+   170,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Eire": [
+   "b78a833337efec8b5f64622f1bfda21fcb79cf290e9cf32a54b206eb20c6fde9",
+   172,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT": [
+   "66b0df8888883bff44b18728b48cdf24aaed0bb745d601f3422c4f2d4063e0ac",
+   110,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+0": [
+   "64466ea3759301e88c29ad1a833cdcbbc495eb4a5a3ac45e7b2987fecd6702bd",
+   159,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+1": [
+   "90fb55f5920507e5a8d9594a8dd7f66769617741032709f070d5afdc9dfe53c9",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+10": [
+   "c541399191d394c9fe8873baa7b7bf4f76e07d2bd6dc70b94b7a216494607e55",
+   117,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+11": [
+   "36da9812d38d7ebb79323b357730795f39141dee2c1c7c5093be5b6f9b453ced",
+   117,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+12": [
+   "4b6ff7bc9028e6a0831b2804a1b00ad665b97b2ecad295d5413f0034d3ed8bfc",
+   117,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+2": [
+   "55b05236f923de0287ab642350b1c17362b69491878c274d8b710e33f6762b5b",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+3": [
+   "f2078a8c47aa6541793752da90416b9f9fdf26516fe335fbd8ffc1428c16914d",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+4": [
+   "f8d7c4189d3dc436d1fd90e8f188590bf1514cc38947f5ac32260f6b70e91bc0",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+5": [
+   "662bb31453e9cb0492b1218d8ec192dd03f8d4a0cc940a3d6124deac57daafd9",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+6": [
+   "cb7a885af26b1b9787573f343f75dd2f3a847a7110a8e59e3ff34ce51c12cf14",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+7": [
+   "14caf49b37188ba95fc8df41f37af6ba1aef643835bbb7d10e706534f1da8119",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+8": [
+   "d19a7202b1a1254520ea47dd83ef80694caa4b31b2840ba77a33d70fadd51822",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT+9": [
+   "67429c183cb2141373c14eafa221e09ddb8ab5ee1832d34bbb8b6cdafe0d4b8e",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-0": [
+   "eff27b3dee9306641ff344801e06bb33ff768cdccfe2409fa8af752ff6d39f66",
+   159,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-1": [
+   "d0b86507c5f621fd3a05b939c4d9afd1dcf6d30db290219c9a72d5c77bcd9898",
+   114,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-10": [
+   "61e7e610af584b0a02984886c86bfd6322b736982478dcdcf86ea3dec163bbe0",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-11": [
+   "663d874639cf6ad0dfbb04f13acf2936dc4e59f54925f042f08c05055760f04b",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-12": [
+   "95f8f997c133171b8f5c822d74177f1a84c7f56a61e10bed383187b5634e0387",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-13": [
+   "f343f8f7773310bb1d26093acac0598536881711f60445d15f1dd9fdc553b924",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-14": [
+   "165eb9aa661a81a03fa85bcd52e0de5cfbdb4860c8c7d129fe30b096bc93ae42",
+   116,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-2": [
+   "a620e8d4c2721b6cda377e29a4db83af2d471b308fec474f8425f73ac1191d33",
+   114,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-3": [
+   "ea8218c48923e408abbb6eab59e1e493e0f5fae3d0428406a5a6eac6a9e640c5",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-4": [
+   "49abf4ceb1925b4d8d103bdb4ebf06599fd52cc4c54966d650b7e5d826650b5c",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-5": [
+   "319bb33af5de9b0f74ac5778d2e3a01674c57f4730e51f05a419bd5c1c3b4364",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-6": [
+   "46c98d89236ff16a96a60915a683637f19c8009748284e794bc9229d0b17e659",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-7": [
+   "4a25e27c8a802021eaeb2ea0b942f065e7836339306d6a7c1cbb7d607549d525",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-8": [
+   "4cf192afa82639cb197810a83e5b9aab81798aa25e541ff38e7d7d43b314e286",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT-9": [
+   "41698e072dc71701b7372c3f152c2a5fda95548fb7e0d566be755251724a27cf",
+   115,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/GMT0": [
+   "ab742f93be44bd68ab8fe84505fa28120f1808765d9baed32a3490af7c83d35b",
+   158,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/Greenwich": [
+   "f89167b6117838d9679c0397496b6d96d3a7beaef0bd99406abacdbdb658fbcc",
+   163,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/UCT": [
+   "0856d14dbbc53d46460bcd530bd070e9e8966d1c96ba01ba556e215a98c09cd4",
+   157,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/UTC": [
+   "4d74d9ec2397b1708fef47806294b0bca26679f3a63149ae24e4e0c641976970",
+   110,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/Universal": [
+   "a2b62c5914de169a68a018a5b47c1253dbca10a251862d17b0781ecfd19b6192",
+   163,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Etc/Zulu": [
+   "bbd6e93206ff3b7017afbe63905b4c932c422b582f3ce2a79a7b885d390ee555",
+   158,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Amsterdam": [
+   "46141e7bc0f99d2117319c661569f8b38af7d00108ced5784fa3a3b5090ef8e9",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Andorra": [
+   "f0b48da7ca3659450d87cc0ddfddfd28b464543df1ee40d935c44d5cd7c9b9b3",
+   6927,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Astrakhan": [
+   "dc6a6afc3643d09f8a9b6571a4ea09ac34cc5b26d00e37ecda38fea2c52f1991",
+   1997,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Athens": [
+   "47353319419505aab205c23f8c97ea0b12e5ded2113147794f77b67349aff52f",
+   7954,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Belfast": [
+   "557023674f6e8376707517103ee69c1debbe53cdd4bcab11e763cc53b9cb1908",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Belgrade": [
+   "74b225511b518b0ced972cbb33d694697712ccb96a6d81e0f50ada28cf6e2c92",
+   7309,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Berlin": [
+   "7e7111f06288069b52a4e1ca0b016216df9328fb3b1560a740146497ccdd4d24",
+   8020,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Bratislava": [
+   "1d7c539aaa1e3ad5ef3574a629523b5b781f1a91d352c9b39b8de7316756026e",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Brussels": [
+   "1402a2072adc9ebb35f4c0368d2e9a7a11493626c667c022614ffb7cc05b6cb6",
+   9223,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Bucharest": [
+   "c560d45104a8dd73fc7370b5ac1615e22043dbc93dfb46a9ecc6468c2d38b19a",
+   7974,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Budapest": [
+   "b58f3e9066b8b57eb037d509636aa67a06acc8348be6c48482d87cdc49844a4e",
+   8287,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Busingen": [
+   "f511a80ab70ff93a0eb9f29293f73df952b773bb33eb85d581e4fb1fe06e4f05",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Chisinau": [
+   "2bd1c0ab412a5e9c97f533c4d06b773d045215b92568a4e89adc93c7462d62ec",
+   8096,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Copenhagen": [
+   "2b9a0f1775355e311fb63903e3829f98b5f6c73c08f1bece1a2d471acc2673e3",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Dublin": [
+   "895957521d6ca4de7e4089dc587a6c177b803d8adf63303b1f85deb279726324",
+   9810,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Gibraltar": [
+   "0524a31131405347c1d5d86c5ee38a2064ab055c030ab3b43f25db3b28ffd8d2",
+   9509,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Guernsey": [
+   "f7046808a8e80b7ae449d1a49ae3e480096736b7d3f554a240c7dfb10f82076a",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Helsinki": [
+   "5b5c0a9261a414ea8dc34f594ee05bee16f695488b230857d2b569a6b603bc39",
+   7368,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Isle_of_Man": [
+   "2f1151b0528a5325443379d4e7cce32c00213722ad9df764e1dc90198084b076",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Istanbul": [
+   "0b1159bf6200fbb924480dce3a4747e2a6ff93e11487fb235cf898ca815ec981",
+   3678,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Jersey": [
+   "97eb33915ed7c9c34144f8f42357fab2262b3cd45287f3cffd26c33d65f7651e",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Kaliningrad": [
+   "9418ed75801fb16d10eb35015aced34911d202cabe483f173e571bf2f3bc5949",
+   2511,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Kiev": [
+   "05c55f87182f0d5d3e8e6c1f9164eddbdb8035146a0955c04283bc1347d45b30",
+   173,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Kirov": [
+   "29f9b99182d85163fb3a793ec36b8d82867ebe864ac05c6ac78ea27d81ac468b",
+   2010,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Kyiv": [
+   "591264f69db19ddcdc90e704525e2d3d3984117b710f482f19da8f88628ee6a7",
+   7455,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Lisbon": [
+   "fce6121c0bc30fb3a0b8f32a26d19b19844d085230b616a76ba79a8a0b077720",
+   9958,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Ljubljana": [
+   "713a842197516d618f2d86977262542a1ca334d7df6026539fa2f2980dbf4cd3",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/London": [
+   "d04c4e25df4de1c1cfe1ef84b3b6dd746cf08a271ab0958f22c7d580a3ed10e6",
+   10211,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Luxembourg": [
+   "8c0486a5b235e8b01069420976e1b8d08d77a4bef587203af1b68d7b5333546e",
+   191,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Madrid": [
+   "5337c9843c56deec6b91c4468c76ec1c896e80421b72b583b69de5579063e09a",
+   8517,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Malta": [
+   "c5c240baaece8235d1fbdd251c1a67cb2d2fc8195dd5bbe37ff9cff0445fcda2",
+   8724,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Mariehamn": [
+   "6136c3cfa4a767e7c9dda23a283ad98b72e9868f192e6a8e3bfe6396f6989bd1",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Minsk": [
+   "ffea890cb72cc68cbb295981f0ba4ac7a4ea9193aa98fd71428b934b388bd323",
+   2176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Monaco": [
+   "9df16bb1c26100635dc4cb1df409b0fa7b139c22bf09574ed337ee244ca3c546",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Moscow": [
+   "31f9c3c2f17b3ee4fa6d9ee6a86bf407ac0377de4d666c65e86ce5ac591f829f",
+   2430,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Nicosia": [
+   "fc93b7516933edfdc211ac0822ee88bf7acad1c58a0643b15294f82eb0f14414",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Oslo": [
+   "c84e9c0d22059573079211cbf487072cab95c14b5ecefb596cf1f594abd3458c",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Paris": [
+   "ae61491c4a587f56426a9f2118e31060276f2b0231e750c461781577551ca196",
+   9152,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Podgorica": [
+   "b87630ff459de07eb16cd0c2452660772e3ffc4eeb8419ea77a013b6f63a5900",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Prague": [
+   "5d3afed5c1b07c6c6635d6bdeb28a0fb4d11a61f25f26c91227b2254be5f4aa0",
+   8038,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Riga": [
+   "8b64a42bafd90f9255cacfdbac603d638dd7c18dc27249f9c9b515e1da634424",
+   7658,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Rome": [
+   "dcd2d9144507311e573568598e1ffd0e0574fb677aa0dafc5641d80a19eb6e58",
+   8813,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Samara": [
+   "f41b8d78c0ed0f67b759729faedaf43781a2f4c4f27355cce63201234d70fab7",
+   2050,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/San_Marino": [
+   "b6856a0e38c2404f7d5fa1821559503f8ae70923a562f0d993124d131515f395",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Sarajevo": [
+   "bc00d953c2f3e55e40eda13838ab66b9e9d0bdad620e4eb917637761abb06fb1",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Saratov": [
+   "c9f1999c9a717a93ad5016b693bccac321fcfacfcf529f5035b1dc5b1d2b2e60",
+   1995,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Simferopol": [
+   "d51cd3de50c50bca1624efc952add15d418a09ec213760df5bc3097e35c5a7a0",
+   2389,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Skopje": [
+   "52f20858433261b15797b64f0a09cee95d552ef93b5daa7c141bfab6d718c345",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Sofia": [
+   "6415f279cb143ea598cf8272263ac5b502827b10ceeb242b39e6efcc23a2ee12",
+   7654,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Stockholm": [
+   "64615aea9ef14a2609d2c804901281c83fddc0a8bca9b377d6cad62d81801c66",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Tallinn": [
+   "6f3594ccda78b02b2ee14c8fae29e668e47193af2dfcf5af1ecd210f13bce9ce",
+   7549,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Tirane": [
+   "c62686bf598138fefb72e8cc6632ba75a5fe147f2a30124ee3583be1f732e38d",
+   7675,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Tiraspol": [
+   "fdd53fdb5f754bbba8ff98f0b1555fe0baeb7852843220a7cf93a190b641a9ad",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Ulyanovsk": [
+   "c78ca0dd0828ea94d9d1e0a377a780bd7d49d91bd489a73e08e8722d30d804e4",
+   2051,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Uzhgorod": [
+   "f8caf5dbe12f1647b28e7ccddb2e09e36788a766690d12e770a8abd82e708644",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Vaduz": [
+   "06b235bf047fc2303102bc3dc609a5754a6103321d28440b74eec1c9e3d24642",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Vatican": [
+   "c203e94465bd1d91018fc7670437226ef9a4bb41d59dde49095363865ca33d00",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Vienna": [
+   "a8165313c9b51daef130401439cba60daa9887fc5eaa61a5afd4f7bad1ad934f",
+   7930,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Vilnius": [
+   "b762db4a068dc79fa57691e070d7026086e5a6d2fc273d5c1872e7c8e3711533",
+   7485,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Volgograd": [
+   "908911c2d99caaa646c746679afc911acdd617718e37adad7df3754fb6d91a5a",
+   2104,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Warsaw": [
+   "f9dc10ec2ae2cc810a6c08837059b34be651900ba4e1cedb93c209972ccfb5a2",
+   8662,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Zagreb": [
+   "a49b3894eb84f003eb357647d6a40ceaf6213523196cc1ec24eefd7d9d6d3c3e",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Zaporozhye": [
+   "ef928ac09b9a366fd015f488b6a19fefd72de1baf34e5cadfb8334946bcf19fe",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Europe/Zurich": [
+   "95afa61e439ca38551306d8fdb11c2788d935c42768d0407c9e4337f105a3e93",
+   7305,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GB": [
+   "e20d829c605a7c5b2a96b83c3480df28c964a13381a8bd2c72c2a37295131fa7",
+   170,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GB-Eire": [
+   "c9334480d0a970254b6ba6ff22e958dc8dd8bf06288229461a551c7c094c3f1d",
+   175,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GMT": [
+   "747c15cdc239855d5380b7a7f47112f2a26c61b0bf300eeb9711e6521550d189",
+   153,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GMT+0": [
+   "be48462ccfbb3aee19597f082a17c2c5d2fd8bb1c9122245efab0a51f8f413b0",
+   155,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GMT-0": [
+   "944c86f516141ddc3aec1ae4a963e9769879c48ed12daddf4ed63a01313acd00",
+   155,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/GMT0": [
+   "54850a5f488205db01fbb46e2da9fff951c4571029ea64d35932ddea5346daaf",
+   154,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Greenwich": [
+   "9e7a8daa26ce36e8f7d7f13460915c063ee98e2a4db276ad9d15ca5c7c06815f",
+   159,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/HST": [
+   "1958601c670477985dfcd0fa6b6581ada12aba7988cb479f95cd7765520bb080",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Hongkong": [
+   "359c9c02a9fa3de10ba48fa0ab47d8d7aff3b47f950cfaf5eb68f842ea52ab21",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Iceland": [
+   "8a531293f672d8fe38996989fc4eeb22b5efe6e046e2f58e94d01da9ce56ef68",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Antananarivo": [
+   "1b1177ce4d59d7cbcae9b0421eb00ad341ecb299bd15773d4ed077f0f2ce7b38",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Chagos": [
+   "15cdccbaf0ea7b2eed37b45c204286856e485761f269e31090aa2c52cf9c00b5",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Christmas": [
+   "78a208b73426a1b6d7cf2fe89a0ef3f01721f877d569bc43f2e5b6625a947299",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Cocos": [
+   "eb301ee97a9fde8ace0243941c0fac9ed0e3acfd6497abe408f08e95fae3b732",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Comoro": [
+   "53fa58e32dc2e4abb574b2f78011815eeb7f89f453cc63c6b6c1460abbb4ca5c",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Kerguelen": [
+   "138c7ffbfc520372658ca0cd1b42c4e5a240e9d9b98a277b02481de5701222fc",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Mahe": [
+   "613c5c05a8867e4b59a97a3d8c7235ddc0ca23239f2d57a5bfd42e4ab94fd510",
+   170,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Maldives": [
+   "ef5f07502e99a2ab57f0b5a19eb59bbb4d9d4b960024903818e3bca4b3bc4fe2",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Mauritius": [
+   "06074ec258feb6ecd4ba3782b185fdcbe2d191d7b56261bd8b4a2a069f1e2b59",
+   267,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Mayotte": [
+   "845c45fd7b6f0604b03a3c72db117878b568fb537bca078304727964157b96ab",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Indian/Reunion": [
+   "5560b0d4a2d8a13d9fe9787fffe31200d405a8c875f046c8fddf850af98662b6",
+   173,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Iran": [
+   "fe7f4453cb5f6b81b23c1c795356b91fe319f0762be7868fafe361db1f9c2a2b",
+   166,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Israel": [
+   "805105f5f17b78929f8476bae83ed972128633ff6f74b7748b063e3c810c27a6",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Jamaica": [
+   "f01b00d52bd7b2694bf5cb55a17028c30a41bd22a774ca54740e8b1dde4fcb2e",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Japan": [
+   "98dbd07ae3b9251b9091f4d265336ce98bdfb492af863c1f3ff25248a2cadf35",
+   164,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Kwajalein": [
+   "85e95363acf468043cd5146927a97b2d9e3b141eda0a7993dada9382d1d6dd54",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Libya": [
+   "f776839c1999056e6a0d2ecfdf9054fc309454afdff8e8bc803f33ec423b7361",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/MET": [
+   "c391cd06df2b14932b708e42e06bf1fc829fceb3d671c164d77b4661c123cf61",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/MST": [
+   "2b5173b9231eef96687d4c19d1c112a10a3ed43bcc588fc45c3315f9025aec61",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/MST7MDT": [
+   "40afcf1dfe18f3330e0bcb9291d482d76523751834fc5697b547042307a0db16",
+   178,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Mexico/BajaNorte": [
+   "f8ca38a845cd01bf785ee222277dad9325ab6bd17e44a362c450855aeb522814",
+   190,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Mexico/BajaSur": [
+   "2e6e32a40487f0146b59150b66ff74901ca853b12d47922819af23eea5b4149c",
+   191,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Mexico/General": [
+   "2dff1b83fecfad5c27ec47b206696c29b91398f8185b5d406a66fa9e0aeca93f",
+   200,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/NZ": [
+   "e22d629d53c54960ad156c377de0ae461c27f554990a3d1305724ca8f869bce4",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/NZ-CHAT": [
+   "83f4ca3522b64f9b151edefae53e0f28c2e6c4ce16d0982186b3344f2a268724",
+   181,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Navajo": [
+   "2cc8ce235f2ee3160e6afd04a4e28aa0312494ebb6fed08d8cc81d414ec540ee",
+   177,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/PRC": [
+   "6a5baa9ca54b2a2c6d21287443be0b1064aa79b5c4c62939933f8a0ad842b73e",
+   171,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/PST8PDT": [
+   "d106c776e34c752cb178146ff52c06c4076bcb831d32784629b0c21db779a5a7",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Apia": [
+   "95bbc0cb67b225bca757bb910a63a142de9c9c6a1be9f3de685ca1912b7b8c18",
+   882,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Auckland": [
+   "201cfadb00fbcd3283249dad73872ed75c5bec07f5a5b157726638c20728b833",
+   8772,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Bougainville": [
+   "fc2cc267c76531eea5b3f8e66d8dfd463087047c0589e6f3f31446b4208d06b5",
+   276,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Chatham": [
+   "fc9548a23ae93687f1b4f4beb97b2875633201b330ee2fe48a915fcbba94f3dc",
+   7406,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Chuuk": [
+   "f324ca637180f50db79ffa25204d974c6a7a6faefda69fd1a280b9f366349a09",
+   202,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Easter": [
+   "36072789c1828254e4578bb1de9ed56ec79b8f1755a3f8a55434d9360f4dcc16",
+   7941,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Efate": [
+   "7de4520135faf669edd24db9419ff93dd6abdfc66e94d0916cb327739a7642ea",
+   766,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Enderbury": [
+   "790e6b48b261d6def7d183cc8f38fb8d8a6e3efb8844281efabb2dfd621e53b5",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Fakaofo": [
+   "6b1df450a85c436d3f218b7684a45ef462cba26487cff59e7f6478bc79ad810d",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Fiji": [
+   "d08faec21588edb5a64a94b5b09cba285597d13b5fa2d336d881f81ad009cdb8",
+   957,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Funafuti": [
+   "affb0a5d9cbd5949f2fc5047820fa2a2798f7c303f7bc972ec49ccf27837b00e",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Galapagos": [
+   "c5de8710c935eb585f94be15065a0320208555d00f9efa5a7a0674493c0f412c",
+   243,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Gambier": [
+   "8595c4349b923f56fa7096fbc64a262edddb291dc29f805ab0be87d1a84ed0b0",
+   154,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Guadalcanal": [
+   "435049d1ec5db538a709ae9a9e7d0155ffacc543f8fa07bd35cb9303bd00aca0",
+   156,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Guam": [
+   "57be8210e43a84d5aba8806243490c9f911530b57bf032e2163923696e7ffa55",
+   732,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Honolulu": [
+   "69319015799d32d3cf7c0a3e9991b4b1f3e0c5d1b4fbf400517350cca9d2c3b7",
+   344,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Johnston": [
+   "6e52b361ac8a6a578c709f6d58aa7535f06c0cb1707081c2d5a63fa8545d955c",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Kanton": [
+   "f949a2f18260fc00ac655c5b12296cf306addf922c4f2c5223dea4cd3a6ef526",
+   205,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Kiritimati": [
+   "1edcdf206d30c6a910b680340b46998ce26f25388f0ff11f6d53fdffdc7e5b88",
+   214,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Kosrae": [
+   "09d3dc89a9a7b6eaf83d04a1d53454492a880c7f3cbad8c234333755c2164594",
+   386,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Kwajalein": [
+   "d6ef3fad168aa609790cfd778acdd8d7c2fedf2b6cd1af4a11452275dd2a47fa",
+   298,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Majuro": [
+   "935bc00c13863715d09463e54dc2a6ff0f1a7eea8d5895c87836aa59716cbd57",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Marquesas": [
+   "739ccdbe96ed7487780e56e11dde479251b9c913dcf8a83353840d0126700d4f",
+   156,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Midway": [
+   "f62c6a2dec1e9ec78115d5f14e5b9db7c86f788662d2e68f7e6714f4a05dc974",
+   194,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Nauru": [
+   "71394e5fec0f7b0b2622aaac1fa6eca056de3e20c0c69895717ffb4b4fc30380",
+   236,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Niue": [
+   "9a1d25836e8a28579c845cbf28bbf21a959ea84199bbe0cb15d0a7ee80dac565",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Norfolk": [
+   "25b82857b9fa18a8caf4ac24a83ddb2c44cd8e2a3122d6c2b053e82cae9c79fa",
+   4964,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Noumea": [
+   "6f7db0c1c7085c0acc1f57966ea9960c9658ffba35378e2071f1e82254ad87a3",
+   319,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Pago_Pago": [
+   "cca96640ab3bc707224fa86d9af66f9d53a204a97b370b2785ba8208688bf8b6",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Palau": [
+   "1e86813e86a4c5688ad95b69a883feb2053fc3d640d8fe984514addd7e36ce85",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Pitcairn": [
+   "86d6cdcc7edfe4787de51c27d3df627828e71e13c63a9a6678deb1a8c48e3562",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Pohnpei": [
+   "f744cd8337c5c72023d61f348dd03f48824f817d62f54acc6a23ddd8b0f9edc4",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Ponape": [
+   "5bb11553f711bd591617f657a9d1811cc3e3fb46374f6867316a7c8f6b3765d9",
+   200,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Port_Moresby": [
+   "62d49dc91b15ace6e9ad294d53c3793cacf12cd23c4057daecac9f5ee26245b7",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Rarotonga": [
+   "78a33229410bfc38a4ce3550234a2e1d3de2e3fbbacd31295bb7af7df0fb6e5d",
+   940,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Saipan": [
+   "4f6a1c20a11e186012466091cd4b3c09d89d35e7560f93874dec2d7f99365589",
+   179,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Samoa": [
+   "98d06302efc18fad7751f7e5a059fe4abafbc361fdc365fe1eb576209d92c658",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Tahiti": [
+   "a4ef47b16931ac6cb3208f26fc11b126711a003d9d4419b6d3fbacf50b6e5ff5",
+   153,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Tarawa": [
+   "cc7e37f4fcfe61e342b5cc1fdd700b54f2d917f15f460450344d4a38476a3005",
+   151,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Tongatapu": [
+   "d62b2f2cb2f34ce262ddc443fa8d3897730b6a01a54bbe774417f07e19483b70",
+   438,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Truk": [
+   "323a858946a2e8ec67c28176977d646c0a0f6dc8b48f9c4a3f8e7112c9b1b71d",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Wake": [
+   "b6041bc18b595e38953632acad1d25f7394bf7c759a72fccd81af637f8016373",
+   183,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Wallis": [
+   "9601b749413d591d820afad431b3c30e577acab000ea11ec03deb36ef0738dc3",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Pacific/Yap": [
+   "16cf9fab116e5e1732b4b601da919798985a0c15803f0964844c7040894c5dba",
+   200,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Poland": [
+   "c27e1179b55bf0c7db6f1c334c0c20c4afa4dbb84db6f46244b118f7eab9c76e",
+   174,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Portugal": [
+   "efd666f3062d52c5d0b4f83b1a206e6840c1eaec356cd77a0a71c7edfa78c964",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/ROC": [
+   "9aec39777013b23d63d0509ebb2f01d57a2c1592264dbb19ce2c61c7d7ddd8de",
+   165,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/ROK": [
+   "63153b40225270adb7cd248788ca9f18c6debaf222b3165bbab633337592df44",
+   162,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Singapore": [
+   "b9443fb17f0128ddb9f2df657dc5d2df176f64c61b0d02b272e5dfb108537678",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/AST4": [
+   "978c4e5256057ce7374ad7929605090fc749b55558495bd0112fb0bb743fa9c2",
+   201,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/AST4ADT": [
+   "0114c111f5bcd838a28f2e16e01ecb79d8afc8cbf639a672889ed0d692fc6cdc",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/CST6": [
+   "30428b85b37898ad98b65be5b6a8bd599331d9a1b49605fc6521464228e32f8f",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/CST6CDT": [
+   "44bef7d4660a9a873eb762e3fdc651d31d97893545de643fa1b2d05991c090a1",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/EST5": [
+   "798f92e5dda65818c887750016d19e6ee9445adfe0fcb7acb11281293a09c2c7",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/EST5EDT": [
+   "d159140114a13c69f073cfe9ad0b67d713e8811cbff773a3d1681fc38ea0e699",
+   195,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/HST10": [
+   "bf62c8650bba258000f62f16b0c7cbb66f4fd63f8cfdaf54273bb88a02a6c8d6",
+   193,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/MST7": [
+   "febe49fae260e5595b6f1b21a0a3458d8a50aca72f4551bf10c1edb2758e0304",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/MST7MDT": [
+   "64556a7b20e425c79375c2a7ccf72b2b5223a7de4ff4c99a5c039db3456c63f6",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/PST8": [
+   "0b8227afc94082c985e8e125df83e5efade7cd9ca399800d7b8e8b2beae22c7d",
+   192,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/PST8PDT": [
+   "d51d9549835e9c058f836c8952932cb53c10f7f194cd87452e9b13494d1c54c9",
+   204,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/YST9": [
+   "55710efded5b5830b2f3a2a072037c5251e1766f318707ed7cd5eb03037fed43",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/SystemV/YST9YDT": [
+   "da20018de301f879e4f026405c69fa0370eb10184fe1c84a4f1504079d5dafa1",
+   198,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Turkey": [
+   "8471a5575b9d9e47412d851a18a26c4405480540aabc8daed5f81be0c714c07c",
+   180,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/UCT": [
+   "356a9bb6f831971c295cf4dce0f0cdc9edf94fd686ca3d3195e5f031a0b67cba",
+   153,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Alaska": [
+   "ced56f09d68be00555219594c7b2f3e7efe8323201fb3e2aa0e1fa9a6467d5af",
+   189,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Aleutian": [
+   "a4f1398cf84d0ae09bf19288770756622d1710ccbfbfe79e0d3239497731287d",
+   176,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Arizona": [
+   "9503403f231ba33415a5f2f0fdd3771ce7ff78534ce83c16a8db5bc333b4ad8a",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Central": [
+   "b6ac9fae0ab69d58ecfd6b9a84f3c6d3e1a594e40ceec94e2a0a7855781e173a",
+   184,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/East-Indiana": [
+   "5d86f8d36598516fb2342a18a87db2701babd265b0671cc9321c48db22c7eca5",
+   228,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Eastern": [
+   "2ffcad8cbef5ecdc74db3ee773e4b18abc8efa9c09c4ea8f3a45a08badaf91a9",
+   187,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Hawaii": [
+   "529bb43efda6c1584feaea789b590cef1397e33457ab3845f3101b1fc126e0fb",
+   186,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Indiana-Starke": [
+   "5827b6a6d50cf0fb75d6ba6e36282591ad25e1f0be636dcfc5d09bda29a107fd",
+   206,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Michigan": [
+   "b4e4269c4febfeff26750b297a590226c0a6872519a6bfde36f6dc3f6f756349",
+   185,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Mountain": [
+   "3763bf520d3c97148c34dcfbdf70dec2636d4e38241555900c058efee3bd1256",
+   182,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Pacific": [
+   "54e5f126d4e7cc13555841a61ff66c0350621c089f475638a393930b3fb4918c",
+   196,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/US/Samoa": [
+   "e51fc51c65ffeab514d7636271157ee8941bdacf602cbc380f5d60b5fa674e87",
+   188,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/UTC": [
+   "dee28ff84e3fc495ed3547d5e5e9fafdacc36a67329e747d434248ed45bf1755",
+   153,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Universal": [
+   "b7b0b82f471d64704e1d6f84646e6b7b2bd9cab793fad00f9c9b0595143c0ab7",
+   159,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/W-SU": [
+   "f7da75b585f45ab501b2889e272ff47b1c4a1d668e40aed7463eb0e8054028c2",
+   172,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/WET": [
+   "37acb0dd9aae725cfb3b8236645fa8bc2e5d62b90a9cd9fc0b0588714ec75bf7",
+   171,
+   "core"
+  ],
+  "_internal/_tcl_data/tzdata/Zulu": [
+   "a06e8cccf97cc8fb545dfdb4c89b5e5c8edf0360547bdc1823b4ac47b1556c31",
+   154,
+   "core"
+  ],
+  "_internal/_tcl_data/word.tcl": [
+   "128a314521ea5671569e265968057da0c5a420f126ad02c4a2db7efc736620e9",
+   5051,
+   "core"
+  ],
+  "_internal/_tk_data/bgerror.tcl": [
+   "8822365ee279bebf7a36cfdedba1114762f894781f4635170cc5d85ff5b17923",
+   8806,
+   "core"
+  ],
+  "_internal/_tk_data/button.tcl": [
+   "1f5dd8d81b26f16e772e92fd2a22accb785004d0ed3447e54f87005d9c6a07a5",
+   21612,
+   "core"
+  ],
+  "_internal/_tk_data/choosedir.tcl": [
+   "0eb33bc583823e5f10172c04b73b07ee36a17f1a5e2662548f2f3a13c7517fe7",
+   10009,
+   "core"
+  ],
+  "_internal/_tk_data/clrpick.tcl": [
+   "d8d500875e78b21fc1f5f4196218715116474ec834b6e52022a18f885d4645b2",
+   22039,
+   "core"
+  ],
+  "_internal/_tk_data/comdlg.tcl": [
+   "c7da292ccf5f413e599c3491c331ffd58cf273f8477facb097e6f36cf1f32a08",
+   8690,
+   "core"
+  ],
+  "_internal/_tk_data/console.tcl": [
+   "a775f935ac061f6d881cf37e7fe97ceaa98c5a14c77343d2f3f7825d61e50fc0",
+   33364,
+   "core"
+  ],
+  "_internal/_tk_data/dialog.tcl": [
+   "1c977052c1d8293cc5fe4198a538beca9bc821af85e76e4eefbfb75b33ce8bed",
+   5988,
+   "core"
+  ],
+  "_internal/_tk_data/entry.tcl": [
+   "6ac78f764434f932d37e8183aa6db5d04eb1848b774c92f7abc243ecb7d4a59b",
+   18942,
+   "core"
+  ],
+  "_internal/_tk_data/focus.tcl": [
+   "8872f236d7e824aec0acd4bacc00fdd7ec9bc5534814ecf2160610c10647b7c5",
+   5035,
+   "core"
+  ],
+  "_internal/_tk_data/fontchooser.tcl": [
+   "901f70bb14a197495575d3bd2bf11e8654f9490e7e16d8dca8057c5393ff2093",
+   18292,
+   "core"
+  ],
+  "_internal/_tk_data/iconlist.tcl": [
+   "541647a1d4d91ffb8ee93d53b0017e5c3d3fa943373bb8490761d25b7a2ca330",
+   17456,
+   "core"
+  ],
+  "_internal/_tk_data/icons.tcl": [
+   "1264940e62b9a37967925418e9d0dc0befd369e8c181b9bab3d1607e3cc14b85",
+   11037,
+   "core"
+  ],
+  "_internal/_tk_data/images/README": [
+   "c6db098ebd8a622164d37d4ab0a8c205db1a83ac3065d5cde3cb5fb61925d283",
+   329,
+   "core"
+  ],
+  "_internal/_tk_data/images/logo.eps": [
+   "76207d8dfde189a29dc0e76adb7eaaa606b96bc6c1c831f34d1c85b1c5b51dd3",
+   34991,
+   "core"
+  ],
+  "_internal/_tk_data/images/logo100.gif": [
+   "72f6b34d3c8f424ff0a290a793fcfbf34fd5630a916cd02e0a5dda0144b5957f",
+   2341,
+   "core"
+  ],
+  "_internal/_tk_data/images/logo64.gif": [
+   "138c240382304f350383b02ed56c69103a9431c0544eb1ec5dcd7dec7a555dd9",
+   1670,
+   "core"
+  ],
+  "_internal/_tk_data/images/logoLarge.gif": [
+   "0f404764d07a6ae2ef9e1e0e8eaac278b7d488d61cf1c084146f2f33b485f2ed",
+   11000,
+   "core"
+  ],
+  "_internal/_tk_data/images/logoMed.gif": [
+   "4d0bd3228ab4cc3e5159f4337be969ec7b7334e265c99b7633e3daf3c3fcfb62",
+   3889,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo.eps": [
+   "87fd9e46dbb5f2bf1529afb411182c9fb9c58e23d830c66a233af0c256bb8eff",
+   29706,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo100.gif": [
+   "bcc0e6458249433e8cba6c58122b7c0efa9557cbc8fb5f9392eed5d2579fc70b",
+   1615,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo150.gif": [
+   "5fc25c30aee76477f1c4e922931cc806823df059525583ff5705705d9e913c1c",
+   2489,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo175.gif": [
+   "62866e95501c436b329a15432355743c6efd64a37cfb65bcece465ab63ecf240",
+   2981,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo200.gif": [
+   "bad9116386343f4a4c394bdb87146e49f674f687d52bb847bd9e8198fda382cc",
+   3491,
+   "core"
+  ],
+  "_internal/_tk_data/images/pwrdLogo75.gif": [
+   "462a8ff8fd051a8100e8c6c086f497e4056ace5b20b44791f4aab964b010a448",
+   1171,
+   "core"
+  ],
+  "_internal/_tk_data/images/tai-ku.gif": [
+   "e538f8f4934ca6e1ce29416d292171f28e67da6c72ed9d236ba42f37445ea41e",
+   5473,
+   "core"
+  ],
+  "_internal/_tk_data/license.terms": [
+   "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5",
+   2307,
+   "core"
+  ],
+  "_internal/_tk_data/listbox.tcl": [
+   "47c75f9f8348bf8f2c086c57b97b73741218100ca38d10b8abdf2051c95b9801",
+   15255,
+   "core"
+  ],
+  "_internal/_tk_data/megawidget.tcl": [
+   "848258b946c002e2696ca3815a1589c8120af5cc41fbc11bbd9a3f5754cc21af",
+   9862,
+   "core"
+  ],
+  "_internal/_tk_data/menu.tcl": [
+   "ae4ee8400174c798337b9c60867cbc94f811b249ebe6dea21ec6f960bcf5f8cb",
+   40215,
+   "core"
+  ],
+  "_internal/_tk_data/mkpsenc.tcl": [
+   "c5bdca3aba671f03dc4624ab5fd260490f5002491d6c619142ccf5a1a744528a",
+   30840,
+   "core"
+  ],
+  "_internal/_tk_data/msgbox.tcl": [
+   "a07e3a3809ced3c6c9c1e171dca5ad1f28357734cd41b2b9dd9f58085b3d2842",
+   16786,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/cs.msg": [
+   "4dffbeedbf0d66d84b13088016d1a782ceaad4ded27be1e38842f8969c0e533f",
+   4235,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/da.msg": [
+   "feef8f8ad33bb3362c845a25d6ed273c398051047d899b31790474614c7afd2d",
+   3987,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/de.msg": [
+   "c0f574b14068a049e93421c73873d750c98de28b7b77aa42fe72cbe0270a4186",
+   4914,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/el.msg": [
+   "3f6f155864fe59a341bfd869735e54dd21cee21bbd038433d9b271ad77ba3f7e",
+   8784,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/en.msg": [
+   "4a33b44b2e220e28eaae7fac407cafe43d97c270da58fa5f3b699a1760bfb2a4",
+   3377,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/en_gb.msg": [
+   "01238293356e82f1d298896491f8b299bb7dc9c34f299c9e756254c736da612b",
+   66,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/eo.msg": [
+   "84b117857674a2426290946053a61316c5c8c6808f2c6edf0ecc5c4a9c5c72ac",
+   4035,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/es.msg": [
+   "d2842b80f1b521eff2d2656a69274b5f2a8f4f5831af2e8ee73e3c37389f981f",
+   4024,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/fi.msg": [
+   "893bedcdaed4602898d988e6248b8bb0857dd66c06194b45f31340ca03d82369",
+   4693,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/fr.msg": [
+   "3f2ceb4a33695ab6b56e27f61a4c60c029935bb026497d99cb2c246bcb4a63c4",
+   3877,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/hu.msg": [
+   "e063ad7ca93f37728a65e4cd7c0433950f22607d307949f6cb056446afeaa4fe",
+   4678,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/it.msg": [
+   "806930f283fd097195c7850e3486b3815d1564529b4f8e5fa6d26f3175183bc1",
+   3765,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/nl.msg": [
+   "0914fba42361227d14fa281e8a9cbf57c16200b4da1e61cc3402ef0113a512c7",
+   4557,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/pl.msg": [
+   "eaceb1f08de0863ccf726881e07fe5b135ea09646c5253e0cbf7ddb987eb0d92",
+   4932,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/pt.msg": [
+   "d687f71f0432bb0d02efdf576e526d2c19d4136f76c41a3224a2f034168f3f34",
+   3987,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/ru.msg": [
+   "f0d310a2ee9c0af928d822cbb39bcbe54fb2c1c95ee8167dffd55edc1b2fe040",
+   8620,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/sv.msg": [
+   "a6821a13d34fb31f1827294b82c4bf9586bb255ca14f78c3ace11181f42ef211",
+   3908,
+   "core"
+  ],
+  "_internal/_tk_data/msgs/zh_cn.msg": [
+   "fd33a3408b054c297a9263b9b695cd629818bc9a882321ae8ac9e4c01ac07cc8",
+   4948,
+   "core"
+  ],
+  "_internal/_tk_data/obsolete.tcl": [
+   "540eeecba17207a56290baffdae882bbd4f88364791204ad5d14c7bedd022ccc",
+   5772,
+   "core"
+  ],
+  "_internal/_tk_data/optMenu.tcl": [
+   "40ca505c9784b0767d4854485c5c311829594a4fcbdfd7251e60e6bb7ea74fd1",
+   1629,
+   "core"
+  ],
+  "_internal/_tk_data/palette.tcl": [
+   "849b4c57e4644e51beaeaeb3ae59b7ff067e582ecd10f1b2caf6b6e72f11f506",
+   8418,
+   "core"
+  ],
+  "_internal/_tk_data/panedwindow.tcl": [
+   "aa4f87e41ac8297f51150f2a9f787607690d01793456b93f0939c54d394731f9",
+   5370,
+   "core"
+  ],
+  "_internal/_tk_data/pkgIndex.tcl": [
+   "6127926b94db2992ab450fc6cc2ec3d071f7bbc856656d0ae20cc3fd4036f547",
+   376,
+   "core"
+  ],
+  "_internal/_tk_data/safetk.tcl": [
+   "579701605669aadffbcdb7e3545c68442495428ee6e93c2d3a3133583bcd3d33",
+   7632,
+   "core"
+  ],
+  "_internal/_tk_data/scale.tcl": [
+   "0747a387fdd1b2c7135eceae7b392ed52e1d1ebf3ffa90febe886dbc0981eb74",
+   8693,
+   "core"
+  ],
+  "_internal/_tk_data/scrlbar.tcl": [
+   "eec90404f702d3cfbfaec0f13bf5ed1ebeb736bee12d7e69770181a25401c61f",
+   13188,
+   "core"
+  ],
+  "_internal/_tk_data/spinbox.tcl": [
+   "747889c3086c917a34554a9dc495bc0c08a03fd3a5828353ed2a64b97f376835",
+   16543,
+   "core"
+  ],
+  "_internal/_tk_data/tclIndex": [
+   "82470f88d2a26edb1a83bfbb25854b2253063a3c3576f785f89df5298e7fccd2",
+   24443,
+   "core"
+  ],
+  "_internal/_tk_data/tearoff.tcl": [
+   "04b284915da1940758d0fd73bbb9cbbc9967bbaa5e5a9db9947f7e8fedd0df96",
+   4625,
+   "core"
+  ],
+  "_internal/_tk_data/text.tcl": [
+   "f7ecc5ae6eb297c79aad5cfc200b29c4e72409641fa369c5cdbba30ae41e982a",
+   35183,
+   "core"
+  ],
+  "_internal/_tk_data/tk.tcl": [
+   "b7fd24177b17f67da2ca671f711309c65cf246be1fd0cf4f1ab8f3ea9ca2c3f1",
+   24322,
+   "core"
+  ],
+  "_internal/_tk_data/tkfbox.tcl": [
+   "baf1ed7b617fb64ca097e81059454783c4d922999e19000cf2953cc09c8f4505",
+   39606,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/altTheme.tcl": [
+   "3ecfc60d1311804096f524c6d60df65c48d2e78ed9eca47f2b927e0ee4bc92fe",
+   4901,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/aquaTheme.tcl": [
+   "7191303317f91b320a78e0f717da3e1074a6f183a88e441cc98d16f097fdb461",
+   3809,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/button.tcl": [
+   "e38a9d1f437981aa6bf0bdd074d57b769a4140c0f7d9aff51743fe4ecc6dfddf",
+   3014,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/clamTheme.tcl": [
+   "bd0c56233d5c1c5e3b5c5aa3fc849f6eb43666f441bcc8033d80324cfde5c4c7",
+   5858,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/classicTheme.tcl": [
+   "f684be4c4b09288888e847415f8ae0e0f4aad985edfbe40b768a7dfc6efaf40f",
+   4354,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/combobox.tcl": [
+   "2c254e4a56910fa398966196de101c1f57bbd06fd30957681b54f3895435ae97",
+   12708,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/cursors.tcl": [
+   "5b33f32b0139663347d6cf70a5a838f8e4554e0e881e97c8478b77733162ea73",
+   4674,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/defaults.tcl": [
+   "b0a7d46c554e6dd8a27d379459c073587e3283edd395e9610fc1ee0ca5bcf0b6",
+   5004,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/entry.tcl": [
+   "f2cacb1b3a941cc7079627644e91f0d4729bf820c481c8ce7fa28c952b803e4d",
+   18006,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/fonts.tcl": [
+   "6574067a91858506460ac44ddf8cf9270e81d67b2feff2a43b4d5f774568a5ec",
+   5639,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/menubutton.tcl": [
+   "0935fb97b6628f055baeb2e2babbf2a6c8905260e1107972b0e7a1df0752e180",
+   6408,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/notebook.tcl": [
+   "b1210147f9daf3068de3d28d4b18c04ecfa8c8574e3e0ad275c1d0d75e9a99b2",
+   5863,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/panedwindow.tcl": [
+   "edd27e92c29552415f57415eefbedf124532a965295de4a41dcad55297e42901",
+   2161,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/progress.tcl": [
+   "697cc0a75ae31fe9c2d85fb25dca0afa5d0df9c523a2dfad2e4a36893be75fba",
+   1138,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/scale.tcl": [
+   "b909add0b87fa8ee08fd731041907212a8a0939d37d2ff9b2f600cd67dabd4bb",
+   2787,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/scrollbar.tcl": [
+   "c223da92b7f5a7cb7f4f4da89cf94ecd472c6aad40bf2455bca7ab2409e459fc",
+   3284,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/sizegrip.tcl": [
+   "d50e9db6dce8c50e060d6d89a9d86605dd0bf3dda1862c303bfb367854290885",
+   2502,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/spinbox.tcl": [
+   "df286bb59f471aa1e19df39af0ef7aa84df9f04dc4a439a747dd8ba43c300150",
+   5003,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/treeview.tcl": [
+   "c88b60ffb0f72e095f6fc9786930add7f9ed049eabc713f889f9a7da516e188c",
+   10180,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/ttk.tcl": [
+   "685398e8db93aebbabfed795e91a42a87aa0e2a2cf23bfcffd70fea085a7ad5e",
+   5509,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/utils.tcl": [
+   "b9b73e5bcd85c8fe00628332f0ab0c4a0ffbb59f7b4e9d6cdc92762a5bcd8d76",
+   8621,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/vistaTheme.tcl": [
+   "70049837a4cbe9c14efe56c00c9e0d5d1431dbdcc8c4cb53ccf3811a56b43947",
+   10692,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/winTheme.tcl": [
+   "55d1f8f82cc8cad02a518c9443cf4d7eaef5226b8b225d10896a343f62b6da9d",
+   3848,
+   "core"
+  ],
+  "_internal/_tk_data/ttk/xpTheme.tcl": [
+   "ee562416bd4aa281b5c59a8eff39d7d5e9c91fd3cb10f84930bc1e977af404f6",
+   3090,
+   "core"
+  ],
+  "_internal/_tk_data/unsupported.tcl": [
+   "b463b366f139ddf7fed31f34c6d2341f9f27845a1a358011dfc801e1333b1828",
+   10521,
+   "core"
+  ],
+  "_internal/_tk_data/xmfbox.tcl": [
+   "c4722eadede763fa52e7937d40067b0f8eb86b7a4b707f90212ed3e5289690d0",
+   26991,
+   "core"
+  ],
+  "_internal/_tkinter.pyd": [
+   "ed2f7b2c9984032cfb046923b45bb745f6e819730c086e559777665b45e8390e",
+   68600,
+   "core"
+  ],
+  "_internal/_uuid.pyd": [
+   "acce4f281d7ffb2dec0997527faf25b1df62ad7bd3032c568ddcf65c90edc867",
+   27128,
+   "core"
+  ],
+  "_internal/_webrtcvad.cp312-win_amd64.pyd": [
+   "00c3cf6d58934e4cff1e5a1204a898e58cf7e2a8ad145c582d1f64e1a856d66e",
+   31232,
+   "core"
+  ],
+  "_internal/_wmi.pyd": [
+   "a980f1e7a29842bd946863fc2693fbeb555a9dc0f9e1630dfed9a2fcdef3ece2",
+   40304,
+   "core"
+  ],
+  "_internal/_zoneinfo.pyd": [
+   "76f1439cda82ab6976df6ba505c4079444703f6d44d8b0259ce59c0ff4279fb4",
+   49656,
+   "core"
+  ],
+  "_internal/av.libs/avcodec-62-984de33114b7fa384296817dec999c9d.dll": [
+   "777704d8914bb99e5d78f3a0e7424031b5376621f2e7c60e83b84e77fcc7e2d7",
+   19266048,
+   "core"
+  ],
+  "_internal/av.libs/avdevice-62-bf7a3ffbb6a4b577f24a39ea98a958d5.dll": [
+   "f97c1c7539fddbf5d713c0904bb4340f9000705bdb2d950338f6b39dba20cb3a",
+   155648,
+   "core"
+  ],
+  "_internal/av.libs/avfilter-11-aef80fc767dc77e0319469b5bdcdf998.dll": [
+   "26e5bd7b01ad8874db7842c03f4ee0fa1466f1192f2f245c1cdccc8acb81ebd2",
+   5890560,
+   "core"
+  ],
+  "_internal/av.libs/avformat-62-b6d6bb16ff0b7753371e2d0b285c9dc0.dll": [
+   "a3494c5304c387518e0d5136ed9bf5e5fc1a3b227ce3f380357149ee09717ff2",
+   2845184,
+   "core"
+  ],
+  "_internal/av.libs/avutil-60-cc1777f859dcfd98b8019bdf459e774e.dll": [
+   "ff4aae43357698825fa5392764d3b680e36c1846b75677bdbf313d8c141ece6d",
+   1145856,
+   "core"
+  ],
+  "_internal/av.libs/libSvtAv1Enc-c4dd99c98ddcdb013e820dbd68a30e26.dll": [
+   "c4dd99c98ddcdb013e820dbd68a30e26472894f1d788e2862376e0404542f045",
+   7673344,
+   "core"
+  ],
+  "_internal/av.libs/libdav1d-959ebc1340f7dfcbcf8e299a26281738.dll": [
+   "959ebc1340f7dfcbcf8e299a26281738d73b53c2da0a3ceb1a1df80ac0c41b4b",
+   2139136,
+   "core"
+  ],
+  "_internal/av.libs/libgcc_s_seh-1-4c0a762e4178b574f72d1ef1f8bb5fc9.dll": [
+   "99a25df00a49a5e1ff131533416faa8d4686dd09a9a800633bc56ce93f69b5a6",
+   150016,
+   "core"
+  ],
+  "_internal/av.libs/libiconv-2-6ce5f4ff92ada49d6f23a8e413455502.dll": [
+   "6ce5f4ff92ada49d6f23a8e4134555028a60cbf22ac4bb5ac78b12a2727676ec",
+   1141248,
+   "core"
+  ],
+  "_internal/av.libs/libmp3lame-0-da02696cc34a9bbc1d1d4f67a85cfbef.dll": [
+   "da02696cc34a9bbc1d1d4f67a85cfbef40a699da443aadb03551d960d2909ea7",
+   425472,
+   "core"
+  ],
+  "_internal/av.libs/libopencore-amrnb-0-b8933128305cd084d40426d0d2c0d9ef.dll": [
+   "b8933128305cd084d40426d0d2c0d9ef8c9a52b10a383aac7ec24fed03f499ad",
+   180224,
+   "core"
+  ],
+  "_internal/av.libs/libopencore-amrwb-0-49da3acfc50704f92538d74aca03c3b8.dll": [
+   "49da3acfc50704f92538d74aca03c3b838195ae4de88be98667e869c2aba0477",
+   96256,
+   "core"
+  ],
+  "_internal/av.libs/libopus-0-4369edc456631a3cc933d7918747e5d2.dll": [
+   "4369edc456631a3cc933d7918747e5d2d111056dbc8a85b01330b5a53c062d44",
+   482816,
+   "core"
+  ],
+  "_internal/av.libs/libsharpyuv-8b869e30854bf3db317a2a93d0782c3d.dll": [
+   "8b869e30854bf3db317a2a93d0782c3df2e9a03d1360320815257f0cbd306c63",
+   51712,
+   "core"
+  ],
+  "_internal/av.libs/libstdc++-6-2d5c346d47ad531ef9f5185db0e8cef3.dll": [
+   "80c66b5220c554aa61b72cce0e9322547d111f81179792dde4d9a645255d0e5a",
+   2660352,
+   "core"
+  ],
+  "_internal/av.libs/libvpl-969a52d626b0390fc34f6a4fb0b08d7e.dll": [
+   "96a2ee0b9d4645791485f0f897fd4ea4d77f324e11918dbc10466fc949f7dca4",
+   444416,
+   "core"
+  ],
+  "_internal/av.libs/libvpx-1-d869f8b2cb42d58b35545ffbfb0f7509.dll": [
+   "e0be857ba4f86709addb42c5e81fef2f565faf52c13fdb982f393ff74d92a0ca",
+   2600960,
+   "core"
+  ],
+  "_internal/av.libs/libwebp-4bf4e57964c7a01c09ce39470d6b67ca.dll": [
+   "5f044e8cf8d0347fdd4d5fff197a64c20b9e2356ee1dd84c11a19638fd9901eb",
+   759296,
+   "core"
+  ],
+  "_internal/av.libs/libwebpmux-9cf6581f8709616d9591befbb1a2264b.dll": [
+   "8394a4928195acdde4d7a5c3cc1f11b581890d061ca4b25ac35c8745376d06ae",
+   78336,
+   "core"
+  ],
+  "_internal/av.libs/libwinpthread-1-02332fab016bf884a2a7a7b2ece22ffe.dll": [
+   "02332fab016bf884a2a7a7b2ece22ffe1dea58d56609f913026c22697dd950bc",
+   62464,
+   "core"
+  ],
+  "_internal/av.libs/libx264-165-f3a909470ddc2d85ed21eda3d0fb7954.dll": [
+   "f3a909470ddc2d85ed21eda3d0fb795404382727c59efa502e3b71cb5ef1aebc",
+   2267648,
+   "core"
+  ],
+  "_internal/av.libs/libx265-efe48a158520a59ef99c0a0b3eb835ae.dll": [
+   "57b1a6cad779aa841985cbdc22539802dd0c15f5832f1783bf38e72e09929f60",
+   12746240,
+   "core"
+  ],
+  "_internal/av.libs/swresample-6-0158536d5c4197d7d623445553ce9472.dll": [
+   "44b6c43045b783970832cd5cac9b3a7250a79476ca34cf90c98f02428749c8b0",
+   180736,
+   "core"
+  ],
+  "_internal/av.libs/swscale-9-0c9886c118598c54e159ef2267ff99f3.dll": [
+   "134b9ba046e46a4391a63d391635a0fc2ba12769295ffc0ffd9b2e78f1376472",
+   2022912,
+   "core"
+  ],
+  "_internal/av.libs/zlib1-79e0c4f9db71cb511398c504b832d395.dll": [
+   "79e0c4f9db71cb511398c504b832d395ba0fdee530f98efd1f861dd96de2ceb2",
+   126464,
+   "core"
+  ],
+  "_internal/av/_core.pyd": [
+   "25d669349bb0f9763b00c9e9fabc2028657e6c1bfc61fcc2e50beca0903f1788",
+   29184,
+   "core"
+  ],
+  "_internal/av/audio/codeccontext.pyd": [
+   "21071a8d7c7e70371a70d6576bfe6d2a60a27fb296ff290249d027d6f1ad8f61",
+   39936,
+   "core"
+  ],
+  "_internal/av/audio/fifo.pyd": [
+   "1872c6a588dbdefd603eb0a43796693b45073669913502fb4bc9193ca196f2a1",
+   50176,
+   "core"
+  ],
+  "_internal/av/audio/format.pyd": [
+   "c19acceccba205853ab1e7dae81782a6ce8cf92d1216d79431ee652ce07d4061",
+   33792,
+   "core"
+  ],
+  "_internal/av/audio/frame.pyd": [
+   "f80a1a55e01577074cf4f092e486f1fdd7be96e75d85bdc239ec369affd142ee",
+   58880,
+   "core"
+  ],
+  "_internal/av/audio/layout.pyd": [
+   "6dcd2f5a1f7e8b658d395438600352971cde9ee91de87d3f4d71f546ef8edae2",
+   49664,
+   "core"
+  ],
+  "_internal/av/audio/plane.pyd": [
+   "2492c6966023e671276eeeed9afa9680da02e14e8e2508cd6db41e45c84ed16a",
+   35328,
+   "core"
+  ],
+  "_internal/av/audio/resampler.pyd": [
+   "bef8646dec1270e2aa094b83811224bed9fda2b5d5afe51d2ebb28f0ec0a3f49",
+   53760,
+   "core"
+  ],
+  "_internal/av/audio/stream.pyd": [
+   "ee2756d1851388e6ae5a9e0b053122a601ced785aaa3f7017b0c9df7491b057e",
+   40960,
+   "core"
+  ],
+  "_internal/av/bitstream.pyd": [
+   "3277f0f5abd59e71826f07de264dab001a1bc0b6f7b95cacb65fcac54896d90a",
+   38400,
+   "core"
+  ],
+  "_internal/av/buffer.pyd": [
+   "c0b70eccfa773196c7b7f3feecaa6f5c3b111a42099e2421166d656084d09015",
+   41984,
+   "core"
+  ],
+  "_internal/av/codec/codec.pyd": [
+   "4353e90e3bda30e2000583aca39cbd2aa1b8a1174ac80c2b7dedc1ac5ec3b443",
+   68608,
+   "core"
+  ],
+  "_internal/av/codec/context.pyd": [
+   "50f66dc7cdd992be51c159134c5f469beb76a4d3a114c514b51e3a8fe19577a3",
+   122880,
+   "core"
+  ],
+  "_internal/av/codec/hwaccel.pyd": [
+   "d74b0048b9277cc84837f26d39087a29c483c26c0ba15c39c75258d2ec8b95da",
+   61952,
+   "core"
+  ],
+  "_internal/av/container/core.pyd": [
+   "93547e184b60efdbda531b0aabd47a2ae4881a05d4db6d3c6ba45e92e051cd32",
+   96256,
+   "core"
+  ],
+  "_internal/av/container/input.pyd": [
+   "c3bdfae2d75b08b78fdd36159ae74e48ad7cd8bbd627bca005033ab4f6404643",
+   74240,
+   "core"
+  ],
+  "_internal/av/container/output.pyd": [
+   "c85278fa35483b70d94af5276ca9ec90cf5276bc3970c6537951354673a9abdc",
+   90112,
+   "core"
+  ],
+  "_internal/av/container/pyio.pyd": [
+   "26b9e5f6a63328fe4c35fb1b7c0cc2654af865fdab14ced2550dcc3fb56183e1",
+   38400,
+   "core"
+  ],
+  "_internal/av/container/streams.pyd": [
+   "ed0e2d8927a75aed0553b2729523647275db1dfab7a69ad25fd1b6a6dd13f066",
+   72192,
+   "core"
+  ],
+  "_internal/av/device.pyd": [
+   "eb542faf9c13d3312539f0a8645af5b86c7104b062f9717f786cd7a52f25f768",
+   57856,
+   "core"
+  ],
+  "_internal/av/dictionary.pyd": [
+   "21a513157b6ae517bf45af01a54b9e0f5af63b2fd5333bebd0db351141595068",
+   56832,
+   "core"
+  ],
+  "_internal/av/error.pyd": [
+   "b03d2bedd87a40f12d712d791ebcaced177d1126bb1356c0c19c26e2d3c20429",
+   94208,
+   "core"
+  ],
+  "_internal/av/filter/context.pyd": [
+   "d2c077b9c29ce268d5fa3a526052a4e135a96cbecb69c0fc261cab14a1bb957b",
+   135168,
+   "core"
+  ],
+  "_internal/av/filter/filter.pyd": [
+   "1d51964274998bb5b503937e2de9975d60e5198125ef7836957fa47ea458b26a",
+   32256,
+   "core"
+  ],
+  "_internal/av/filter/graph.pyd": [
+   "d9ea2a3aa35cac97f5e385cb0bb47e5e25be2f18ec9dbeef15ab3bef7fbe09d6",
+   74752,
+   "core"
+  ],
+  "_internal/av/filter/link.pyd": [
+   "c1d8626838d424e2c81e69ab5f1298dcf317277257ade1f281b551bd547b1aa1",
+   47104,
+   "core"
+  ],
+  "_internal/av/filter/loudnorm.pyd": [
+   "f9927671ae5aa68ba8b26b966ad0a2b189cd570590a80b5ba0275064db8c55e8",
+   35328,
+   "core"
+  ],
+  "_internal/av/format.pyd": [
+   "a4a10ecf6118d6b6a78b8cb60e3ccbd6e7a8e74314b1f728384c6e441760ee97",
+   39936,
+   "core"
+  ],
+  "_internal/av/frame.pyd": [
+   "19b26fc869f35bf4cdc823f5371fe357aa2833d29aabb311f11d7831aef98def",
+   42496,
+   "core"
+  ],
+  "_internal/av/index.pyd": [
+   "6ce35fe62976ce29be74e18026231adf4b99eff9e08ee7fff03b6746dcf79d46",
+   58880,
+   "core"
+  ],
+  "_internal/av/logging.pyd": [
+   "e25ee4fbbe3fc6444292b00aae9b4594ed44b67e29f901ad4c7f9e17aca7c930",
+   62976,
+   "core"
+  ],
+  "_internal/av/opaque.pyd": [
+   "01f4fa6fc6923af682fa969beb63511ae3f784d9b648627fcb13345bfa8fee68",
+   31232,
+   "core"
+  ],
+  "_internal/av/packet.pyd": [
+   "2db7b19f55c0a0a97f1d72d22a8d930f9c9012d9d9c0d14fdc998c92bb78f7fd",
+   87552,
+   "core"
+  ],
+  "_internal/av/plane.pyd": [
+   "d4caf7fed366fdee2c57adc03fb018035d46091654c884c90ecb28489c9cef69",
+   36352,
+   "core"
+  ],
+  "_internal/av/rational.pyd": [
+   "4d82a67d6fd770e344af87cac19bbf042045d329ead85acada6a96b9d8702460",
+   44544,
+   "core"
+  ],
+  "_internal/av/sidedata/encparams.pyd": [
+   "465a09cfa3334c0e9634e23fb7349ba237879098238e1539e252411893f5a0d4",
+   53248,
+   "core"
+  ],
+  "_internal/av/sidedata/motionvectors.pyd": [
+   "4de475251e478ffa21563f9ea69c68f64f67344cba91bd1d1ce02877812af843",
+   64512,
+   "core"
+  ],
+  "_internal/av/sidedata/sidedata.pyd": [
+   "438dda9bec7a1b062c3021676eacdef5f16f9823c898758922c39881421b9b4d",
+   58880,
+   "core"
+  ],
+  "_internal/av/stream.pyd": [
+   "dcba76f21ead0bc7cdcecbf8f59f4e6839ef834251359780af3113bb0311408f",
+   61952,
+   "core"
+  ],
+  "_internal/av/subtitles/codeccontext.pyd": [
+   "2a43955af37b2a7b2bf1741e0cc42cf8dc6ff8efed4e1dd431d359d38c5cf4ec",
+   40960,
+   "core"
+  ],
+  "_internal/av/subtitles/stream.pyd": [
+   "7ee6782ddd100dc290ad9871684a14ba670742146a134d2c4ba24e0381accad7",
+   34816,
+   "core"
+  ],
+  "_internal/av/subtitles/subtitle.pyd": [
+   "68abd3b3626acb404f75ecfd0e773ed33deebf1f58c7220c9ba99a3c6db9f1a7",
+   84992,
+   "core"
+  ],
+  "_internal/av/utils.pyd": [
+   "85bea4074088698336853a1506f37ce4f4e2277d8d1138e800aff98d0611ef27",
+   28672,
+   "core"
+  ],
+  "_internal/av/video/codeccontext.pyd": [
+   "b7216176e1fc7014f62f85af34c3d879a9037462980cfeb843b966c218231c5d",
+   59392,
+   "core"
+  ],
+  "_internal/av/video/format.pyd": [
+   "e700da2b012b04bdfa0111c6515b04ef6d729db7df2bd01d95e1e36093b585d8",
+   63488,
+   "core"
+  ],
+  "_internal/av/video/frame.pyd": [
+   "795cbc8fb5ab47eef644128f184151fb6fe3115b449f732bb6fa81befb231ad1",
+   296448,
+   "core"
+  ],
+  "_internal/av/video/plane.pyd": [
+   "4f75d521534967de75f62acefe50b53dd58442152cf186c3e770186340301c66",
+   52224,
+   "core"
+  ],
+  "_internal/av/video/reformatter.pyd": [
+   "c432512fd625317df6f6c32ec65ed8dcdac9ed5f48b262e8fa5dc627f1a2b129",
+   58368,
+   "core"
+  ],
+  "_internal/av/video/stream.pyd": [
+   "668a6af479595e8466bb1c9f8b74a845ae1b9a209baef7a07fed6548e46fa435",
+   53760,
+   "core"
+  ],
+  "_internal/base_library.zip": [
+   "bc2ba36f81f545154ad4aeac09e722aef215e416d887a3092c97216fdb94f307",
+   1333717,
+   "app"
+  ],
+  "_internal/certifi/cacert.pem": [
+   "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f",
+   240216,
+   "core"
+  ],
+  "_internal/certifi/py.typed": [
+   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   0,
+   "core"
+  ],
+  "_internal/charset_normalizer/cd.cp312-win_amd64.pyd": [
+   "71ffb046452b819770538cb59fd25694c0a8e9b08af4b8b71f26dac85dcff062",
+   117248,
+   "core"
+  ],
+  "_internal/charset_normalizer/md.cp312-win_amd64.pyd": [
+   "c53a0a481bbcef6a88492bd113b6293997900f4a17a1a5055776d76256d720f9",
+   193536,
+   "core"
+  ],
+  "_internal/click-8.5.0.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/click-8.5.0.dist-info/METADATA": [
+   "e87bce0bd194de70dfb8e708e0a6b0483009f25611804eaf87bfeb63e6c20501",
+   2567,
+   "core"
+  ],
+  "_internal/click-8.5.0.dist-info/RECORD": [
+   "43d8bb1ce44dea5d9423b7eae1d6ba911974425b96acc170b036e1655a901e10",
+   2533,
+   "core"
+  ],
+  "_internal/click-8.5.0.dist-info/WHEEL": [
+   "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+   82,
+   "core"
+  ],
+  "_internal/click-8.5.0.dist-info/licenses/LICENSE.txt": [
+   "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+   1475,
+   "core"
+  ],
+  "_internal/ctranslate2/_ext.cp312-win_amd64.pyd": [
+   "56960585ca09f398a4425fe49a60fa5a7df137e53353bb3fe5445434f2ce4231",
+   715776,
+   "core"
+  ],
+  "_internal/ctranslate2/ctranslate2.dll": [
+   "34ff1eeefef2330f8abe777ae12b2238718e04503ad6e3bc9b6c9cb5be9fd274",
+   59296256,
+   "core"
+  ],
+  "_internal/ctranslate2/cudnn64_9.dll": [
+   "9edbcdff73b0af070eb160b2ce66e59feca04aa017351d8eedcc5e8e149967d2",
+   266288,
+   "core"
+  ],
+  "_internal/ctranslate2/libiomp5md.dll": [
+   "982233366b0afcda1e0f55a0b134097e35b779613f54ddb69e685e6cd06b755f",
+   1614192,
+   "core"
+  ],
+  "_internal/faster_whisper/assets/silero_vad_v6.onnx": [
+   "4cbf549b8326f60f80f2536d9eefeb450a9abe83365a098031c89719f1be17d2",
+   1245151,
+   "core"
+  ],
+  "_internal/hf_xet/hf_xet.pyd": [
+   "ea8f5ddb1ae42adf5e4d376ec27b7f1ea1fe843e15f5d7a9e45fe1298ca4fd4c",
+   9499136,
+   "core"
+  ],
+  "_internal/httpcore2-2.13.1.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/httpcore2-2.13.1.dist-info/METADATA": [
+   "37a0ea0674e98b7c3a1f99c17d9bb5457de27a0f93c8b6560c9d17d525139abb",
+   26537,
+   "core"
+  ],
+  "_internal/httpcore2-2.13.1.dist-info/RECORD": [
+   "3a91ba5cb15292167fbd1ad10b6b3e325edaf6001567db1a0b25fd4cf76a8d99",
+   4835,
+   "core"
+  ],
+  "_internal/httpcore2-2.13.1.dist-info/WHEEL": [
+   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+   87,
+   "core"
+  ],
+  "_internal/httpcore2-2.13.1.dist-info/licenses/LICENSE.md": [
+   "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9",
+   1599,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/METADATA": [
+   "b75b03a003b5593e000907cf7239fcc3f688b8f17db4ecff883d11221ea988fc",
+   9799,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/RECORD": [
+   "25517a1d9f3cfe2783d28d69aea969ebfe4c64d15a17dd097ee980d42cd34c3f",
+   4542,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/WHEEL": [
+   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+   87,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/entry_points.txt": [
+   "dee899a2b4509500053681da0f1b8cb2691d8eddeb5139ae073f35b4b5c57506",
+   45,
+   "core"
+  ],
+  "_internal/httpx2-2.13.1.dist-info/licenses/LICENSE.md": [
+   "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30",
+   1589,
+   "core"
+  ],
+  "_internal/jiter/jiter.cp312-win_amd64.pyd": [
+   "4cf612d63cf512f8fc3171f3c610cdf02acee71cbc9030cfffe4fd7f8294d521",
+   465920,
+   "core"
+  ],
+  "_internal/libcrypto-3.dll": [
+   "ccfffddcd3defb8d899026298af9af43bc186130f8483d77e97c93233d5f27d7",
+   5231472,
+   "core"
+  ],
+  "_internal/libffi-8.dll": [
+   "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+   39696,
+   "core"
+  ],
+  "_internal/libssl-3.dll": [
+   "007142039f04d04e0ed607bda53de095e5bc6a8a10d26ecedde94ea7d2d7eefe",
+   794992,
+   "core"
+  ],
+  "_internal/msvcp140.dll": [
+   "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+   643512,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/DELVEWHEEL": [
+   "4a71fefce03586c3347fcd8f3a994ad4af93717dc6e5d964d976e6134e3230fa",
+   462,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/METADATA": [
+   "451a9b8028000588e66b0b415587b6aef0bbc51a96d8e8a0cba0dc23acf64f99",
+   6635,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/RECORD": [
+   "7dd9114df48802b85a584baa60140707b1401ddaf79df4c321a4c530eeeabad7",
+   113358,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/REQUESTED": [
+   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   0,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/WHEEL": [
+   "e743de01ba6503a3e4234858398a1e69c07d512d51e8482ec9f3a7b1c707d165",
+   85,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/entry_points.txt": [
+   "ec26fade0c8bdac211a6c1dd003a65eb16885b925395423e93fcaa115af4052c",
+   220,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/LICENSE.txt": [
+   "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+   45831,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt": [
+   "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+   1039,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING": [
+   "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+   704,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE": [
+   "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+   21155,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt": [
+   "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+   1441,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md": [
+   "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+   1542,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE": [
+   "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+   1573,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md": [
+   "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+   1523,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt": [
+   "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+   2314,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE": [
+   "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+   1616,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md": [
+   "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+   3582,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md": [
+   "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+   2805,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md": [
+   "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+   2986,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md": [
+   "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+   1176,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md": [
+   "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+   1540,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md": [
+   "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+   1253,
+   "core"
+  ],
+  "_internal/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md": [
+   "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+   340,
+   "core"
+  ],
+  "_internal/numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll": [
+   "ed4f167a5330424524f45258e7ca2c8d7f03c0cba1f30ee4985553ac1f88ecf8",
+   20589056,
+   "core"
+  ],
+  "_internal/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll": [
+   "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde",
+   575056,
+   "core"
+  ],
+  "_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd": [
+   "8fdd39b1dcd81239b1fe0b10744afd76dc85c8575aa09429b392e323fb750f4b",
+   65536,
+   "core"
+  ],
+  "_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd": [
+   "a9d5c4202cf109bf24305f3f1180e0509aaf661ba850612bd75df7cfd9f928b8",
+   3854848,
+   "core"
+  ],
+  "_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd": [
+   "3ed9c2f73c7dc165e41e98ecfd0a4f66481a5afec7e39148a2af317b9a4ff62e",
+   276480,
+   "core"
+  ],
+  "_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd": [
+   "15884ab8ded82bc5f834e429a63cc9cfdcc24f61737a5c563efb2c2f274213a8",
+   112128,
+   "core"
+  ],
+  "_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd": [
+   "031cbd54dcbef2ff3fda13889879a6442f17c31df6d008154708b31d7582309c",
+   208896,
+   "core"
+  ],
+  "_internal/numpy/random/_common.cp312-win_amd64.pyd": [
+   "8bd4fcd63a3f0643a81b4095a8221a4a3917dd86816ecbeea595db237071369f",
+   174080,
+   "core"
+  ],
+  "_internal/numpy/random/_generator.cp312-win_amd64.pyd": [
+   "8dd9ad224065d8c38d99149d6816a519eb769b3e01210164b3bcb186e7d59479",
+   624640,
+   "core"
+  ],
+  "_internal/numpy/random/_mt19937.cp312-win_amd64.pyd": [
+   "9b3aff503e8872d6e6b71b2d41a5a1304c02092cb75f5387194c3fa98c1a5610",
+   92672,
+   "core"
+  ],
+  "_internal/numpy/random/_pcg64.cp312-win_amd64.pyd": [
+   "f68a6a65df54920f091c6745694fd7adacc7311d980a429c8217385b43f8df26",
+   105984,
+   "core"
+  ],
+  "_internal/numpy/random/_philox.cp312-win_amd64.pyd": [
+   "1872654c8ade0ed9e11ca3f1b2714154f39a0cef46416b48e40c7e96a6dc2018",
+   89088,
+   "core"
+  ],
+  "_internal/numpy/random/_sfc64.cp312-win_amd64.pyd": [
+   "958af4dd25196f436d67b681c64a8639f0ec5a98dbb37124859def7eb353c0ab",
+   64000,
+   "core"
+  ],
+  "_internal/numpy/random/bit_generator.cp312-win_amd64.pyd": [
+   "1e7a030cfd348ab125a681eaf21b227be145d8329430b8d521f9bde520390267",
+   173056,
+   "core"
+  ],
+  "_internal/numpy/random/mtrand.cp312-win_amd64.pyd": [
+   "2dbf4488af25a9d6b2863b3eea53d4a39b692b3be579e970761730d310e8ea65",
+   522752,
+   "core"
+  ],
+  "_internal/nvidia/cublas/bin/cublas64_12.dll": [
+   "52ce5ba0ec5327d39be6021f0f9362d2ed4d64d7206f9b5afc06398d827b8e82",
+   102518272,
+   "gpu"
+  ],
+  "_internal/nvidia/cublas/bin/cublasLt64_12.dll": [
+   "71705a7cf0923f4ab034d0d2620bbfc989ff669ac3d79f868b7a7c597ca559c5",
+   668673536,
+   "gpu"
+  ],
+  "_internal/nvidia/cublas/bin/nvblas64_12.dll": [
+   "f54ac264becdb8ac866cbc0cce74f1dfe0e0c1f6e60a0629f222490d210302cd",
+   334848,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn64_9.dll": [
+   "4090a7bf7dd470e75c5544bf9b6d47dacec3fadd72c794d2ee7c861f27a62ae9",
+   270448,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_adv64_9.dll": [
+   "d2f0bef8df327f704705a208345c03d8b102105959a50b4df58a6db84b365074",
+   270983792,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_cnn64_9.dll": [
+   "9390f2b7e3734d56a7cef03e932a4e25b63e3d732892c7ee883ff03d378519b0",
+   2997872,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_engines_precompiled64_9.dll": [
+   "2d609bedad06e4e4d0c5bc027df0d49b1fe77622ed7cc95ac8cd6e465ca3a678",
+   551987312,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_engines_runtime_compiled64_9.dll": [
+   "3d511956312c31d2f7a0b13fcf11bb1615762869e38b012e22b09672b6f29460",
+   39170672,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_engines_tensor_ir64_9.dll": [
+   "c11dcec9bdadb07a06fd39a3e93e8fef9b5e5a4e603b86bc4c1bd3a7894b79b8",
+   156272,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_ext64_9.dll": [
+   "1aa7091c797608f6abaa60a52c1259fd1c7973347d67b57ffbd941efe840070a",
+   130160,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_graph64_9.dll": [
+   "328602d960f9dd7a2a7aa6ec301e1459dc5d05e9ee31ea13ecbd0d54c73fd2b1",
+   99898480,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_heuristic64_9.dll": [
+   "434b2095f4cd09c87319a0ea00ea2f789519be5073de5efd8e5983eaeee4455b",
+   73166960,
+   "gpu"
+  ],
+  "_internal/nvidia/cudnn/bin/cudnn_ops64_9.dll": [
+   "f8fea705eb2e766754475de0cfbc2a86127a31a4a53830d805fea46bd1f833ab",
+   105686640,
+   "gpu"
+  ],
+  "_internal/onnxruntime/capi/onnxruntime.dll": [
+   "e42c5c917207ff706530315177e39dca2539695a6a8d968a22225e34291b1f12",
+   18446176,
+   "core"
+  ],
+  "_internal/onnxruntime/capi/onnxruntime_providers_shared.dll": [
+   "46b999f9d5cd9d284091407e9f50a262624e6a71265fc428a1dfbd42d149bd81",
+   21856,
+   "core"
+  ],
+  "_internal/onnxruntime/capi/onnxruntime_pybind11_state.pyd": [
+   "c0b7c1a5524b702863d24d6c38b3fa5ad8199b25cb5e0893ac9b5a6661979f14",
+   19112248,
+   "core"
+  ],
+  "_internal/openvr/libopenvr_api_32.dll": [
+   "fd100f4f6730b5fb01d644edca96c7280a09481f044f61695908feba2d9663c6",
+   631960,
+   "core"
+  ],
+  "_internal/openvr/libopenvr_api_32.dylib": [
+   "2228f1e927f1240b02ac62fcf89b43eea24ec404d4b415ca0e9af00bec45ee13",
+   155684,
+   "core"
+  ],
+  "_internal/openvr/libopenvr_api_32.so": [
+   "c90d23121f5438a79b65418baff323a984142f8ba651f54896ff3dae0100e658",
+   1768268,
+   "core"
+  ],
+  "_internal/openvr/libopenvr_api_64.dll": [
+   "e61701f75930b4c47615d17f5901ca62edf1a948f5ea804d4cbbdc94ad2e6e2e",
+   836760,
+   "core"
+  ],
+  "_internal/openvr/libopenvr_api_64.so": [
+   "778bb97c4ccd6c99657e37c192c553d9de2eb045bff9fb2cf4bb9ac14884610d",
+   1752264,
+   "core"
+  ],
+  "_internal/preset.dat": [
+   "f478e0d351f0f9c92082d698c6d20f86c7d189264f08c742b13b3a313b89a8ba",
+   824,
+   "app"
+  ],
+  "_internal/pydantic-2.13.5.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/pydantic-2.13.5.dist-info/METADATA": [
+   "0685830d13647bd6f3f05526043d32a8b2a221d86b53773053d6c52bb17a9c07",
+   110178,
+   "core"
+  ],
+  "_internal/pydantic-2.13.5.dist-info/RECORD": [
+   "33724f6f5112f6e362460d7d57ebde3437aa22cf7dcb6bc60d7c132ffb208e1d",
+   15456,
+   "core"
+  ],
+  "_internal/pydantic-2.13.5.dist-info/WHEEL": [
+   "ccec20e2307acd7da453dd7437e70c6b08e2bc3ead3bc3445af135da37b56d59",
+   87,
+   "core"
+  ],
+  "_internal/pydantic-2.13.5.dist-info/licenses/LICENSE": [
+   "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+   1129,
+   "core"
+  ],
+  "_internal/pydantic_core/_pydantic_core.cp312-win_amd64.pyd": [
+   "28fd1266fb9946fe61775505a13c0bf803f6932b51b306a0032687393d9a558b",
+   5157888,
+   "core"
+  ],
+  "_internal/pyexpat.pyd": [
+   "d615e193d1affcdbfe504e90d3621cbdcff94bf72b79d899126534507fd6d27a",
+   205304,
+   "core"
+  ],
+  "_internal/python3.dll": [
+   "fb975a606e7fbf74f64260e3f60c3490b4f74a183c0926fd6ed1ac4c52ac7b1c",
+   70376,
+   "core"
+  ],
+  "_internal/python312.dll": [
+   "9a0e3435aaa680d868150f87ab3e388ad2eebc22f87e036155c7b4eda8cd2120",
+   6945272,
+   "core"
+  ],
+  "_internal/scipy.libs/libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll": [
+   "197ee2fc9b4d071f7e048078cac741151a6585d871061cf5f88c0c73e31963a5",
+   20262912,
+   "core"
+  ],
+  "_internal/scipy/_cyutility.cp312-win_amd64.pyd": [
+   "5d31b649995f6e9fb95e15f2ba35de18618347c33aee07b9b3eab506a2fdbd8f",
+   192512,
+   "core"
+  ],
+  "_internal/scipy/_lib/_ccallback_c.cp312-win_amd64.pyd": [
+   "4ba005064af61e94ad473f09ba67836523db6773458470a6d8d7e5c1234bbdac",
+   105984,
+   "core"
+  ],
+  "_internal/scipy/_lib/_fpumode.cp312-win_amd64.pyd": [
+   "227637208fefd2c1e41e57da4a161ed08c9b4a52dcb5e90f6a75f1a9f6afa4e0",
+   11776,
+   "core"
+  ],
+  "_internal/scipy/_lib/_uarray/_uarray.cp312-win_amd64.pyd": [
+   "5b759f7df1ef9d0f61061ed528f6e9d0fe5c8938729ae9fcc26c557302403a23",
+   247296,
+   "core"
+  ],
+  "_internal/scipy/_lib/messagestream.cp312-win_amd64.pyd": [
+   "a45ee93e69c84e9c198444df93b6f8ffc4ce09c852f3892137b5b6f6034bae6a",
+   62464,
+   "core"
+  ],
+  "_internal/scipy/fft/_duccfft/pyduccfft.cp312-win_amd64.pyd": [
+   "18398ec2696b44bda1e57036be146534d916a01fdb82d6632c73472a2dfd49af",
+   2786816,
+   "core"
+  ],
+  "_internal/scipy/integrate/_dop.cp312-win_amd64.pyd": [
+   "63cc8187017f0bd2a5e33b7db7d487bb33ae264befb6861467994653dac1e3b1",
+   87040,
+   "core"
+  ],
+  "_internal/scipy/integrate/_odepack.cp312-win_amd64.pyd": [
+   "8cec2d7783e804794aa7eecc6eb80e3380b350af35c92bc419b977ef35d901c1",
+   98816,
+   "core"
+  ],
+  "_internal/scipy/integrate/_quadpack.cp312-win_amd64.pyd": [
+   "03e0ed70dc1910b227f32676d4f4c8621f4b82ab45429e6f167dc582c4c67dd8",
+   142336,
+   "core"
+  ],
+  "_internal/scipy/integrate/_vode.cp312-win_amd64.pyd": [
+   "3b858a16e3408b25b6d3ef03066aa222e3c50f96e0526966d715a5fb93e17e5d",
+   139776,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_dierckx.cp312-win_amd64.pyd": [
+   "608680528ee32e54e13316fdd191c6a94e4bf54c64e389bf2b9f59a0ec3f9c2d",
+   292864,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_fitpack.cp312-win_amd64.pyd": [
+   "af4120e06472c88e2b44beb834a8e249ecc40de777a2d3d7f74508fa8292b8de",
+   346112,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_interpnd.cp312-win_amd64.pyd": [
+   "c3976f6cef4d797f6ad156435cba96782fd164695beb5d44dae2ebe138eb48d1",
+   235008,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_ppoly.cp312-win_amd64.pyd": [
+   "a3ef6ca12445cc777e0d07da7890959509e96905701d87b97f368e045fd6bd0d",
+   206848,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_rbfinterp_pythran.cp312-win_amd64.pyd": [
+   "d2392f5b85d9fbf0d3422ee8a531dd805fcb502d64ab04afb6cb0eb21e03b5f7",
+   1144832,
+   "core"
+  ],
+  "_internal/scipy/interpolate/_rgi_cython.cp312-win_amd64.pyd": [
+   "430673f962ef25cdfe4587915541fc843ab77c99756af741d1cdf6c9dfe12cdf",
+   122880,
+   "core"
+  ],
+  "_internal/scipy/linalg/_batched_linalg.cp312-win_amd64.pyd": [
+   "4ff2e41e64d34a0f34ca4363d48074451e1e9977bfc366bf0b80d4c2f4a50268",
+   1165824,
+   "core"
+  ],
+  "_internal/scipy/linalg/_cythonized_array_utils.cp312-win_amd64.pyd": [
+   "deab4aaecda674e2b45c4a19742da78dc03f624ce023846417b7a18a8339031f",
+   198656,
+   "core"
+  ],
+  "_internal/scipy/linalg/_decomp_interpolative.cp312-win_amd64.pyd": [
+   "cd4acc7a49f36691c2aeaa128cbe2bcaa8f85ac71b8cf131ea58ef1291b00166",
+   742400,
+   "core"
+  ],
+  "_internal/scipy/linalg/_decomp_update.cp312-win_amd64.pyd": [
+   "2bf6c314edd1a8bf354f238415f3295ae464fde97e1f276ca7efcdc177afe546",
+   303616,
+   "core"
+  ],
+  "_internal/scipy/linalg/_fblas.cp312-win_amd64.pyd": [
+   "4832bd6d4e8f9ba7317985fdfa8656e8661e98ce952ba757671e3c2d236d9389",
+   739840,
+   "core"
+  ],
+  "_internal/scipy/linalg/_flapack.cp312-win_amd64.pyd": [
+   "ea9fc3ba84abfb7bc1be930d94a237ae494df9ede89a919602d661b606f55138",
+   2301440,
+   "core"
+  ],
+  "_internal/scipy/linalg/_internal_matfuncs.cp312-win_amd64.pyd": [
+   "ad0ec88336620b15d80f8588a212cade3700b90c329c90b26bb10c5d4b8579c8",
+   172032,
+   "core"
+  ],
+  "_internal/scipy/linalg/_linalg_pythran.cp312-win_amd64.pyd": [
+   "6ac6bea5e09d9f07f9e986bc2edbe2b632cafacdfab9815865573427814a03e4",
+   1038336,
+   "core"
+  ],
+  "_internal/scipy/linalg/_matfuncs_sqrtm_triu.cp312-win_amd64.pyd": [
+   "ea95b4aa9018f7e059ce81047279d5f569d37ff6fb5eccf9da8511d115c4dc00",
+   107520,
+   "core"
+  ],
+  "_internal/scipy/linalg/_solve_toeplitz.cp312-win_amd64.pyd": [
+   "f7627f12ffc46542802ed6940a7c449589226548d32b8db6dd1c9abc04cd0671",
+   123904,
+   "core"
+  ],
+  "_internal/scipy/linalg/cython_blas.cp312-win_amd64.pyd": [
+   "3b74e06f76feab1041954f5b3efedee516bd1259cc97846338d9570ebd39c0a5",
+   127488,
+   "core"
+  ],
+  "_internal/scipy/linalg/cython_lapack.cp312-win_amd64.pyd": [
+   "5f9f5128647dc62ebbf518b8f4993061b01497adf19cf26ffa1021f9db88ca5b",
+   203264,
+   "core"
+  ],
+  "_internal/scipy/ndimage/_nd_image.cp312-win_amd64.pyd": [
+   "24b51c516e9344dfe459f5fd3932d04049f6ab7f9a131e2789e27c69ea7157fd",
+   196608,
+   "core"
+  ],
+  "_internal/scipy/ndimage/_ni_label.cp312-win_amd64.pyd": [
+   "94e09844b8a3371f1b523a0aa2ce32ada0e3627456afd1e785c5a5e67849a27a",
+   212480,
+   "core"
+  ],
+  "_internal/scipy/ndimage/_rank_filter_1d.cp312-win_amd64.pyd": [
+   "77f996dd45d7f2aa4e563340015791c067cda9971bf55dbaebedc117e26e9dc1",
+   128000,
+   "core"
+  ],
+  "_internal/scipy/optimize/_bglu_dense.cp312-win_amd64.pyd": [
+   "f1932732b5384833a4d36b4ab715e79d36c941d538ad9379445ede7dca77c7ec",
+   175616,
+   "core"
+  ],
+  "_internal/scipy/optimize/_direct.cp312-win_amd64.pyd": [
+   "7ccd80c266d65fa2a15b7e11dd998f3a8e81937fafc48c9f1ba4786fc867a4d7",
+   70656,
+   "core"
+  ],
+  "_internal/scipy/optimize/_group_columns.cp312-win_amd64.pyd": [
+   "7b2ea108304b87833e64c3ba9e5e6e8e6421d0d2e8eda15ed5ea91a1d75ecc4a",
+   1007616,
+   "core"
+  ],
+  "_internal/scipy/optimize/_highspy/_core.cp312-win_amd64.pyd": [
+   "e6beb8321a4905c9bd0ba0eec2dfa7e27d76a01ab7d0abeab81fcce9ae6732e1",
+   6709248,
+   "core"
+  ],
+  "_internal/scipy/optimize/_highspy/_highs_options.cp312-win_amd64.pyd": [
+   "8b3ca9f9f5c5c56152bcd757a44c574f2e9c907fda564ed9ff6a5552cdf0cfa6",
+   543232,
+   "core"
+  ],
+  "_internal/scipy/optimize/_lbfgsb.cp312-win_amd64.pyd": [
+   "3ab8d1a5a2391952c66a4de2126c3f151c7efdaa2e8f340c465bf79b488a2739",
+   49664,
+   "core"
+  ],
+  "_internal/scipy/optimize/_lsap.cp312-win_amd64.pyd": [
+   "34e851d39d8c07b071e1206752073b86d29e5cfb63001bc611805ac1d0db7772",
+   190976,
+   "core"
+  ],
+  "_internal/scipy/optimize/_lsq/givens_elimination.cp312-win_amd64.pyd": [
+   "c7a2d232bc5d4e6afed937df153fb36d128f5c2416527f2eb7cc8306ab6bc970",
+   70144,
+   "core"
+  ],
+  "_internal/scipy/optimize/_minpack.cp312-win_amd64.pyd": [
+   "24fe418dba91526e9aa41cd44902884ba42d63c67261c4c9cab514f608f0ebca",
+   125952,
+   "core"
+  ],
+  "_internal/scipy/optimize/_moduleTNC.cp312-win_amd64.pyd": [
+   "b6d7facc4f94f9c07bade87ad7e9a096a4b112a2ca56fea9b4bc19ded68d0959",
+   151040,
+   "core"
+  ],
+  "_internal/scipy/optimize/_pava_pybind.cp312-win_amd64.pyd": [
+   "8b63297bce9cb14ebf4d51ac87cdad1eb27ed3b6f6867524fe06554623baff1d",
+   324096,
+   "core"
+  ],
+  "_internal/scipy/optimize/_slsqplib.cp312-win_amd64.pyd": [
+   "a108ab846bccb35169dc86b37c14e25a2ec4162b0235ea5282ba28ea057ff011",
+   48640,
+   "core"
+  ],
+  "_internal/scipy/optimize/_trlib/_trlib.cp312-win_amd64.pyd": [
+   "5a24ca0f7984cfce5ab7b0de61bd4d4f61593d1da1817d4cd168061cee3bc99c",
+   207872,
+   "core"
+  ],
+  "_internal/scipy/optimize/_zeros.cp312-win_amd64.pyd": [
+   "8d1797a4cf71c48e1c22d38dafeb4cdd9bf882d7c59a16b2d9670a1a0a1808c2",
+   23040,
+   "core"
+  ],
+  "_internal/scipy/signal/_max_len_seq_inner.cp312-win_amd64.pyd": [
+   "54efee1488634c9367e17c4f7c93f2c7b204a1ec860a89e2c1f02855b8aa2106",
+   979968,
+   "core"
+  ],
+  "_internal/scipy/signal/_peak_finding_utils.cp312-win_amd64.pyd": [
+   "275f93bef335982cd28089ef7f234585828f0fd6e4ee4400a467ebe768f0e2c3",
+   137728,
+   "core"
+  ],
+  "_internal/scipy/signal/_sigtools.cp312-win_amd64.pyd": [
+   "843010bbea19df62b4d79f63a443b219258e7722ca9865d4b592a4e27ebe80c1",
+   119296,
+   "core"
+  ],
+  "_internal/scipy/signal/_sosfilt.cp312-win_amd64.pyd": [
+   "2ce1f4f1039e89a75d2d181c313ce80fac8eb285b8c33c0ca2ed8c4cb11f516c",
+   110080,
+   "core"
+  ],
+  "_internal/scipy/signal/_spline.cp312-win_amd64.pyd": [
+   "f82ca6be35db51c0e5665e2f98a3b3699f7a5a654e205474a77d2214c335ffe5",
+   59392,
+   "core"
+  ],
+  "_internal/scipy/signal/_upfirdn_apply.cp312-win_amd64.pyd": [
+   "b4e7ccb7cf4cf5af0d0c774e1e64ffe8e525028df3be2755e6ef30c7d18ab9ff",
+   193024,
+   "core"
+  ],
+  "_internal/scipy/sparse/_csparsetools.cp312-win_amd64.pyd": [
+   "aed673d21bb62c5c21448c954439522629e6aeba99e031ca60f45731358d2162",
+   406528,
+   "core"
+  ],
+  "_internal/scipy/sparse/_sparsetools.cp312-win_amd64.pyd": [
+   "c582d431dcc2e3f6863de23c1ba875eb88a88b8ba9bda833c15cb0eba306010e",
+   4239360,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_flow.cp312-win_amd64.pyd": [
+   "ce057155684ca47b9d27c0f7385e272eae38ea433d642e5c357333cdc7528d04",
+   185856,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_matching.cp312-win_amd64.pyd": [
+   "9023df3bdaeb6aedb9a10803c14e10cb12afdc58c29e82c753bb364426138a6f",
+   183296,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_min_spanning_tree.cp312-win_amd64.pyd": [
+   "18425046fb2de5d66e0c2505ce117ffd8cdd2dc205dfa8b01764f4c2ebccc5ac",
+   104448,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_reordering.cp312-win_amd64.pyd": [
+   "573cf78e0d4a66fd11b49b2a33ed020503afb4aece6d703ad08e4830226b6418",
+   152576,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_shortest_path.cp312-win_amd64.pyd": [
+   "c26246270d52776546da89396c8126c906d8b6fe9dfb9c011915e1cfa47f4a6c",
+   657408,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_tools.cp312-win_amd64.pyd": [
+   "d0f89d2f11afeea1d8ee26b2ff68daebbef7060306e6befc05cadca870a8b09b",
+   159232,
+   "core"
+  ],
+  "_internal/scipy/sparse/csgraph/_traversal.cp312-win_amd64.pyd": [
+   "4051d206a9080264c95ed2c76e060abd2a7631b34f3a1a4f4fdf7cf0842ad8e1",
+   504320,
+   "core"
+  ],
+  "_internal/scipy/sparse/linalg/_dsolve/_superlu.cp312-win_amd64.pyd": [
+   "44a265b0bf2b4c6e278799a0de9a34fd7cfffd595cb8733736765402781e18bc",
+   425984,
+   "core"
+  ],
+  "_internal/scipy/sparse/linalg/_eigen/arpack/_arpacklib.cp312-win_amd64.pyd": [
+   "e984176605364e73cc249bbba86424e52da831e6a148b865c1def3690f3a696f",
+   223232,
+   "core"
+  ],
+  "_internal/scipy/sparse/linalg/_propack.cp312-win_amd64.pyd": [
+   "faf5c9659a05df0d712632f44baa6acc6537c3f4177eed2015839c701a1b70b1",
+   166912,
+   "core"
+  ],
+  "_internal/scipy/spatial/_ckdtree.cp312-win_amd64.pyd": [
+   "c7ba13c929c2cc4cf29bec12c35176575dfcd7ab52af3ad850d8262bce0e1cab",
+   863232,
+   "core"
+  ],
+  "_internal/scipy/spatial/_distance_pybind.cp312-win_amd64.pyd": [
+   "3f7567c238ca2970586ce8a7a22420053c009f9be1113cb2cb59ccbde2411b64",
+   1479168,
+   "core"
+  ],
+  "_internal/scipy/spatial/_distance_wrap.cp312-win_amd64.pyd": [
+   "eb9331555f5e41913cf427588277fd54ae6abb6e84a67feb66e103efcf3d3967",
+   128512,
+   "core"
+  ],
+  "_internal/scipy/spatial/_hausdorff.cp312-win_amd64.pyd": [
+   "e475c94dbb2e89a0349135be436579c718ba51a288709e183f33ba4a3a4c4698",
+   94208,
+   "core"
+  ],
+  "_internal/scipy/spatial/_qhull.cp312-win_amd64.pyd": [
+   "0fda7b02882cf95ac6e870b4472837366afe8bb45da148c9c7a91fe7f8678f47",
+   871936,
+   "core"
+  ],
+  "_internal/scipy/spatial/_voronoi.cp312-win_amd64.pyd": [
+   "c77df5feaf55ab9c54ef5290e6d5af51e3b92729841ea9db1c6ea9f21410cc84",
+   88064,
+   "core"
+  ],
+  "_internal/scipy/spatial/transform/_rigid_transform_cy.cp312-win_amd64.pyd": [
+   "7243e5be688306c3c024aef4372e8b7cbcb17880edce50838815d55758eec7b1",
+   236032,
+   "core"
+  ],
+  "_internal/scipy/spatial/transform/_rotation_cy.cp312-win_amd64.pyd": [
+   "3f9c4835b41355056dfc8e9a0070931edd5f7866063ef9623338a20411f14cd9",
+   523776,
+   "core"
+  ],
+  "_internal/scipy/special/_comb.cp312-win_amd64.pyd": [
+   "b11317038aba00d901591974e3ff3866be148424300e7324684729af94f5d178",
+   48128,
+   "core"
+  ],
+  "_internal/scipy/special/_ellip_harm_2.cp312-win_amd64.pyd": [
+   "86df2b3aa07f1fb3fa2849d63a0cc133099a518bf164465360099b1f088c5fe5",
+   133632,
+   "core"
+  ],
+  "_internal/scipy/special/_gufuncs.cp312-win_amd64.pyd": [
+   "3a0b65590282876be90bcbf6c4e7a0e407faab76f2cf8f99fb7adb715d136c65",
+   937984,
+   "core"
+  ],
+  "_internal/scipy/special/_specfun.cp312-win_amd64.pyd": [
+   "57218e37f6c0ac1da054745868e6e962e210013aa50d614c80850599a1ee9629",
+   311296,
+   "core"
+  ],
+  "_internal/scipy/special/_special_ufuncs.cp312-win_amd64.pyd": [
+   "7b8968e440aa7d613f0d90f5994f7c72268679409e0ea40685532452383a3cac",
+   1630720,
+   "core"
+  ],
+  "_internal/scipy/special/_ufuncs.cp312-win_amd64.pyd": [
+   "4ee53d84cd5fff84e7c82292aa3e986a91f0309b1952ae800fcb2af68fb2161d",
+   1434624,
+   "core"
+  ],
+  "_internal/scipy/special/_ufuncs_cxx.cp312-win_amd64.pyd": [
+   "11a9cdb4608a02bfef01f68f73aa033ba0e6474a2d9527cd300f0410e9c87f46",
+   2673664,
+   "core"
+  ],
+  "_internal/scipy/special/cython_special.cp312-win_amd64.pyd": [
+   "4f7b6a5e901044b8ee82bf45a09129598da71478c962e661127cee0549fb9e9f",
+   2271744,
+   "core"
+  ],
+  "_internal/scipy/stats/_ansari_swilk_statistics.cp312-win_amd64.pyd": [
+   "6bd2d42b8e6d22a1d4c4ec4af90aee02b8dc6fbaeb0acd62a6319c0797d4b3d5",
+   107008,
+   "core"
+  ],
+  "_internal/scipy/stats/_biasedurn.cp312-win_amd64.pyd": [
+   "6cd89cd9c564e82d07576ccfc7c9447df4ed2e4efce6060228ea6198dcb5d6e7",
+   374784,
+   "core"
+  ],
+  "_internal/scipy/stats/_levy_stable/levyst.cp312-win_amd64.pyd": [
+   "17265c24b0978d827b8366f706a54cb005fc8939422cbf0405443bbc66435b4a",
+   46080,
+   "core"
+  ],
+  "_internal/scipy/stats/_qmc_cy.cp312-win_amd64.pyd": [
+   "46cd196028df91704be4ea927178425cb5d83b5041c8cd190163fe038c8ced29",
+   1071616,
+   "core"
+  ],
+  "_internal/scipy/stats/_qmvnt_cy.cp312-win_amd64.pyd": [
+   "9b9b0cc4916000266c426460d99c8f1bb9388727ba029bda6cf19d7c78cf607e",
+   127488,
+   "core"
+  ],
+  "_internal/scipy/stats/_rcont/rcont.cp312-win_amd64.pyd": [
+   "fcfeb902482d2ed3f1cf8733c0e86df4fa9210b51e18bd39b3b34b1e1bace8b9",
+   111616,
+   "core"
+  ],
+  "_internal/scipy/stats/_sobol.cp312-win_amd64.pyd": [
+   "ee5fcd62c8d7f327aaff3d43ee84ac95d5c507ffcfa795d2eeaba615a33f504a",
+   168960,
+   "core"
+  ],
+  "_internal/scipy/stats/_stats.cp312-win_amd64.pyd": [
+   "93d050e77912aec0db0cae5d283298a3c0c69910e7e8918a2043e877a632d3a9",
+   453632,
+   "core"
+  ],
+  "_internal/scipy/stats/_stats_pythran.cp312-win_amd64.pyd": [
+   "94a6b599baacd810a57746517ffc56741a9173defd611983553204ffd3ad0128",
+   1044992,
+   "core"
+  ],
+  "_internal/select.pyd": [
+   "d4d7181b11db0bd22a6cd5cda6f8583d1f5c77615fd0a6ca33350619d6e0438a",
+   33136,
+   "core"
+  ],
+  "_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt": [
+   "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b",
+   1335,
+   "core"
+  ],
+  "_internal/sqlite3.dll": [
+   "8daa45684bf6688fca28d956b2e8942f2fa98f656675ce68e6d61dd869848a7a",
+   1583608,
+   "core"
+  ],
+  "_internal/tcl8/8.4/platform-1.0.19.tm": [
+   "fe9087e2779ff30d229356e87920f3add9e362a70fccb832ae23086118bfc0da",
+   11708,
+   "core"
+  ],
+  "_internal/tcl8/8.4/platform/shell-1.1.4.tm": [
+   "94999ba791c37f6da7c3029ccd3919ba40f116a8fb180e4ce648a955c3a944d0",
+   6242,
+   "core"
+  ],
+  "_internal/tcl8/8.5/msgcat-1.6.1.tm": [
+   "adca186be560f2236265f538d4cb6df1171bed91192118796988bb9c08a4bc7c",
+   35120,
+   "core"
+  ],
+  "_internal/tcl8/8.5/tcltest-2.5.8.tm": [
+   "1d5f0e47a424dbd28217b9aa8fa342463c278d3ef1efedd259b7bec570738459",
+   105163,
+   "core"
+  ],
+  "_internal/tcl8/8.6/http-2.9.8.tm": [
+   "15dfdde058b044af94f92f84c4bed13af532ef4c3586769f5719cc49a0e9e16b",
+   118283,
+   "core"
+  ],
+  "_internal/tcl86t.dll": [
+   "b894e0c9a7d2b56f9f202de5044221cfc0938cbd9ffaca6b6793bba486e28081",
+   1841896,
+   "core"
+  ],
+  "_internal/tk86t.dll": [
+   "3883976d6270c44cf43b0f4e3b925259a36c42f586680a93dfe6a3fdfb5b4939",
+   1590776,
+   "core"
+  ],
+  "_internal/tokenizers/tokenizers.pyd": [
+   "05848a2a85e1466d19242499ed6b8c016a886db79aca020792aa5598ded77ef9",
+   7847936,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/METADATA": [
+   "a5da70b966afea3a759716041bad7187f2ece02c22348cf9e7c0a512bbf15f57",
+   57366,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/RECORD": [
+   "34adb625178b8f76e438238110687cc72983c3ea6f015ac6c0fcd239bd4f1714",
+   4551,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/WHEEL": [
+   "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+   91,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/entry_points.txt": [
+   "45e2421fb522dd9ca1e8cd7a1383a1b19d6853b5ad31709f6eda3206118edbd6",
+   39,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/licenses/LICENCE": [
+   "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+   1985,
+   "core"
+  ],
+  "_internal/tqdm-4.70.1.dist-info/top_level.txt": [
+   "34b89424d7e673d02dd79b3b254462c2fa8c123522f46e4f30646b98c6333523",
+   5,
+   "core"
+  ],
+  "_internal/unicodedata.pyd": [
+   "208ee1cd3cbad0828433ca7246b05be2b1ff5569983d27d296c0b38888585488",
+   1140592,
+   "core"
+  ],
+  "_internal/vcruntime140.dll": [
+   "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
+   178616,
+   "core"
+  ],
+  "_internal/vcruntime140_1.dll": [
+   "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
+   50112,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/INSTALLER": [
+   "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+   4,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/LICENSE": [
+   "df49a6fde45c3acc8ebd34815d1eaf9c4f5d91a20bc7c2a00ed5ce47d9df9092",
+   2770,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/METADATA": [
+   "ac245f9c22f3514a52325f309a8cb0f7c03fff420b7b7a9cf50d6ff284520b62",
+   5633,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/RECORD": [
+   "9ea10e58d4f713ef574d34e7bc00fca280f996d6ebb7d1efcdb18a20dd0f153e",
+   838,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/REQUESTED": [
+   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   0,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/WHEEL": [
+   "67d342f8ebd1064b502d4ba38d98ae69cf6317fd3a0aa6e34dbf85aab08294db",
+   101,
+   "core"
+  ],
+  "_internal/webrtcvad_wheels-2.0.14.dist-info/top_level.txt": [
+   "da8c0167bcdfa5d9246d3087cdc732b049cab22026fce09a3c084e4dfdccab01",
+   21,
+   "core"
+  ],
+  "_internal/yaml/_yaml.cp312-win_amd64.pyd": [
+   "4fd0e84f50261ed0886cffcdd8008b055af3352546e649c3d741b50eae1f9b5f",
+   253952,
+   "core"
+  ],
+  "_internal/zlib1.dll": [
+   "a3a9487dd7a27be0296731513a5c1d9005bd3acf5861ccbe0aabca3984f51c4f",
+   148336,
+   "core"
+  ]
+ }
+}
